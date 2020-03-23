@@ -1,0 +1,154 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  /* default is 16px */
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  background-color: rgb(216, 166, 19);
+  box-sizing: border-box;
+}
+.layout-body {
+  margin: 0 auto;
+  max-width: 960;
+}
+.image-main {
+  width: 100%;
+  height: 100%;
+  max-width: 4800px;
+}
+
+/**** HEADER ****/
+.header {
+  height: 8rem;
+  background-color: rgb(216, 166, 19);
+  position: relative;
+}
+.header-logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.header-logo {
+  font-size: 2rem;
+}
+.header-nav-primary {
+  position: absolute;
+  width: 40rem;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.header-nav-button {
+  display: inline-block;
+  text-align: center;
+  height: 7rem;
+  line-height: 7rem;
+  width: 19rem;
+  margin: 0 .5rem;
+  font-size: 2rem;
+  color: rgb(216, 166, 19);
+  background-color: rgb(35, 31, 32);
+
+}
+.header-nav-button:link,
+.header-nav-button:visited {
+  text-decoration: none;
+  transition: all .2s;
+}
+.header-nav-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
+}
+.header-nav-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.2);
+}
+.caddy-guide-container {
+  margin-top: 40px;
+}
+
+/**** Image Gallery ****/
+.gallery-container-outer {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.gallery-container {
+  flex: 0 0 100%;
+  max-width: 1580px;
+  text-align: center;
+  margin: auto;
+}
+.gallery-main {
+  text-align: center;
+  max-width: 1580px;  
+  /* max-width: 1120px; 1920 */
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery_tile {
+  -webkit-flex-basis: 0;
+  flex-basis: 0;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  background-color: rgb(216, 166, 19) !important;
+  position: relative;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.ReactGridGallery_tile-viewport {
+  width: 271px !important;
+  display: inline-block;
+}
+.ReactGridGallery_tile-viewport img {
+  margin-left: 0 !important;
+}
+
+/*** Gallery Viewer *8*/
+.imageViewerHeaderButton {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+}
+.imageViewerFooter {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.desktop__only__button {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .imageViewerFooter {
+    left: 50% !important;
+    margin-left: -300px;
+    width: 600px !important;
+  }
+  .desktop__only__button {
+    display: unset;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .ImageStyleCss {
+    left: 50% !important;
+    margin-left: -300px;
+    width: 600px !important;
+  }
+}
