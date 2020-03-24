@@ -1,7 +1,6 @@
 ---
 title: "Gatbsy Post"
 date: "2019-03-23"
-createNewPage: "no"
 ---
 
 New Gtasby Post!

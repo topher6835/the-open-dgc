@@ -12,6 +12,7 @@ const NewsComponent = () => {
                             title
                             date
                         }
+                        excerpt(format: PLAIN)
                     }
                 }
             }
@@ -19,14 +20,15 @@ const NewsComponent = () => {
     `)
 
     return (
-        <div>
+        <div className="news-main" >
             <h1>News</h1>
-            <ol>
+            <ol className="news-list" >
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
-                        <li>
+                        <li className="news-item">
                             <h2>{edge.node.frontmatter.title}</h2>
                             <p>{edge.node.frontmatter.date}</p>
+                            <p>{edge.node.excerpt}</p>
                         </li>
                     )
                 })}

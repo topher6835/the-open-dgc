@@ -13,6 +13,7 @@ body {
   font-family: sans-serif;
   font-weight: 400;
   /* font-size: 16px; */
+  font-size: 1.6rem;
   line-height: 1.7;
   background-color: rgb(216, 166, 19);
   box-sizing: border-box;
@@ -77,6 +78,25 @@ body {
   margin-top: 40px;
 }
 
+/**** NEWS ****/
+.news-main {
+  position: relative;
+  width: 60rem;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.news-list {
+  position: absolute;
+  width: 100%
+}
+.news-item {
+  margin: 1rem;
+  list-style: none;
+  background-color: #E0E0E0;
+}
+
+
 /**** Image Gallery ****/
 .gallery-container-outer {
   margin-right: 25px;
@@ -116,7 +136,7 @@ body {
   margin-left: 0 !important;
 }
 
-/*** Gallery Viewer *8*/
+/**** Gallery Viewer ****/
 .imageViewerHeaderButton {
   background: none;
   border: none;
