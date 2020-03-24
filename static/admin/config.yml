@@ -8,7 +8,7 @@ public_folder: assets
 collections:
   - name: posts
     label: News
-    folder: news
+    folder: content/news
     create: true
     fields:
       - { name: title, label: Title }
