@@ -6,12 +6,12 @@ import Layout from "../components/layout"
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {fields: id, order: DESC}) {
         edges {
           node {
             frontmatter {
               title
-              date
+              date(formatString: "MMMM DD YYYY")
             }
             fields {
               slug

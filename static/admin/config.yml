@@ -14,3 +14,15 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
+
+  - name: pages
+    label: Pages
+    files:
+      - label: Home Page
+        name: home
+        file: "content/home/home.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Date, name: date, widget: datetime }
+          - {label: Alert Headline, name: alertheadline, widget: text}
+          - {label: Alert Subhead, name: alertsub, widget: text}
