@@ -78,6 +78,10 @@ body {
   margin-top: 40px;
 }
 
+.home-page-alert {
+  text-align: center;
+}
+
 /**** NEWS ****/
 .news-main {
   position: relative;

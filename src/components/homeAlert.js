@@ -2,10 +2,22 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 const HomeAlert = () => {
+    const data = useStaticQuery(graphql`
+        query {
+            markdownRemark(frontmatter: {templateKey: {eq: "home-page"}}) {
+              frontmatter {
+                alertheadline
+                alertsub
+                date(formatString: "MMMM DD YYYY")
+              }
+            }
+          }
+    `)
+
     return (
-        <div>
-            <h1>Alert Here</h1>
-            <h4>More info here.</h4>
+        <div className="home-page-alert">
+            <h1>{data.markdownRemark.frontmatter.alertheadline}</h1>
+            <h4>{data.markdownRemark.frontmatter.alertsub}</h4>
         </div>
     )
 }
