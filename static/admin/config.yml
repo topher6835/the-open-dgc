@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: content/images #static/assets
-public_folder: /images #../assets
+media_folder: content/media
+public_folder: /media
 
 collections:
   - name: posts
