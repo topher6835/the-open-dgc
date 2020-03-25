@@ -14,6 +14,8 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-post"}
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
+      - { name: image, label: Image, widget: image }
+      - { name: main, label: Main, widget: object, fields: [{ name: markdown1, label: Markdown1, widget: markdown }, { name: image, label: Image, widget: image }, { name: markdown2, label: Markdown2, widget: markdown }] }
       - { name: body, label: Body, widget: markdown }
 
   - name: pages
