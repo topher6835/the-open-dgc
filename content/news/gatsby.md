@@ -1,11 +1,10 @@
 ---
-title: "Gatbsy Post"
-date: "2019-03-23"
+title: Gatbsy Post
+date: '2019-03-23'
 ---
-
 New Gtasby Post!
 
-![Grass](./grass.jpg)
+![Dog](assets/dog01.jpg)
 
 ## Topics
 
