@@ -28,7 +28,7 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: text1, label: Text Field, required: false, widget: markdown }
       - { name: text2, label: Text Field, required: false, widget: markdown }
-      - { name: image1, label: Image, required: false, widget: image }
+      - { name: image, label: Image, required: false, widget: image }
       - { name: text3, label: Text Field, required: false, widget: markdown }
       - { name: text4, label: Text Field, required: false, widget: markdown }
       - { name: body, label: Body, required: false, widget: markdown }
