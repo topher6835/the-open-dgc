@@ -26,7 +26,8 @@ collections:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "news-post" }
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
-      - { name: image, label: Image, widget: image }
+      - { name: image, label: Image, required: false, widget: image }
+      - { name: imageCloud, label: Image Cloudinary, required: false, media_library: { name: cloudinary }, widget: image }
       - { name: body, label: Body, widget: markdown }
 
   - name: pages
