@@ -26,9 +26,12 @@ collections:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "news-post" }
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
-      - { name: image, label: Image, required: false, widget: image }
-      - { name: imageCloud, label: Image Cloudinary, required: false, media_library: { name: cloudinary }, widget: image }
-      - { name: body, label: Body, widget: markdown }
+      - { name: text1, label: Text Field, required: false, widget: markdown }
+      - { name: text2, label: Text Field, required: false, widget: markdown }
+      - { name: image1, label: Image, required: false, widget: image }
+      - { name: text3, label: Text Field, required: false, widget: markdown }
+      - { name: text4, label: Text Field, required: false, widget: markdown }
+      - { name: body, label: Body, required: false, widget: markdown }
 
   - name: pages
     label: Pages
@@ -40,5 +43,5 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page" }
           - { label: Title, name: title, widget: string }
           - { label: Date, name: date, widget: datetime }
-          - { label: Alert Headline, name: alertheadline, widget: markdown }
-          - { label: Alert Subhead, name: alertsub, widget: text }
+          - { label: Alert Headline, name: alertheadline, required: false, widget: markdown }
+          - { label: Alert Subhead, name: alertsub, required: false, widget: text }
