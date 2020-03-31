@@ -53,10 +53,9 @@ collections:
         name: alertMain
         file: "content/alerts/alert-main.md"
         fields:
-          - { label: Template Key, name: templateKey3, widget: hidden, default: alert-main3 }
+          - { label: Template Key, name: templateKey, widget: hidden, default: alert-main }
           - { label: Title, name: title, widget: string }
           - { label: Date, name: date, widget: datetime }
-          - { label: Test, name: test, widget: string }
           - { label: Enable Alert, name: enabled, widget: boolean, default: true }
           - { label: Display on all pages, name: allPages, widget: boolean, hint: Displays only on Home Page by default, default: false }
           - { label: Body, name: body, required: false, widget: markdown }
