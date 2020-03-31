@@ -40,7 +40,7 @@ collections:
         name: home
         file: "content/home/home.md"
         fields:
-          - { label: Template Key, name: templateKey, widget: hidden, default: home-page }
+          - { label: Template Key, name: templateKey, widget: hidden, default: "home-page" }
           - { label: Title, name: title, widget: string }
           - { label: Date, name: date, widget: datetime }
           - { label: Alert Headline, name: alertheadline, required: false, widget: markdown }
@@ -53,7 +53,7 @@ collections:
         name: alertMain
         file: "content/alerts/alert-main.md"
         fields:
-          - { label: Template Key, name: templateKey, widget: hidden, default: alert-main }
+          - { label: Template Key, name: templateKey, widget: hidden, default: "alert-main" }
           - { label: Title, name: title, widget: string }
           - { label: Date, name: date, widget: datetime }
           - { label: Enable Alert, name: enabled, widget: boolean, default: true }
