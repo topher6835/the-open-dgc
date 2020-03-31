@@ -33,8 +33,6 @@ export default class ImageViewer extends PureComponent {
     this.max_pos_y = 0;
     this.transform = "";
     this.elem = null;
-
-    console.log("props: " + this.props);
   }
 
   action(ev) {

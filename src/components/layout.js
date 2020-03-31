@@ -2,9 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+//import Header from "./header"
+import Header from "./nav";
 import "../styles/layout.css"
-//import HeaderMUI from "./headerMUI"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -19,7 +19,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+      <Header />
 
       <div className="layout-body">
 

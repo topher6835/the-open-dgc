@@ -44,7 +44,11 @@ const Image = () => {
   `)
 
   //console.log(data.placeholderImage)
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <div className="image-main-wrapper" >
+      <Img className="image-main" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
+  )
 }
 
 export default Image;
