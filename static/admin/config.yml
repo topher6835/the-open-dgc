@@ -56,6 +56,6 @@ collections:
           - { label: Template Key, name: templateKey, widget: hidden, default: alert-main }
           - { label: Title, name: title, widget: string }
           - { label: Date, name: date, widget: datetime }
-          - { label: Enable Alert, name: enabled, widget: boolean, required: false, default: true }
-          - { label: Display on all pages, name: allPages, widget: boolean, hint: Displays only on Home Page by default, required: false, default: false }
+          - { label: Enable Alert, name: enabled, widget: boolean, default: true }
+          - { label: Display on all pages, name: allPages, widget: boolean, hint: Displays only on Home Page by default, default: false }
           - { label: Body, name: body, required: false, widget: markdown }
