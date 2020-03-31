@@ -11,7 +11,9 @@ export const query = graphql`
         text1
         text2
         date(formatString: "MMMM DD YYYY")
-        image
+        image {
+          id
+        }
       }
       html
       htmlAst
