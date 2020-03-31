@@ -3,23 +3,25 @@ import { graphql, useStaticQuery } from 'gatsby';
 
 const AlertMain = () => {
     const data = useStaticQuery(graphql`
-        query {
-            markdownRemark(frontmatter: {templateKey: {eq: "home-page"}}) {
-              frontmatter {
-                alertheadline
-                alertsub
-                date(formatString: "MMMM DD YYYY")
-              }
-            }
-          }
-    `)
+    query {
+      markdownRemark(frontmatter: { templateKey: { eq: "alert-main" } }) {
+        frontmatter {
+          templateKey
+          title
+          date(formatString: "MMMM DD YYYY")
+          enabled
+          allPages
+        }
+        html
+      }
+    }
+  `)
 
-    return (
-        <div className="home-page-alert">
-            <h1>{data.markdownRemark.frontmatter.alertheadline}</h1>
-            <h4>{data.markdownRemark.frontmatter.alertsub}</h4>
-        </div>
-    )
+  return (
+    <div className="home-page-alert">
+        {data.markdownRemark.frontmatter.enabled ? <div className="markdown-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html } }></div> : <></> }
+    </div>
+  )
 }
 
 export default AlertMain;

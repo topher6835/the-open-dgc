@@ -26,11 +26,7 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: news-post }
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
-      - { name: text1, label: Text Field, required: false, widget: markdown }
-      - { name: text2, label: Text Field, required: false, widget: markdown }
-      - { name: image, label: Image, required: false, widget: image }
-      - { name: text3, label: Text Field, required: false, widget: markdown }
-      - { name: text4, label: Text Field, required: false, widget: markdown }
+      - { name: text1, label: Text Field, required: false, widget: string }
       - { name: body, label: Body, required: false, widget: markdown }
 
   - name: pages
@@ -47,7 +43,7 @@ collections:
           - { label: Alert Subhead, name: alertsub, required: false, widget: text }
 
   - name: alert
-    label: Alert
+    label: Alerts
     files:
       - label: Alert Main
         name: alertMain
