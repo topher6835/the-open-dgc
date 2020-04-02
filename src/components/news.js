@@ -21,16 +21,18 @@ const NewsComponent = () => {
     `)
 
     return (
-        <div className="news-section">
+        <div className="news-section" id="news-component">
             <div className="news-main" >
-                <h1>News</h1>
+                <h1 className="news-title">News</h1>
                 <ol className="news-list" >
                     {data.allMarkdownRemark.edges.map((edge) => {
                         const { html } = edge.node;
                         return (
                             <li className="news-item">
-                                <h2>{edge.node.frontmatter.title}</h2>
-                                <p>{edge.node.frontmatter.date}</p>
+                                <span className="news-item-header">
+                                    <h1 className="news-item-headline">{edge.node.frontmatter.title}</h1>
+                                    <p className="news-post-date">{edge.node.frontmatter.date}</p>
+                                </span>
                                 {/* <p>{edge.node.excerpt}</p> */}
                                 <div className="news-item-html" dangerouslySetInnerHTML={{ __html: html }} />
                             </li>

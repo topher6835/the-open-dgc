@@ -1,6 +1,6 @@
 ---
 templateKey: news-post
-title: Cloudinary 03
+title: An update 03
 date: 2020-03-26T18:48:46.577Z
 text1: Text
 text2: |-
@@ -16,8 +16,10 @@ text3: |-
 
   End of frontmatter.
 ---
-Body starts here.
+Body of news update starts here.
 
 **Bold.** Image:
 
 ![](https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_588/v1585240494/golf01_k8boow.jpg)
+
+This image was uploaded vie Cloudinary. Description text here. Text text text text. Text text text text.

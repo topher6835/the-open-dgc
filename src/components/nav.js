@@ -33,7 +33,7 @@ export default class Header extends Component {
                     </label>
                 </div>
                 <div className="nav-links" onClick={() => this.toggleMenuMobileMenu()}>
-                        <Link to="/">News</Link>
+                        <Link to="#news-component">News</Link>
                         <Link to="/">Register</Link>
                         <Link to="/">Courses</Link>
                         <Link to="/">History</Link>
