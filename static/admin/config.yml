@@ -27,8 +27,8 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
       - { name: text1, label: Text Field, required: false, widget: string }
-      - { name: image, label: Hole 1, widget: image}
-      - { name: image, label: Hole 2, widget: image}
+      - { name: hole01, label: Hole 1, required: false, widget: image}
+      - { name: hole02, label: Hole 2, required: false, widget: image}
       - { name: body, label: Body, required: false, widget: markdown }
 
   - name: pages
