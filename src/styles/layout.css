@@ -35,7 +35,7 @@ body {
 }
 .image-main {
   min-width: 900px;
-  max-width: 2050px;
+  max-width: 2400px;
   left: 50%;
   top: 35%; /**/
   /* -webkit-transform: translate(-50%, 0);
@@ -128,7 +128,7 @@ body {
   border-bottom: 1px solid grey; */
 }
 .news-item::after{  /* .news-item:not(:last-child)::after */
-  border-top: 1px solid grey;
+  border-top: 1px solid rgba(35, 31, 32, .3);
   content: "";
   height: 0;
   position: absolute;
