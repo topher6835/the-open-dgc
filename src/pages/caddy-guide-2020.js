@@ -8,13 +8,29 @@ import SEO from "../components/seo";
 
 export const query = graphql`
   query {
-    markdownRemark(frontmatter: {title: {eq: "test images"}}) {
+    markdownRemark(frontmatter: {title: {eq: "test-images2"}}) {
       frontmatter {
         templateKey
         title
         date(formatString: "MMMM DD YYYY")
-        hole02
         hole01
+        hole02
+        hole03
+        hole04
+        hole05
+        hole06
+        hole07
+        hole08
+        hole09
+        hole10
+        hole11
+        hole12
+        hole13
+        hole14
+        hole15
+        hole16
+        hole17
+        hole18
       }
       html
     }
@@ -24,15 +40,14 @@ export const query = graphql`
 const CaddyGuide2020 = (props) => {
   let holeArr = [];
   const k = "props.data.markdownRemark.frontmatter."; 
-  for(let i = 1; i < 5; i++) { 
+  for(let i = 1; i < 6; i++) { 
     if(i < 10) {
       i = "0" + i;
     }
     const holeNum = "hole" + i;
     const propDataString = k + holeNum;
     const evalPropData = eval(propDataString);
-    //console.log("!!! CG", evalPropData);
-    if(evalPropData != null) {
+    if(evalPropData) {
       holeArr.push(evalPropData);
     }
   }

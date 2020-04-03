@@ -117,7 +117,7 @@ function Image(props) {
           height: "130px",
           // border: "1px solid rgb(199, 199, 199)"
         }}
-        alt=""
+        alt="Course Hole"
       />
     </div>
   )
@@ -134,8 +134,6 @@ export default class App extends Component {
 
     this.images = [];
     this.selected_image_index = null;
-
-    //console.log("@@", this.state.courseHolesArray );
 
     this.state.courseHolesArray.forEach(this.populateImageData);
   }

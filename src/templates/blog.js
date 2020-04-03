@@ -20,7 +20,6 @@ export const query = graphql`
 `
 
 const Blog = props => {
-  console.log(props.data.markdownRemark.htmlAst);
   return (
     <Layout>
         <h1>{props.data.markdownRemark.frontmatter.title}</h1>
