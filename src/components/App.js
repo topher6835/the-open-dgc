@@ -22,26 +22,27 @@ import sign4 from "../images/teeSigns/Tee Signs TOABT_20_web-04-lo.jpg";
 //import thmb from "../images/teeSigns/Tee Signs TOABT_20_web-04-lo.jpg";
 
 const image_data = [
-  {
-    url: sign1,
-    title: "",
-    //thumbnail: thmb
-  },
-  {
-    url: sign2,
-    title: "",
-    //thumbnail: thmb
-  },
-  {
-    url: sign3,
-    title: "",
-    //thumbnail: thmb
-  },
-  {
-    url: sign4,
-    title: "",
-    //thumbnail: thmb
-  },
+  // {
+  //   url: "https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-01-lo_cll5mi.jpg",
+  //   title: "",
+  //   //thumbnail: thmb
+  // },
+  // {
+  //   url: sign2,
+  //   title: "",
+  //   //thumbnail: thmb
+  // },
+  // {
+  //   url: sign3,
+  //   title: "",
+  //   //thumbnail: thmb
+  // },
+  // {
+  //   url: sign4,
+  //   title: "",
+  //   //thumbnail: thmb
+  // },
+
   // {
   //   url: sign5,
   //   title: "",
@@ -123,15 +124,24 @@ function Image(props) {
 }
 
 export default class App extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
 
     this.state = {
       open_image_viewer: false,
+      courseHolesArray: this.props.courseHoleImages,
     }
 
-    this.images = []
-    this.selected_image_index = null
+    this.images = [];
+    this.selected_image_index = null;
+
+    //console.log("@@", this.state.courseHolesArray );
+
+    this.state.courseHolesArray.forEach(this.populateImageData);
+  }
+
+  populateImageData(item, index) {
+    image_data.push({url: item});
   }
 
   handleHashChange = () => {

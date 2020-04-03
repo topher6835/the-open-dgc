@@ -29,6 +29,22 @@ collections:
       - { name: text1, label: Text Field, required: false, widget: string }
       - { name: hole01, label: Hole 1, required: false, widget: image}
       - { name: hole02, label: Hole 2, required: false, widget: image}
+      - { name: hole03, label: Hole 3, required: false, widget: image}
+      - { name: hole04, label: Hole 4, required: false, widget: image}
+      - { name: hole05, label: Hole 5, required: false, widget: image}
+      - { name: hole06, label: Hole 6, required: false, widget: image}
+      - { name: hole07, label: Hole 7, required: false, widget: image}
+      - { name: hole08, label: Hole 8, required: false, widget: image}
+      - { name: hole09, label: Hole 9, required: false, widget: image}
+      - { name: hole10, label: Hole 10, required: false, widget: image}
+      - { name: hole11, label: Hole 11, required: false, widget: image}
+      - { name: hole12, label: Hole 12, required: false, widget: image}
+      - { name: hole13, label: Hole 13, required: false, widget: image}
+      - { name: hole14, label: Hole 14, required: false, widget: image}
+      - { name: hole15, label: Hole 15, required: false, widget: image}
+      - { name: hole16, label: Hole 16, required: false, widget: image}
+      - { name: hole17, label: Hole 17, required: false, widget: image}
+      - { name: hole18, label: Hole 18, required: false, widget: image}
       - { name: body, label: Body, required: false, widget: markdown }
 
   - name: pages
