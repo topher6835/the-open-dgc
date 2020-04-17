@@ -20,7 +20,7 @@ const CoursesPage = () => {
               date(formatString: "MMMM DD YYYY")
               text1
               displayTitle
-              courseImage
+              coursesImage
               coursesDescription
             }
             fields {
@@ -36,8 +36,9 @@ const CoursesPage = () => {
 
     return data.allMarkdownRemark.edges.map(edge => {
       let courseImg;
-      if(edge.node.frontmatter.courseImage) {
-        courseImg = edge.node.frontmatter.courseImage;
+      console.log("courseImage:", edge.node.frontmatter.coursesImage);
+      if(edge.node.frontmatter.coursesImage) {
+        courseImg = edge.node.frontmatter.coursesImage;
       } else {
         courseImg = grassImg;
       }
