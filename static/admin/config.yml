@@ -27,24 +27,6 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
       - { name: text1, label: Text Field, required: false, widget: string }
-      - { name: hole01, label: Hole 1, required: false, widget: image, default: "" }
-      - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
-      - { name: hole03, label: Hole 3, required: false, widget: image, default: "" }
-      - { name: hole04, label: Hole 4, required: false, widget: image, default: "" }
-      - { name: hole05, label: Hole 5, required: false, widget: image, default: "" }
-      - { name: hole06, label: Hole 6, required: false, widget: image, default: "" }
-      - { name: hole07, label: Hole 7, required: false, widget: image, default: "" }
-      - { name: hole08, label: Hole 8, required: false, widget: image, default: "" }
-      - { name: hole09, label: Hole 9, required: false, widget: image, default: "" }
-      - { name: hole10, label: Hole 10, required: false, widget: image, default: "" }
-      - { name: hole11, label: Hole 11, required: false, widget: image, default: "" }
-      - { name: hole12, label: Hole 12, required: false, widget: image, default: "" }
-      - { name: hole13, label: Hole 13, required: false, widget: image, default: "" }
-      - { name: hole14, label: Hole 14, required: false, widget: image, default: "" }
-      - { name: hole15, label: Hole 15, required: false, widget: image, default: "" }
-      - { name: hole16, label: Hole 16, required: false, widget: image, default: "" }
-      - { name: hole17, label: Hole 17, required: false, widget: image, default: "" }
-      - { name: hole18, label: Hole 18, required: false, widget: image, default: "" }
       - { name: body, label: Body, required: false, widget: markdown }
 
   - name: courses
@@ -53,9 +35,12 @@ collections:
     create: true
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: course-page }
-      - { name: title, label: Title }
-      - { name: date, label: Date, required: false, widget: datetime }
+      - { name: title, label: Title, hint: "Must be unique." }
+      - { name: displayTitle, label: Display Title, required: true, widget: string }
       - { name: text1, label: Text Field, required: false, widget: string }
+      - { name: coursesDescription, label: Courses Page Description, hint: "Max Characters...", required: false, widget: string }
+      - { name: coursesImage, label: Courses Page Image, required: false, widget: image, default: "" }
+      - { name: date, label: Date, required: false, widget: datetime }
       - { name: hole01, label: Hole 1, required: false, widget: image, default: "" }
       - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
       - { name: hole03, label: Hole 3, required: false, widget: image, default: "" }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap');
+
 *,
 *::after,
 *::before {
@@ -203,12 +205,16 @@ body {
   -webkit-flex-grow: 1;
   flex-grow: 1;
   max-width: 100%;
-  background-color: rgb(216, 166, 19) !important;
+  /* background-color: rgb(216, 166, 19); */
+  background-color: #fffcfd;
   position: relative;
   width: 100%;
   padding-right: 5px;
   padding-left: 5px;
   cursor: pointer;
+}
+.gallery_tile img {
+  border: 1px solid rgb(35, 31, 32);
 }
 .ReactGridGallery_tile-viewport {
   width: 271px !important;
@@ -446,4 +452,96 @@ body {
     /* height: auto; */
     overflow-y: auto;
   }
+}
+
+.top-logo {
+  text-align: center;
+}
+
+/**** Courses Page ****/
+
+.courses-container {
+  background-color: #fffcfd;
+  /* padding: 2rem 0; */
+}
+@media screen and (max-width: 550px) {
+  .course-gallery-container-outer {
+    margin: 0;
+  }
+}
+.course-tile {
+  background-color: #fffcfd;
+  cursor: default;
+  height: 400px;
+  margin: 45px 0;
+}
+.course-tile-inner {
+  margin: auto;
+  width: 475px;
+  height: 300px;
+  background-color: white;
+  /* background-size: 475px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem; */
+}
+.course-tile-background-image {
+  width: 475px;
+  height: 300px;
+  background-size: 475px 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+.course-tile-text {
+  position: absolute;
+  bottom: 10rem;
+  width: 47.5rem;
+  height: 10rem;
+  line-height: 10rem;
+  background-color: rgba(35, 31, 32, .6);
+  font-family: 'Pinyon Script', cursive;
+  font-size: 6rem;
+  font-weight: 500;
+  color: #fffcfd;
+  border-radius: 0 0 1rem 1rem;
+}
+.course-tile-description {
+  position: absolute;
+  width: 475px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(35, 31, 32);
+}
+
+/****  ****/
+
+
+/**** Course Page ****/
+.course-page-text {
+  text-align: center;
+  background-color: #fffcfd;
+  color: rgb(35, 31, 32);
+}
+.course-hole-main {
+  background-color: #fffcfd;
+}
+
+/****  ****/
+
+
+.content {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 40px;
+}
+footer {
+  text-align: center;
+  line-height: 40px;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
 }

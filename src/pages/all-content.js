@@ -3,10 +3,10 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 
-const BlogPage = () => {
+const AllPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: {fields: id, order: DESC}, filter: {frontmatter: {templateKey: {eq: "news-post"}}}) {
+      allMarkdownRemark(sort: {fields: id, order: DESC}) {
         edges {
           node {
             frontmatter {
@@ -24,7 +24,7 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      <h1>Blog</h1>
+      <h1>All Content</h1>
       <ol>
         {data.allMarkdownRemark.edges.map(edge => {
           return (
@@ -41,4 +41,4 @@ const BlogPage = () => {
   )
 }
 
-export default BlogPage;
+export default AllPage;

@@ -1,7 +1,11 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
+import TopBanner from "../components/topBanner"
+import App from "../components/App";
+import SEO from "../components/seo";
 
 export const query = graphql`
   query($slug: String!) {
@@ -9,6 +13,7 @@ export const query = graphql`
         frontmatter {
             templateKey
             title
+            displayTitle
             date(formatString: "MMMM DD YYYY")
             hole01
             hole02
@@ -35,19 +40,44 @@ export const query = graphql`
 `
 
 const Course = props => {
-  //console.log(props.data.markdownRemark.htmlAst);
+
+  const holeArr = [];
+  const k = "props.data.markdownRemark.frontmatter.";
+  for(let i = 1; i < 6; i++) { 
+    if(i < 10) {
+      i = "0" + i;
+    }
+    const holeNum = "hole" + i;
+    const propDataString = k + holeNum;
+    const evalPropData = eval(propDataString);
+    if(evalPropData) {
+      holeArr.push(evalPropData);
+    }
+  }
+  holeArr.sort();
+
   return (
     <Layout>
+      <TopBanner />
+      <div className="caddy-guide-container">
+        <SEO title="Caddy Guide 2020" />
+
         <p>COURSE</p>
-        <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-        <p>{props.data.markdownRemark.frontmatter.date}</p>
-        {/* <p>{props.data.markdownRemark.frontmatter.text1}</p>
-        <p>{props.data.markdownRemark.frontmatter.text2}</p>
-        <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.frontmatter.text2 }}></div>
-        <img src={props.data.markdownRemark.frontmatter.image} />
-        <div className="markdown-body" dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div> */}
+        <Link to="/courses">BACK TO COURSES</Link>
+        <div className="course-page-text">
+          <h1>{props.data.markdownRemark.frontmatter.displayTitle}</h1>
+          <p>{props.data.markdownRemark.frontmatter.date}</p>
+        </div>
+
+        <MuiThemeProvider>
+        <div className="course-hole-main" >
+          <App courseHoleImages={holeArr} />
+        </div>
+        </MuiThemeProvider>
+
+      </div>
     </Layout>
   )
-}
+};
 
 export default Course;

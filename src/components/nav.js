@@ -24,7 +24,7 @@ export default class Header extends Component {
                 <input type="checkbox" id="nav-check" />
                 <div className="nav-header">
                     <div className="nav-title">
-                    The Open
+                        <Link to="/" style={{ textDecoration:"none" }}>The Open</Link>
                     </div>
                 </div>
                 <div className="nav-btn">
@@ -35,7 +35,7 @@ export default class Header extends Component {
                 <div className="nav-links" onClick={() => this.toggleMenuMobileMenu()}>
                         <Link to="#news-component">News</Link>
                         <Link to="/">Register</Link>
-                        <Link to="/">Courses</Link>
+                        <Link to="/courses">Courses</Link>
                         <Link to="/">History</Link>
                         <Link to="/">Merch</Link>
                         <Link to="/">Sponsors</Link>

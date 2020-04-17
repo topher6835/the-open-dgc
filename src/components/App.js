@@ -21,7 +21,7 @@ import sign4 from "../images/teeSigns/Tee Signs TOABT_20_web-04-lo.jpg";
 // import sign18 from "../images/teeSigns/Tee Signs TOABT_20_web-18-lo.jpg";
 //import thmb from "../images/teeSigns/Tee Signs TOABT_20_web-04-lo.jpg";
 
-const image_data = [
+let image_data = [
   // {
   //   url: "https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-01-lo_cll5mi.jpg",
   //   title: "",
@@ -134,7 +134,6 @@ export default class App extends Component {
 
     this.images = [];
     this.selected_image_index = null;
-
     this.state.courseHolesArray.forEach(this.populateImageData);
   }
 
@@ -252,6 +251,7 @@ export default class App extends Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener("hashchange", this.handleHashChange, false)
+    window.removeEventListener("hashchange", this.handleHashChange, false);
+    image_data = [];
   }
 }
