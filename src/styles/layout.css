@@ -518,6 +518,11 @@ body {
 
 
 /**** Course Page ****/
+.course-hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .course-page-text {
   text-align: center;
   background-color: #fffcfd;

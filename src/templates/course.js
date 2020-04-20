@@ -6,6 +6,8 @@ import Layout from "../components/layout";
 import TopBanner from "../components/topBanner"
 import App from "../components/App";
 import SEO from "../components/seo";
+import courseHeroDefaultImg from "../../content/images/grass.jpg";
+import courseHeroImg from "../../content/images/Hero_Sawgrass-PLAYERS-16-and-17.jpg";
 
 export const query = graphql`
   query($slug: String!) {
@@ -14,6 +16,8 @@ export const query = graphql`
             templateKey
             title
             displayTitle
+            courseHeroImage
+            coursesDescription
             date(formatString: "MMMM DD YYYY")
             hole01
             hole02
@@ -39,6 +43,29 @@ export const query = graphql`
   }
 `
 
+const CourseInfo = props => {
+  return (
+    <div>
+      <p>{props.descrip}</p>
+    </div>
+  )
+}
+const CourseHero = props => {
+  let heroImg;
+  console.log("courseHeroImage:", props.heroImg);
+  if(props.heroImg) {
+    heroImg = props.heroImg;
+  } else {
+    heroImg = courseHeroDefaultImg;
+  }
+
+  return (
+    <div className="course-hero" style={{ height: '360px', backgroundImage: `url(${heroImg})` }}>
+      <h3>{props.courseName}</h3>
+    </div>
+  )
+}
+
 const Course = props => {
 
   const holeArr = [];
@@ -61,12 +88,13 @@ const Course = props => {
       <TopBanner />
       <div className="caddy-guide-container">
         <SEO title="Caddy Guide 2020" />
-
-        <p>COURSE</p>
-        <Link to="/courses">BACK TO COURSES</Link>
+        {/* <p>COURSE</p>
+        <Link to="/courses">BACK TO COURSES</Link> */}
+        <CourseHero heroImg={props.data.markdownRemark.frontmatter.courseHeroImage} courseName={props.data.markdownRemark.frontmatter.displayTitle} />
         <div className="course-page-text">
           <h1>{props.data.markdownRemark.frontmatter.displayTitle}</h1>
           <p>{props.data.markdownRemark.frontmatter.date}</p>
+          <CourseInfo descrip={props.data.markdownRemark.frontmatter.coursesDescription} />
         </div>
 
         <MuiThemeProvider>
