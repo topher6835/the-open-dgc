@@ -473,8 +473,9 @@ body {
   background-color: #fffcfd;
   cursor: default;
   height: 400px;
-  margin: 45px 0;
-  
+  /* margin: 45px 0; */
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .course-tile-inner {
   margin: auto;
