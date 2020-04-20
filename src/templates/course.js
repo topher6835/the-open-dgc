@@ -7,7 +7,6 @@ import TopBanner from "../components/topBanner"
 import App from "../components/App";
 import SEO from "../components/seo";
 import courseHeroDefaultImg from "../../content/images/grass.jpg";
-import courseHeroImg from "../../content/images/Hero_Sawgrass-PLAYERS-16-and-17.jpg";
 
 export const query = graphql`
   query($slug: String!) {
@@ -16,6 +15,8 @@ export const query = graphql`
             templateKey
             title
             displayTitle
+            site
+            location
             courseHeroImage
             coursesDescription
             date(formatString: "MMMM DD YYYY")
@@ -45,14 +46,13 @@ export const query = graphql`
 
 const CourseInfo = props => {
   return (
-    <div>
+    <div className="course-info">
       <p>{props.descrip}</p>
     </div>
   )
 }
 const CourseHero = props => {
   let heroImg;
-  console.log("courseHeroImage:", props.heroImg);
   if(props.heroImg) {
     heroImg = props.heroImg;
   } else {
@@ -61,13 +61,14 @@ const CourseHero = props => {
 
   return (
     <div className="course-hero" style={{ height: '360px', backgroundImage: `url(${heroImg})` }}>
-      <h3>{props.courseName}</h3>
+      <div className="course-hero-title">{props.courseName}</div>
     </div>
   )
 }
 
 const Course = props => {
 
+  // Get and sort course holes
   const holeArr = [];
   const k = "props.data.markdownRemark.frontmatter.";
   for(let i = 1; i < 6; i++) { 
@@ -81,28 +82,33 @@ const Course = props => {
       holeArr.push(evalPropData);
     }
   }
-  holeArr.sort();
+
+  let regex = new RegExp(`Tee_Signs_TOABT+([^]+).jpg`, `i`);
+  const sortedArr = holeArr.filter(x => regex.test(x)).sort(
+    (a, b) => {regex.toString(a).localeCompare(regex.toString(b))}
+  );
+  //
+  const displayTitle = props.data.markdownRemark.frontmatter.displayTitle;
+  const courseSite = props.data.markdownRemark.frontmatter.site;
+  const courseLocation = props.data.markdownRemark.frontmatter.location;
 
   return (
     <Layout>
       <TopBanner />
       <div className="caddy-guide-container">
-        <SEO title="Caddy Guide 2020" />
-        {/* <p>COURSE</p>
-        <Link to="/courses">BACK TO COURSES</Link> */}
+        <SEO title={displayTitle} />
         <CourseHero heroImg={props.data.markdownRemark.frontmatter.courseHeroImage} courseName={props.data.markdownRemark.frontmatter.displayTitle} />
         <div className="course-page-text">
-          <h1>{props.data.markdownRemark.frontmatter.displayTitle}</h1>
-          <p>{props.data.markdownRemark.frontmatter.date}</p>
+
+        <h1>{courseSite && courseLocation ? `${courseSite} in ${courseLocation}` :  [courseLocation ? `${displayTitle} in ${courseLocation}` : `${displayTitle}`] }</h1>
           <CourseInfo descrip={props.data.markdownRemark.frontmatter.coursesDescription} />
         </div>
 
         <MuiThemeProvider>
-        <div className="course-hole-main" >
-          <App courseHoleImages={holeArr} />
-        </div>
+          <div className="course-hole-main" >
+            <App courseHoleImages={sortedArr} />
+          </div>
         </MuiThemeProvider>
-
       </div>
     </Layout>
   )

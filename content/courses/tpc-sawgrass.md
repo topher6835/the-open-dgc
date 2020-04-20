@@ -2,6 +2,8 @@
 templateKey: course-page
 title: tpc-sawgrass
 displayTitle: TPC Sawgrass
+site: TPC Sawgrass
+location: Ponte Vedra Beach, FL
 coursesDescription: >-
   From the initial idea by former PGA TOUR Commissioner Deane R. Beman, the
   Stadium Course at TPC Sawgrass was built in 1982 to host THE PLAYERS

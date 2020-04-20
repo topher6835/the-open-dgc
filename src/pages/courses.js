@@ -17,6 +17,8 @@ const CoursesPage = () => {
             frontmatter {
               title
               displayTitle
+              site
+              location
               date(formatString: "MMMM DD YYYY")
               text1
               displayTitle
@@ -53,6 +55,9 @@ const CoursesPage = () => {
                 </div>
               </div>
               <div className="course-tile-description">
+                <div className="overflow-shadow"></div>
+                <p style={{float: 'right'}}>{edge.node.frontmatter.location}</p>
+                <br/>
                 <p>
                   {edge.node.frontmatter.coursesDescription}
                 </p>

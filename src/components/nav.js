@@ -22,11 +22,11 @@ export default class Header extends Component {
         return (
             <div className="nav">
                 <input type="checkbox" id="nav-check" />
-                <div className="nav-header">
+                {/* <div className="nav-header">
                     <div className="nav-title">
                         <Link to="/" style={{ textDecoration:"none" }}>The Open</Link>
                     </div>
-                </div>
+                </div> */}
                 <div className="nav-btn">
                     <label for="nav-check" className="nav-btn-label">
                         <span className="nav-btn-icon">&nbsp;</span>
