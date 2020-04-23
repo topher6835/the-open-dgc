@@ -590,6 +590,13 @@ body {
 .course-carousel .react-images__frame {
   overflow: visible !important;
 }
+.course-carousel .react-images__navigation {
+  opacity: 1 !important;
+}
+.course-carousel react-images__navigation button {
+  background: rgba(0,0,0, .3) !important;
+}
+
 
 /****  ****/
 

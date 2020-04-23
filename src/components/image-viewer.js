@@ -295,8 +295,8 @@ export default class ImageViewer extends PureComponent {
           }}
         >
           <span style={{ marginLeft: "auto" }}>
-            <HeaderZoomOut className="desktop__only__button" />
-            <HeaderZoomIn className="desktop__only__button" />
+            <HeaderZoomOut className="" /> {/* desktop__only__button */}
+            <HeaderZoomIn className="" /> {/* desktop__only__button */}
             {props.showEdit &&
             props.handleEdit &&
             typeof props.handleEdit === "function" ? (
@@ -428,7 +428,8 @@ export default class ImageViewer extends PureComponent {
               formatters={{ getAltText }}
               frameProps={{ autoSize: 'height' }}
               views={props.images}
-              trackProps={{ swipe: props.images.length === 1 ? false : "touch", swipeThreshold: "2" }}
+              trackProps={{ swipe: false }}
+              // trackProps={{ swipe: props.images.length === 1 ? false : "touch", swipeThreshold: "2" }}
               // styles={{ touchAction: "auto"}}
               // modalPropsObject={{ isFullscreen: true }}
               // hideControlsWhenIdle={false}
