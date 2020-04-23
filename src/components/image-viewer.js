@@ -428,7 +428,9 @@ export default class ImageViewer extends PureComponent {
               formatters={{ getAltText }}
               frameProps={{ autoSize: 'height' }}
               views={props.images}
-              trackProps={{ swipe: props.images.length === 1 ? false : "touch" }}
+              trackProps={{ swipe: props.images.length === 1 ? false : "touch", swipeThreshold: "2" }}
+              // styles={{ touchAction: "auto"}}
+              // modalPropsObject={{ isFullscreen: true }}
               // hideControlsWhenIdle={false}
             />
           </div>
