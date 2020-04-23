@@ -48,6 +48,7 @@ const CourseInfo = props => {
   return (
     <div className="course-info">
       <p>{props.descrip}</p>
+      <div className="" dangerouslySetInnerHTML={{__html: props.descripBody}}></div>
     </div>
   )
 }
@@ -99,11 +100,10 @@ const Course = props => {
         <SEO title={displayTitle} />
         <CourseHero heroImg={props.data.markdownRemark.frontmatter.courseHeroImage} courseName={props.data.markdownRemark.frontmatter.displayTitle} />
         <div className="course-page-text">
-
-        <h1>{courseSite && courseLocation ? `${courseSite} in ${courseLocation}` :  [courseLocation ? `${displayTitle} in ${courseLocation}` : `${displayTitle}`] }</h1>
-          <CourseInfo descrip={props.data.markdownRemark.frontmatter.coursesDescription} />
+          <h1>{courseSite && courseLocation ? `${courseSite} in ${courseLocation}` :  [courseLocation ? `${displayTitle} in ${courseLocation}` : `${displayTitle}`] }</h1>
+          <CourseInfo descrip={props.data.markdownRemark.frontmatter.coursesDescription} descripBody={props.data.markdownRemark.html} />
         </div>
-
+        
         <MuiThemeProvider>
           <div className="course-hole-main" >
             <App courseHoleImages={sortedArr} />

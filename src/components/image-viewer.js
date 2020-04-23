@@ -421,16 +421,17 @@ export default class ImageViewer extends PureComponent {
           closeOnBackdropClick={false}
           onClose={() => props.handleClose()}
         >
-          
-          <Carousel
-            components={{ Footer: Footer, Header: Header, View: ViewObj }}
-            currentIndex={props.currentIndex || 0}
-            formatters={{ getAltText }}
-            // frameProps={{ autoSize: 'height' }}
-            views={props.images}
-            trackProps={{ swipe: props.images.length === 1 ? false : "touch" }}
-            // hideControlsWhenIdle={false}
-          />
+          <div className="course-carousel">
+            <Carousel
+              components={{ Footer: Footer, Header: Header, View: ViewObj }}
+              currentIndex={props.currentIndex || 0}
+              formatters={{ getAltText }}
+              frameProps={{ autoSize: 'height' }}
+              views={props.images}
+              trackProps={{ swipe: props.images.length === 1 ? false : "touch" }}
+              // hideControlsWhenIdle={false}
+            />
+          </div>
         </Modal>
       </ModalGateway>
     );

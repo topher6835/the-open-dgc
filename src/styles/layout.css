@@ -580,11 +580,15 @@ body {
 }
 .course-info{
   width: 75%;
-  text-align: center;
+  text-align: left;
   margin: auto;
 }
 .course-hole-main {
   background-color: #fffcfd;
+}
+/* allow zoom to fill the screen */
+.course-carousel .react-images__frame {
+  overflow: visible !important;
 }
 
 /****  ****/
