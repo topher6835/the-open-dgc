@@ -593,8 +593,9 @@ body {
 .course-carousel .react-images__navigation {
   opacity: 1 !important;
 }
-.course-carousel react-images__navigation button {
+.course-carousel .react-images__navigation button {
   background: rgba(0,0,0, .3) !important;
+  box-shadow: 0px 0px 4px !important;
 }
 
 

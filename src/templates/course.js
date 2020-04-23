@@ -89,6 +89,8 @@ const Course = props => {
     (a, b) => {regex.toString(a).localeCompare(regex.toString(b))}
   );
   //
+  console.log("!! holeArr", holeArr);
+  console.log("## sortedArr", sortedArr);
   const displayTitle = props.data.markdownRemark.frontmatter.displayTitle;
   const courseSite = props.data.markdownRemark.frontmatter.site;
   const courseLocation = props.data.markdownRemark.frontmatter.location;
