@@ -588,12 +588,10 @@ body {
 }
 /* allow zoom to fill the screen */
 .course-carousel .react-images__frame {
-  overflow: visible !important;
+  /* overflow: visible !important; */
 }
 .course-carousel .react-images__navigation {
-  opacity: 1 !important;
-  -moz-opacity: 1 !important;
-  -webkit-opacity: 1 !important;
+  /* opacity: 1 !important; */
 }
 .course-carousel .react-images__navigation button {
   background: rgba(0,0,0, .3) !important;

@@ -13,6 +13,7 @@ const View = props => {
   return (
     <div
       style={getStyles("view", props)}
+      // style={getStyles("view", props), {height: "100vh", display: "flex", justifyContent: "center", alignItems: "center"}}
       className={className("view", { isFullscreen, isModal })}
     >
       <img

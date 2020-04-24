@@ -429,7 +429,31 @@ export default class ImageViewer extends PureComponent {
               frameProps={{ autoSize: 'height' }}
               views={props.images}
               trackProps={{ swipe: false }}
-              // trackProps={{ swipe: props.images.length === 1 ? false : "touch", swipeThreshold: "2" }}
+              showNavigationOnTouchDevice={ true }
+              styles={{
+                container: base => ({
+                  ...base,
+                  height: '100vh',
+                  marginTop: "150px"
+                }),
+                view: base => ({
+                  ...base,
+                  alignItems: 'center',
+                  display: 'flex ',
+                  height: 'calc(100vh - 75px)',
+                  justifyContent: 'center',
+
+                  // [largeDevice]: {
+                  //   padding: 20,
+                  // },
+
+                  '& > img': {
+                    maxHeight: 'calc(100vh - 94px)',
+                  },
+                })
+              }}
+
+              // trackProps={{ swipe: props.images.length === 1 ? false : "touch", swipeThreshold: 1 }}
               // styles={{ touchAction: "auto"}}
               // modalPropsObject={{ isFullscreen: true }}
               // hideControlsWhenIdle={false}
