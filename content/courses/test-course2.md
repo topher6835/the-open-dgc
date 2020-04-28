@@ -3,7 +3,6 @@ templateKey: course-page
 title: test-course2
 displayTitle: Belton 2021
 date: 2020-04-09T19:37:03.993Z
-text1: Belton 2021
 coursesDescription: This is a lovely course. 18 holes of exhilarating fun. The local flora and fauna make for a unique and challenging experience. Another line. Another line another line another line. Another line. Another line another line another line.
 courseImage: ''
 courseHeroImage: ''

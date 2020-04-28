@@ -20,7 +20,6 @@ const CoursesPage = () => {
               site
               location
               date(formatString: "MMMM DD YYYY")
-              text1
               displayTitle
               coursesImage
               coursesDescription
@@ -35,10 +34,8 @@ const CoursesPage = () => {
   `)
 
   const renderCourses = () => {
-
     return data.allMarkdownRemark.edges.map(edge => {
       let courseImg;
-      console.log("courseImage:", edge.node.frontmatter.coursesImage);
       if(edge.node.frontmatter.coursesImage) {
         courseImg = edge.node.frontmatter.coursesImage;
       } else {
@@ -46,24 +43,24 @@ const CoursesPage = () => {
       }
       return (
         <div className="gallery_tile course-tile">
-          <Link to={`/course/${edge.node.fields.slug}`}>
             <div className="course-tile-inner">
               {" "}
-              <div className="course-tile-background-image" style={{ backgroundImage: `url(${courseImg})` }} >
-                <div className="course-tile-text">
-                  <p>{edge.node.frontmatter.displayTitle}</p>
+              <Link to={`/course/${edge.node.fields.slug}`}>
+                <div className="course-tile-background-image" style={{ backgroundImage: `url(${courseImg})` }} >
+                  <div className="course-tile-text">
+                    <p className="course-tile-text-title">{edge.node.frontmatter.displayTitle}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="course-tile-description">
-                <div className="overflow-shadow"></div>
-                <p style={{float: 'right'}}>{edge.node.frontmatter.location}</p>
-                <br/>
-                <p>
-                  {edge.node.frontmatter.coursesDescription}
-                </p>
-              </div>
+                <div className="course-tile-description">
+                  <div className="overflow-shadow"></div>
+                  <p style={{float: 'right'}}>{edge.node.frontmatter.location}</p>
+                  <br/>
+                  <p>
+                    {edge.node.frontmatter.coursesDescription}
+                  </p>
+                </div>
+              </Link>
             </div>
-          </Link>
         </div>
       )
     })

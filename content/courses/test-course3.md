@@ -5,7 +5,6 @@ title: test-course3
 displayTitle: Heckscher 2020
 site: Heckscher Park
 location: East Islip, NY
-text1: Belton 2020
 coursesDescription: >-
   This is a lovely course. 18 holes of exhilarating fun. The local flora and
   fauna make for a unique and challenging experience. Another line. Another line

@@ -43,10 +43,9 @@ const Image = () => {
     }
   `)
 
-  //console.log(data.placeholderImage)
   return (
     <div className="image-main-wrapper" >
-      <Img className="image-main" fluid={data.placeholderImage.childImageSharp.fluid} />
+      <Img className="image-main" fadeIn={false} fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   )
 }

@@ -106,7 +106,7 @@ function Image(props) {
     <div
       key={props.tile}
       style={{ margin: "5px" }}
-      onClick={() => props.openImageViewer(props.image_data, props.index)}
+      
     >
       <img
         id="image"
@@ -117,6 +117,7 @@ function Image(props) {
           height: "130px",
           // border: "1px solid rgb(199, 199, 199)"
         }}
+        onClick={() => props.openImageViewer(props.image_data, props.index)}
         alt="Course Hole"
       />
     </div>
