@@ -1,9 +1,10 @@
-import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import React from "react";
+import { Link, graphql, useStaticQuery } from "gatsby";
 
-import Layout from "../components/layout"
-import TopBanner from "../components/topBanner"
-import grassImg from "../../content/images/grass.jpg"
+import Layout from "../components/layout";
+import AlertMain from '../components/alertMain';
+import TopBanner from "../components/topBanner";
+import grassImg from "../../content/images/grass.jpg";
 
 const CoursesPage = () => {
   const data = useStaticQuery(graphql`
@@ -68,6 +69,7 @@ const CoursesPage = () => {
 
   return (
     <Layout>
+      <AlertMain />
       <TopBanner />
       <div className="courses-container">
         <div className="gallery-container-outer course-gallery-container-outer">

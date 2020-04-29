@@ -47,11 +47,7 @@ body {
   overflow-x: hidden;
 }
 
-.caddy-guide-container {
-  margin-top: 40px;
-}
-
-.home-page-alert {
+.main-alert {
   margin: 2rem 0;
   text-align: center;
 }
@@ -556,6 +552,10 @@ body {
 
 
 /**** Course Page ****/
+.course-page-content {
+  margin-top: 40px;
+  background-color: #fffcfd;
+}
 .course-hero {
   background-position: center;
   background-repeat: no-repeat;
@@ -574,15 +574,12 @@ body {
   left: 40px;
   bottom: 15px;
 }
-
 .course-page-text {
   text-align: center;
-  background-color: #fffcfd;
   color: rgb(35, 31, 32);
   line-height: 3.1rem;
   padding: 2rem 0;
 }
-
 .course-info{
   width: 75%;
   max-width: 190rem;
@@ -591,9 +588,12 @@ body {
   padding-top: 2rem;
   line-height: 2.5rem;
 }
-.course-hole-main {
-  background-color: #fffcfd;
+.caddy-guide-container {
   padding-bottom: 2rem;
+}
+.course-address-content {
+  text-align: center;
+  padding: 2rem 0;
 }
 /* Adjustments for mobile */
 @media screen and (max-width: 490px) {
@@ -619,9 +619,7 @@ body {
   background: rgba(0,0,0, .3) !important;
   box-shadow: 0px 0px 4px !important;
 }
-
 /****  ****/
-
 
 .content {
   min-height: 100vh;

@@ -1,9 +1,10 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 import Layout from "../components/layout";
-import TopBanner from "../components/topBanner"
+import AlertMain from '../components/alertMain';
+import TopBanner from "../components/topBanner";
 import App from "../components/App";
 import SEO from "../components/seo";
 import courseHeroDefaultImg from "../../content/images/grass.jpg";
@@ -17,6 +18,7 @@ export const query = graphql`
             displayTitle
             site
             location
+            address
             courseHeroImage
             coursesDescription
             date(formatString: "MMMM DD YYYY")
@@ -92,11 +94,13 @@ const Course = props => {
   const displayTitle = props.data.markdownRemark.frontmatter.displayTitle;
   const courseSite = props.data.markdownRemark.frontmatter.site;
   const courseLocation = props.data.markdownRemark.frontmatter.location;
+  const courseAddress = props.data.markdownRemark.frontmatter.address;
 
   return (
     <Layout>
+      <AlertMain />
       <TopBanner />
-      <div className="caddy-guide-container">
+      <div className="course-page-content">
         <SEO title={displayTitle} />
         <CourseHero heroImg={props.data.markdownRemark.frontmatter.courseHeroImage} courseName={props.data.markdownRemark.frontmatter.displayTitle} />
         <div className="course-page-text">
@@ -105,10 +109,15 @@ const Course = props => {
         </div>
         
         <MuiThemeProvider>
-          <div className="course-hole-main" >
-            <App courseHoleImages={sortedArr} />
+          <div className="caddy-guide-container" >
+            <h1 style={{textAlign: "center"}}>Caddy Guide</h1>
+            { Array.isArray(sortedArr) && sortedArr.length ? <App courseHoleImages={sortedArr} /> : <p style={{textAlign: "center"}}>Coming soon...</p>}
           </div>
         </MuiThemeProvider>
+        <div className="course-address-content">
+          <h1>Address</h1>
+          {courseAddress ? courseAddress : "..."}
+        </div>
       </div>
     </Layout>
   )

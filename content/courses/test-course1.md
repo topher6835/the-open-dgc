@@ -5,6 +5,7 @@ title: test-course1
 displayTitle: Belton 2020
 site: Heritage Park
 location: Belton, TX
+address:
 coursesDescription: >-
   This is a lovely course. 18 holes of exhilarating fun. The local flora and
   fauna make for a unique and challenging experience. This is a course for skilled players only! Another line here. Another line another line
