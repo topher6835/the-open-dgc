@@ -448,7 +448,8 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: 100vh;
+    /* height: calc(100vh - 50px); */
     /* height: auto; */
     overflow-y: auto;
   }
