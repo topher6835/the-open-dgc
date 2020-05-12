@@ -3,6 +3,8 @@ courseImage: ''
 templateKey: course-page
 title: test-course1
 displayTitle: Belton 2020
+eventCourse: true
+courseDesign: true
 site: Heritage Park
 location: Belton, TX
 address:

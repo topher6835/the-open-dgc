@@ -2,6 +2,8 @@
 templateKey: course-page
 title: test-course2
 displayTitle: Belton 2021
+eventCourse: true
+courseDesign: true
 site:
 location:
 address:

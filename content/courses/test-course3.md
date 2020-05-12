@@ -3,6 +3,8 @@ courseImage: ''
 templateKey: course-page
 title: test-course3
 displayTitle: Heckscher 2020
+eventCourse: true
+courseDesign: true
 site: Heckscher Park
 location: East Islip, NY
 address:

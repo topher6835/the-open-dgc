@@ -2,6 +2,8 @@
 templateKey: course-page
 title: tpc-sawgrass
 displayTitle: TPC Sawgrass
+eventCourse: true
+courseDesign: true
 site: TPC Sawgrass
 location: Ponte Vedra Beach, FL
 address: 123 Main St. Ponte Vedra Beach, Fl
@@ -11,7 +13,7 @@ coursesDescription: >-
   Championship and be the permanent Home of THE PLAYERS Championship. As the
   first true “Stadium Course,” it was designed to improve the overall on-site
   fan experience. Finally, the Stadium Course would be a championship-caliber
-  course accessible to all golf fans...
+  course accessible to all golf fans.
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1587399138/tpccourses2_acicpx.jpg
 courseHeroImage: >-

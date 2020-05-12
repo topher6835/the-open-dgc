@@ -29,7 +29,8 @@ const Layout = ({ children }) => {
         </main>
 
         <footer>
-          © {new Date().getFullYear()} {data.site.siteMetadata.title}
+          <p>© {new Date().getFullYear()} {data.site.siteMetadata.title}</p>
+          <p>Contact: <a href="mailto:theopendgc@nealdambra.com">theopendgc@nealdambra.com</a></p>
         </footer>
 
       </div>

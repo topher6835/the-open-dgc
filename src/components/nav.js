@@ -1,5 +1,7 @@
 import { Link } from "gatsby";
 import React, { Component } from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
 export default class Header extends Component {
     constructor(props) {
@@ -9,6 +11,21 @@ export default class Header extends Component {
         // }
         this.toggleMenuMobileMenu = this.toggleMenuMobileMenu.bind(this);
     }
+
+//     data = useStaticQuery(graphql`
+//     query Images {
+//         placeholderImage: file(
+//           relativePath: { eq: "The Open_web-home page.jpg" }
+//         ) {
+//           id
+//           childImageSharp {
+//             fluid(maxWidth: 2400) {
+//               ...GatsbyImageSharpFluid
+//             }
+//           }
+//         }
+//       }
+//   `)
 
     toggleMenuMobileMenu() {
         let tempVar = document.getElementById("nav-check").checked;
@@ -33,12 +50,15 @@ export default class Header extends Component {
                     </label>
                 </div>
                 <div className="nav-links" onClick={() => this.toggleMenuMobileMenu()}>
-                        <Link to="#news-component">News</Link>
-                        <Link to="/">Register</Link>
-                        <Link to="/courses">Courses</Link>
-                        <Link to="/">History</Link>
-                        <Link to="/">Merch</Link>
-                        <Link to="/">Sponsors</Link>
+                    <Link id="home-mobile-nav" style={{display: "none"}} to="/">Home</Link>
+                    <Link to="#news-component">News</Link>
+                    {/* <Link to="/">Register</Link> */}
+                    <Link to="/event-courses">Event Courses</Link>
+                    {/* <Link to="/">History</Link> */}
+                    {/* <Link to="/">Merch</Link> */}
+                    <Link to="/">Sponsors</Link>
+                    <Link to="/course-design">Course Design</Link>
+                    <Link to="/contact">Contact</Link>
                 </div>
             </div>
         )

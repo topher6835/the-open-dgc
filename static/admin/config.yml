@@ -37,6 +37,8 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: course-page }
       - { name: title, label: Title, hint: "URL path to course page - Must be unique!" }
       - { name: displayTitle, label: Display Title, required: true, widget: string }
+      - { label: Event Course, name: eventCourse, widget: boolean, hint: Select to add to Event Courses page, required: false, default: false }
+      - { label: Course Design, name: courseDesign, widget: boolean, hint: Select to add to Course Design page, required: false, default: false }
       - { name: site, label: Site/Park, hint: "Site of the course (park name)", required: false, widget: string }
       - { name: location, label: Location, hint: "Location of park - format: City, State", required: false, widget: string }
       - { name: address, label: Address, required: false, widget: string }
@@ -62,6 +64,8 @@ collections:
       - { name: hole16, label: Hole 16, required: false, widget: image, default: "" }
       - { name: hole17, label: Hole 17, required: false, widget: image, default: "" }
       - { name: hole18, label: Hole 18, required: false, widget: image, default: "" }
+      - { name: hole19, label: Hole 19, required: false, widget: image, default: "" }
+      - { name: hole20, label: Hole 20, required: false, widget: image, default: "" }
       - { name: body, label: Body, required: false, widget: markdown }
 
   - name: pages
