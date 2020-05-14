@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import NewsItem from './newsItem';
 
 const NewsComponent = () => {
-
+    //date(formatString: "MMMM DD YYYY")
     const data = useStaticQuery(graphql`
         query {
             allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "news-post"}}}, sort: {fields: frontmatter___date, order: DESC}) {
@@ -12,7 +12,7 @@ const NewsComponent = () => {
                     node {
                         frontmatter {
                             title
-                            date(formatString: "MMMM DD YYYY")
+                            date
                         }
                         excerpt(format: PLAIN)
                         html
