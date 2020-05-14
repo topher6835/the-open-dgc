@@ -1,6 +1,6 @@
 import React from "react"
 
-const NewsItem = props => {
+const NewsItem = (props) => {
   return (
     <li className="news-item">
       <span className="news-item-header">
@@ -15,4 +15,4 @@ const NewsItem = props => {
   )
 }
 
-export default NewsItem
+export default NewsItem;
