@@ -118,6 +118,7 @@ body {
   top: 0;
 }
 .news-item {
+  background-color: #fffcfd;
   margin: 8rem 1rem;
   padding: 1rem;
   list-style: none;
@@ -162,11 +163,19 @@ body {
 .news-post-date {
   font-size: .9em;
 }
-.news-item-html p {
+.news-item-html {
   padding: 0 calc(2rem * 2);
+}
+.news-item-html a {
+  /* text-decoration: none; */
+}
+.news-item-html a:hover {
+  color: rgb(35, 31, 32);
+}
+.news-item-html p {
   line-height: 1.5;
 }
-.news-item-html p img {
+.news-item-html img {
   padding: 0;
   position: relative;
   max-width: 100%;
