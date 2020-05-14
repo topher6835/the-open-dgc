@@ -45,7 +45,7 @@ export default class Header extends Component {
                     </div>
                 </div> */}
                 <div className="nav-btn">
-                    <label for="nav-check" className="nav-btn-label">
+                    <label htmlFor="nav-check" className="nav-btn-label">
                         <span className="nav-btn-icon">&nbsp;</span>
                     </label>
                 </div>

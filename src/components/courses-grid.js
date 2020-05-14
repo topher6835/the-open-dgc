@@ -34,14 +34,14 @@ const CoursesGrid = props => {
   `)
 
   const filterCourses = () => {
-    return data.allMarkdownRemark.edges.map(edge => {
+    return data.allMarkdownRemark.edges.map((edge, i) => {
       if ((props.page === "event-courses" && edge.node.frontmatter.eventCourse) || (props.page === "course-design" && edge.node.frontmatter.courseDesign)) {
-        return renderCourses(edge)
+        return renderCourses(edge, i)
       }
     })
   }
 
-  const renderCourses = edge => {
+  const renderCourses = (edge, i) => {
     let courseImg
     if (edge.node.frontmatter.coursesImage) {
       courseImg = edge.node.frontmatter.coursesImage
@@ -49,7 +49,7 @@ const CoursesGrid = props => {
       courseImg = grassImg
     }
     return (
-      <div className="gallery_tile course-tile">
+      <div className="gallery_tile course-tile" key={i}>
         <div className="course-tile-inner">
           {" "}
           <Link to={`/course/${edge.node.fields.slug}`}>

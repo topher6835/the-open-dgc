@@ -16,11 +16,11 @@ const AlertMain = (props) => {
   `)
 
   return (
-    <div>
+    <div key={"alert"}>
       {data.markdownRemark.frontmatter.allPages && data.markdownRemark.frontmatter.enabled
-        ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div> 
+        ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} key={"alert"}></div> 
           : [data.markdownRemark.frontmatter.enabled && props.page == "home" 
-            ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div> : <></>] }
+            ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} key={"alert"}></div> : <div key={"alert"}></div>] }
     </div>
   )
 }

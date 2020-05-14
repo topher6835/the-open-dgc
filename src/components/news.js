@@ -1,6 +1,8 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
+import NewsItem from './newsItem';
+
 const NewsComponent = () => {
 
     const data = useStaticQuery(graphql`
@@ -25,17 +27,10 @@ const NewsComponent = () => {
             <div className="news-main" >
                 <h1 className="news-title">News</h1>
                 <ol className="news-list" >
-                    {data.allMarkdownRemark.edges.map((edge) => {
+                    {data.allMarkdownRemark.edges.map((edge, i) => {
                         const { html } = edge.node;
                         return (
-                            <li className="news-item">
-                                <span className="news-item-header">
-                                    <h1 className="news-item-headline">{edge.node.frontmatter.title}</h1>
-                                    <p className="news-post-date">{edge.node.frontmatter.date}</p>
-                                </span>
-                                {/* <p>{edge.node.excerpt}</p> */}
-                                <div className="news-item-html" dangerouslySetInnerHTML={{ __html: html }} />
-                            </li>
+                            <NewsItem html={html} title={edge.node.frontmatter.title} date={edge.node.frontmatter.date} key={i} />
                         )
                     })}
                 </ol>
