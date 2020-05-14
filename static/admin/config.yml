@@ -25,7 +25,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: news-post }
       - { name: title, label: Title }
-      - { name: date, label: Date, dateFormat: MMMM DD YYYY, widget: datetime }
+      - { name: date, label: Date, date: MMMM DD YYYY, widget: datetime }
       - { name: text1, label: Text Field, required: false, widget: string }
       - { name: body, label: Body, required: false, widget: markdown }
 
