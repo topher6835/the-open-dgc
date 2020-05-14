@@ -3,7 +3,8 @@ import React from 'react'
 import "../../styles/layout.css"
 import "../../styles/cmsPreviewStyle.css"
 
-const NewsPostPreview = ({ entry, widgetFor }) => {
+const NewsPostPreview = ({ entry, widgetFor }) => {    
+    
   return (
       <ol>
           <li className="news-item">
