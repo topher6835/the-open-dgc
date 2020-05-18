@@ -1,7 +1,7 @@
 ---
 templateKey: news-post
 title: An update 03
-date: 2020-03-26T18:48:46.577Z
+dateNewsFormat: 2020-03-26T18:48:46.577Z
 text1: Text
 text2: |-
   Text field 2 with **markup.**

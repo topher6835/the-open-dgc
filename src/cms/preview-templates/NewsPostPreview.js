@@ -10,7 +10,7 @@ const NewsPostPreview = ({ entry, widgetFor }) => {
           <li className="news-item">
           <span className="news-item-header">
              <h1 className="news-item-headline">{entry.getIn(['data', 'title'])}</h1>
-             <p className="news-post-date">{widgetFor('date')}</p>
+             <p className="news-post-date">{widgetFor('dateNewsFormat')}</p>
           </span>
           <div className="news-item-html">{widgetFor('body')}</div>
           </li>

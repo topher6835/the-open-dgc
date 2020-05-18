@@ -1,6 +1,6 @@
 ---
 title: Gatbsy Post
-date: '2019-03-23'
+dateNewsFormat: '2019-03-23'
 ---
 New Gtasby Post!
 

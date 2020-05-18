@@ -7,12 +7,12 @@ const NewsComponent = () => {
     //date(formatString: "MMMM DD YYYY")
     const data = useStaticQuery(graphql`
         query {
-            allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "news-post"}}}, sort: {fields: frontmatter___date, order: DESC}) {
+            allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "news-post"}}}, sort: {fields: frontmatter___dateNewsFormat, order: DESC}) {
                 edges {
                     node {
                         frontmatter {
                             title
-                            date
+                            dateNewsFormat
                         }
                         excerpt(format: PLAIN)
                         html
@@ -30,7 +30,7 @@ const NewsComponent = () => {
                     {data.allMarkdownRemark.edges.map((edge, i) => {
                         const { html } = edge.node;
                         return (
-                            <NewsItem html={html} title={edge.node.frontmatter.title} date={edge.node.frontmatter.date} key={i} />
+                            <NewsItem html={html} title={edge.node.frontmatter.title} date={edge.node.frontmatter.dateNewsFormat} key={i} />
                         )
                     })}
                 </ol>
