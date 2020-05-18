@@ -45,7 +45,7 @@ collections:
       - { name: coursesImage, label: Courses Page Image, hint: "465px x 300px", required: false, widget: image, default: "" }
       - { name: courseHeroImage, label: Course Page Hero, hint: "Height 360px - image will fill space.", required: false, widget: image, default: "" }
       - { name: date, label: Date, required: false, widget: datetime }
-      - { name: hole01, label: Hole 1, required: false, widget: image, hint: "File names must be alphabetical starting with 'Tee_Signs_'". example: Tee_Signs_belton_01.jpg  , default: "" }
+      - { name: hole01, label: Hole 1, required: false, widget: image, hint: "File names must be alphabetical starting with 'Tee_Signs_'. Example: Tee_Signs_belton_01.jpg"  , default: "" }
       - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
       - { name: hole03, label: Hole 3, required: false, widget: image, default: "" }
       - { name: hole04, label: Hole 4, required: false, widget: image, default: "" }
