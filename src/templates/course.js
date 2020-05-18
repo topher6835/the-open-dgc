@@ -40,6 +40,8 @@ export const query = graphql`
             hole16
             hole17
             hole18
+            hole19
+            hole20
           }
           html
     }
@@ -86,7 +88,8 @@ const Course = props => {
     }
   }
 
-  let regex = new RegExp(`Tee_Signs_TOABT+([^]+).jpg`, `i`);
+  let regex = new RegExp(`Tee_Signs_+([^]+)`, `i`);
+  //let regex = new RegExp(`Tee_Signs_TOABT+([^]+).jpg`, `i`);
   const sortedArr = holeArr.filter(x => regex.test(x)).sort(
     (a, b) => {regex.toString(a).localeCompare(regex.toString(b))}
   );

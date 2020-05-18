@@ -32,5 +32,7 @@ hole15: ''
 hole16: ''
 hole17: ''
 hole18: ''
+hole19: ''
+hole20: ''
 ---
 Body text here.

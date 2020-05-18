@@ -24,9 +24,8 @@ collections:
     create: true
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: news-post }
-      - { name: title, label: Title }
+      - { name: title, label: Title, required: false }
       - { name: dateNewsFormat, label: Date, format: MMMM DD YYYY, widget: datetime }
-      - { name: text1, label: Text Field, required: false, widget: string }
       - { name: body, label: Body, required: false, widget: markdown }
 
   - name: courses
@@ -46,7 +45,7 @@ collections:
       - { name: coursesImage, label: Courses Page Image, hint: "465px x 300px", required: false, widget: image, default: "" }
       - { name: courseHeroImage, label: Course Page Hero, hint: "Height 360px - image will fill space.", required: false, widget: image, default: "" }
       - { name: date, label: Date, required: false, widget: datetime }
-      - { name: hole01, label: Hole 1, required: false, widget: image, default: "" }
+      - { name: hole01, label: Hole 1, required: false, widget: image, hint: "File names must be alphabetical starting with 'Tee_Signs_'". example: Tee_Signs_belton_01.jpg  , default: "" }
       - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
       - { name: hole03, label: Hole 3, required: false, widget: image, default: "" }
       - { name: hole04, label: Hole 4, required: false, widget: image, default: "" }
@@ -67,6 +66,72 @@ collections:
       - { name: hole19, label: Hole 19, required: false, widget: image, default: "" }
       - { name: hole20, label: Hole 20, required: false, widget: image, default: "" }
       - { name: body, label: Body, required: false, widget: markdown }
+
+  - name: sponsors
+    label: Sponsors
+    files:
+      - label: Sponsors Page
+        name: sponsorsPage
+        file: "content/sponsors/sponsors-page.md"
+        fields:
+          - { label: Template Key, name: templateKey, widget: hidden, default: sponsors-page }
+          - { label: Date, name: date, widget: datetime }
+          - { label: Sponsor 01: Name, name: sponsorName01, required: false, widget: text, default: "" }
+          - { label: Sponsor 01: Image, name: sponsorImage01, required: false, widget: image, default: "" }
+          - { label: Sponsor 01: URL, name: sponsorUrl01, required: false, widget: text, default: "" }
+          - { label: Sponsor 01: Text, name: sponsorText01, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 02: Name, name: sponsorName02, required: false, widget: text, default: "" }
+          - { label: Sponsor 02: Image, name: sponsorImage02, required: false, widget: image, default: "" }
+          - { label: Sponsor 02: URL, name: sponsorUrl02, required: false, widget: text, default: "" }
+          - { label: Sponsor 02: Text, name: sponsorText02, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 03: Name, name: sponsorName03, required: false, widget: text, default: "" }
+          - { label: Sponsor 03: Image, name: sponsorImage03, required: false, widget: image, default: "" }
+          - { label: Sponsor 03: URL, name: sponsorUrl03, required: false, widget: text, default: "" }
+          - { label: Sponsor 03: Text, name: sponsorText03, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 04: Name, name: sponsorName04, required: false, widget: text, default: "" }
+          - { label: Sponsor 04: Image, name: sponsorImage04, required: false, widget: image, default: "" }
+          - { label: Sponsor 04: URL, name: sponsorUrl04, required: false, widget: text, default: "" }
+          - { label: Sponsor 04: Text, name: sponsorText04, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 05: Name, name: sponsorName05, required: false, widget: text, default: "" }
+          - { label: Sponsor 05: Image, name: sponsorImage05, required: false, widget: image, default: "" }
+          - { label: Sponsor 05: URL, name: sponsorUrl05, required: false, widget: text, default: "" }
+          - { label: Sponsor 05: Text, name: sponsorText05, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 06: Name, name: sponsorName06, required: false, widget: text, default: "" }
+          - { label: Sponsor 06: Image, name: sponsorImage06, required: false, widget: image, default: "" }
+          - { label: Sponsor 06: URL, name: sponsorUrl06, required: false, widget: text, default: "" }
+          - { label: Sponsor 06: Text, name: sponsorText06, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 07: Name, name: sponsorName07, required: false, widget: text, default: "" }
+          - { label: Sponsor 07: Image, name: sponsorImage07, required: false, widget: image, default: "" }
+          - { label: Sponsor 07: URL, name: sponsorUrl07, required: false, widget: text, default: "" }
+          - { label: Sponsor 07: Text, name: sponsorText07, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 08: Name, name: sponsorName08, required: false, widget: text, default: "" }
+          - { label: Sponsor 08: Image, name: sponsorImage08, required: false, widget: image, default: "" }
+          - { label: Sponsor 08: URL, name: sponsorUrl08, required: false, widget: text, default: "" }
+          - { label: Sponsor 08: Text, name: sponsorText08, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 09: Name, name: sponsorName09, required: false, widget: text, default: "" }
+          - { label: Sponsor 09: Image, name: sponsorImage09, required: false, widget: image, default: "" }
+          - { label: Sponsor 09: URL, name: sponsorUrl09, required: false, widget: text, default: "" }
+          - { label: Sponsor 09: Text, name: sponsorText09, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 10: Name, name: sponsorName10, required: false, widget: text, default: "" }
+          - { label: Sponsor 10: Image, name: sponsorImage10, required: false, widget: image, default: "" }
+          - { label: Sponsor 10: URL, name: sponsorUrl10, required: false, widget: text, default: "" }
+          - { label: Sponsor 10: Text, name: sponsorText10, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 11: Name, name: sponsorName11, required: false, widget: text, default: "" }
+          - { label: Sponsor 11: Image, name: sponsorImage11, required: false, widget: image, default: "" }
+          - { label: Sponsor 11: URL, name: sponsorUrl11, required: false, widget: text, default: "" }
+          - { label: Sponsor 11: Text, name: sponsorText11, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 12: Name, name: sponsorName12, required: false, widget: text, default: "" }
+          - { label: Sponsor 12: Image, name: sponsorImage12, required: false, widget: image, default: "" }
+          - { label: Sponsor 12: URL, name: sponsorUrl12, required: false, widget: text, default: "" }
+          - { label: Sponsor 12: Text, name: sponsorText12, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 13: Name, name: sponsorName13, required: false, widget: text, default: "" }
+          - { label: Sponsor 13: Image, name: sponsorImage13, required: false, widget: image, default: "" }
+          - { label: Sponsor 13: URL, name: sponsorUrl13, required: false, widget: text, default: "" }
+          - { label: Sponsor 13: Text, name: sponsorText13, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 14: Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 14: Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 14: URL, name: sponsorUrl14, required: false, widget: text, default: "" }
+          - { label: Sponsor 14: Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
 
   - name: pages
     label: Pages
