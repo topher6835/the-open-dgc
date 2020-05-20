@@ -12,7 +12,7 @@ const IndexPage = () => {
       <AlertMain />
       <TopBanner />
       <div style={{ height: "250px", lineHeight: "125px", textAlign: "center", backgroundColor: "#fffcfd"}}>
-        <h2>Contact</h2>
+        <h1 style={{ fontSize: "2.5em" }}>Contact</h1>
         <div>
           Email: <a href="mailto:theopendgc@nealdambra.com">theopendgc@nealdambra.com</a>
         </div>

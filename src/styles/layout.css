@@ -219,6 +219,7 @@ body {
 }
 .gallery_tile img {
   border: 1px solid rgb(35, 31, 32);
+  width: auto !important;
   cursor: pointer;
 }
 .ReactGridGallery_tile-viewport {
