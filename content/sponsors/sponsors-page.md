@@ -1,5 +1,6 @@
 ---
 date: 2020-05-20T19:51:03.659Z
+templateKey: sponsors-page
 sponsorName01: Sponsor 01
 sponsorImage01: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1589838612/sponsors/web-sponsor_-03-lo_bvgp38.jpg
