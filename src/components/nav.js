@@ -1,7 +1,6 @@
 import { Link } from "gatsby";
 import React, { Component } from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
 
 export default class Header extends Component {
     constructor(props) {
@@ -56,7 +55,7 @@ export default class Header extends Component {
                     <Link to="/event-courses">Event Courses</Link>
                     {/* <Link to="/">History</Link> */}
                     {/* <Link to="/">Merch</Link> */}
-                    <Link to="/">Sponsors</Link>
+                    <Link to="/sponsors">Sponsors</Link>
                     <Link to="/course-design">Course Design</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
