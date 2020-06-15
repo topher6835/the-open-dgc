@@ -15,6 +15,7 @@ coursesDescription: >-
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/golf01_k8boow.jpg
 courseHeroImage: ''
+guideDownload: ''
 date: 2020-04-03T19:37:03.993Z
 hole01: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-01-lo_cll5mi.jpg

@@ -18,6 +18,8 @@ coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1587399138/tpccourses2_acicpx.jpg
 courseHeroImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1587398802/Hero_Sawgrass-PLAYERS-16-and-17_bspskm.jpg
+guideDownload: >-
+  https://res.cloudinary.com/drgctrdk4/image/upload/v1591888329/PrasZimmermanLevitinGuastavino-AESOct2009_avpq80.pdf
 date: 2020-04-20T16:06:47.426Z
 hole01: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-01-lo_cll5mi.jpg

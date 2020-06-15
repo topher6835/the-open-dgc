@@ -15,8 +15,10 @@ query {
             templateKey
             sponsorName01
             sponsorImage01
+            sponsorUrl01
             sponsorName02
             sponsorImage02
+            sponsorUrl02
             sponsorName03
             sponsorImage03
           }
@@ -26,10 +28,12 @@ query {
 
 const Sponsors = props => {
   // Get and sort course holes
-  const holeArr = [];
-  holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage01);
-  holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage02);
-  holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage03);
+  const sponsorArr = [];
+  sponsorArr.push({ url: props.data.markdownRemark.frontmatter.sponsorImage01, name: props.data.markdownRemark.frontmatter.sponsorName01, link: props.data.markdownRemark.frontmatter.sponsorUrl01} );
+  sponsorArr.push({ url: props.data.markdownRemark.frontmatter.sponsorImage02, name: props.data.markdownRemark.frontmatter.sponsorName01, link: props.data.markdownRemark.frontmatter.sponsorUrl02} );
+  // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage01);
+  // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage02);
+  // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage03);
   
   // const k = "props.data.markdownRemark.frontmatter.";
   // for(let i = 1; i < 6; i++) { 
@@ -58,7 +62,7 @@ const Sponsors = props => {
         <MuiThemeProvider>
           <div className="caddy-guide-container" >
             <h1 style={{textAlign: "center"}}>Sponsors</h1>
-            { Array.isArray(holeArr) && holeArr.length ? <App courseHoleImages={holeArr} /> : <p style={{textAlign: "center"}}>Coming soon...</p>}
+            { Array.isArray(sponsorArr) && sponsorArr.length ? <App imagesArray={sponsorArr} /> : <p style={{textAlign: "center"}}>Coming soon...</p>}
             {/* { Array.isArray(sortedArr) && sortedArr.length ? <App courseHoleImages={holeArr} /> : <p style={{textAlign: "center"}}>Coming soon...</p>} */}
           </div>
         </MuiThemeProvider>

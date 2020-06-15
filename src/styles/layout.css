@@ -237,6 +237,7 @@ body {
   outline: none;
   cursor: pointer;
   margin: 5px;
+  z-index: 500; /* mobile was stuck behind nav menu */
 }
 .imageViewerFooter {
   display: flex;
@@ -266,56 +267,6 @@ body {
     width: 600px !important;
   }
 }
-
-/**** HEADER ****/
-/* .header {
-  height: 8rem;
-  background-color: rgb(216, 166, 19);
-  position: relative;
-}
-.header-logo-box {
-  position: absolute;
-  top: 4rem;
-  left: 4rem;
-}
-.header-logo {
-  font-size: 2rem;
-}
-.header-nav-primary {
-  position: absolute;
-  width: 40rem;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-}
-.header-nav-button {
-  display: inline-block;
-  text-align: center;
-  height: 7rem;
-  line-height: 7rem;
-  width: 19rem;
-  margin: 0 0.5rem;
-  font-size: 2rem;
-  color: rgb(216, 166, 19);
-  background-color: rgb(35, 31, 32);
-}
-.header-nav-button:link,
-.header-nav-button:visited {
-  text-decoration: none;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-.header-nav-button:hover {
-  -webkit-transform: translateY(-3px);
-  transform: translateY(-3px);
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-}
-.header-nav-button:active {
-  -webkit-transform: translateY(-1px);
-  transform: translateY(-1px);
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-} */
 
 /**** New Nav ****/
 .nav {
@@ -383,7 +334,7 @@ body {
     top: 0px;
     width: 60px;
     height: 60px;
-    z-index: 2000;
+    z-index: 100;
     box-shadow: 0 1rem 3rem rgba(black, 0.1);
     text-align: center;
     cursor: pointer;
@@ -392,7 +343,7 @@ body {
     position: relative;
     display: block;
     height: 100%;
-    z-index: 2000;
+    z-index: 100;
     box-shadow: 0 1rem 3rem rgba(black, 0.1);
     cursor: pointer;
   }
@@ -492,7 +443,6 @@ body {
   margin-top: 50px;
   margin-bottom: 100px;
 }
-
 .course-tile-inner {
   margin: auto;
   width: 475px;
@@ -605,6 +555,14 @@ body {
 }
 .caddy-guide-container {
   padding-bottom: 2rem;
+}
+.caddy-guide-download{
+  width: 75%;
+  max-width: 190rem;
+  /* text-align: left; */
+  margin: auto;
+  padding-bottom: 2rem;
+  line-height: 2.5rem;
 }
 .course-address-content {
   text-align: center;

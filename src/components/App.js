@@ -5,21 +5,6 @@ import ImageViewer from "./image-viewer";
 // import sign2 from "../images/teeSigns/Tee Signs TOABT_20_web-02-lo.jpg";
 // import sign3 from "../images/teeSigns/Tee Signs TOABT_20_web-03-lo.jpg";
 // import sign4 from "../images/teeSigns/Tee Signs TOABT_20_web-04-lo.jpg";
-// import sign5 from "../images/teeSigns/Tee Signs TOABT_20_web-05-lo.jpg";
-// import sign6 from "../images/teeSigns/Tee Signs TOABT_20_web-06-lo.jpg";
-// import sign7 from "../images/teeSigns/Tee Signs TOABT_20_web-07-lo.jpg";
-// import sign8 from "../images/teeSigns/Tee Signs TOABT_20_web-08-lo.jpg";
-// import sign9 from "../images/teeSigns/Tee Signs TOABT_20_web-09-lo.jpg";
-// import sign10 from "../images/teeSigns/Tee Signs TOABT_20_web-10-lo.jpg";
-// import sign11 from "../images/teeSigns/Tee Signs TOABT_20_web-11-lo.jpg";
-// import sign12 from "../images/teeSigns/Tee Signs TOABT_20_web-12-lo.jpg";
-// import sign13 from "../images/teeSigns/Tee Signs TOABT_20_web-13-lo.jpg";
-// import sign14 from "../images/teeSigns/Tee Signs TOABT_20_web-14-lo.jpg";
-// import sign15 from "../images/teeSigns/Tee Signs TOABT_20_web-15-lo.jpg";
-// import sign16 from "../images/teeSigns/Tee Signs TOABT_20_web-16-lo.jpg";
-// import sign17 from "../images/teeSigns/Tee Signs TOABT_20_web-17-lo.jpg";
-// import sign18 from "../images/teeSigns/Tee Signs TOABT_20_web-18-lo.jpg";
-//import thmb from "../images/teeSigns/Tee Signs TOABT_20_web-04-lo.jpg";
 
 let image_data = [
   // {
@@ -41,63 +26,6 @@ let image_data = [
   //   url: sign4,
   //   title: "",
   //   //thumbnail: thmb
-  // },
-
-  // {
-  //   url: sign5,
-  //   title: "",
-  // },
-  // {
-  //   url: sign6,
-  //   title: "",
-  // },
-  // {
-  //   url: sign7,
-  //   title: "",
-  // },
-  // {
-  //   url: sign8,
-  //   title: "",
-  // },
-  // {
-  //   url: sign9,
-  //   title: "",
-  // },
-  // {
-  //   url: sign10,
-  //   title: "",
-  // },
-  // {
-  //   url: sign11,
-  //   title: "",
-  // },
-  // {
-  //   url: sign12,
-  //   title: "",
-  // },
-  // {
-  //   url: sign13,
-  //   title: "",
-  // },
-  // {
-  //   url: sign14,
-  //   title: "",
-  // },
-  // {
-  //   url: sign15,
-  //   title: "",
-  // },
-  // {
-  //   url: sign16,
-  //   title: "",
-  // },
-  // {
-  //   url: sign17,
-  //   title: "",
-  // },
-  // {
-  //   url: sign18,
-  //   title: "",
   // }
 ];
 
@@ -106,7 +34,6 @@ function Image(props) {
     <div
       key={props.tile}
       style={{ margin: "5px" }}
-      
     >
       <img
         id="image"
@@ -130,16 +57,17 @@ export default class App extends Component {
 
     this.state = {
       open_image_viewer: false,
-      courseHolesArray: this.props.courseHoleImages,
+      //imagesArray: this.props.imagesArray,
     }
 
-    this.images = [];
     this.selected_image_index = null;
-    this.state.courseHolesArray.forEach(this.populateImageData);
+    //this.state.imagesArray.forEach(this.populateImageData);
   }
 
   populateImageData(item, index) {
-    image_data.push({url: item});
+    // url = url to image. link = link to sponsors site. //
+    image_data.push({url: item.url, name: item.name, link: item.link});
+    //image_data.push({description: item.description});
   }
 
   handleHashChange = () => {
@@ -182,7 +110,8 @@ export default class App extends Component {
           regular: image.url,
           download: image.url,
         },
-        caption: image.description || null,
+        caption: <a href={image.link || null} target={"_blank"} style={{textDecoration: "none", color: "white"}}>{image.link || null}</a>
+        //caption: image.description || null,
       })
     })
 
@@ -213,10 +142,13 @@ export default class App extends Component {
   }
 
   renderImages() {
+    // image_data was originally set in state.. caused problems with navigation. //
+    image_data = [];
+    this.props.imagesArray.forEach(this.populateImageData);
 
     return image_data.map((image, i) => {
       return (
-        <div className="gallery_tile">
+        <div className="gallery_tile" key={i}>
           <Image
             key={i}
             {...image}

@@ -19,8 +19,9 @@ export const query = graphql`
             site
             location
             address
-            courseHeroImage
             coursesDescription
+            courseHeroImage
+            guideDownload
             date(formatString: "MMMM DD YYYY")
             hole01
             hole02
@@ -71,6 +72,17 @@ const CourseHero = props => {
   )
 }
 
+const CaddyGuideDownload = props => {
+  return (
+    <div className="caddy-guide-download" style={{textAlign: 'center'}}>
+      <h5 style={{textAlign: "center"}}>
+          Before arriving to the event, please download the caddy guide to your mobile device with the following link. This is to ensure you have access to the guide in the event of poor network conditions.
+      </h5>
+      <a href={props.downLoadLink} target={"_blank"}>Caddy Guide Download</a>
+    </div>
+  )
+}
+
 const Course = props => {
 
   // Get and sort course holes
@@ -93,11 +105,15 @@ const Course = props => {
   const sortedArr = holeArr.filter(x => regex.test(x)).sort(
     (a, b) => {regex.toString(a).localeCompare(regex.toString(b))}
   );
+
+  const arrayWithSortedObjects = [];
+  sortedArr.forEach(i => arrayWithSortedObjects.push({url: i}) );
   
   const displayTitle = props.data.markdownRemark.frontmatter.displayTitle;
   const courseSite = props.data.markdownRemark.frontmatter.site;
   const courseLocation = props.data.markdownRemark.frontmatter.location;
   const courseAddress = props.data.markdownRemark.frontmatter.address;
+  const caddyGuideDownload = props.data.markdownRemark.frontmatter.guideDownload;
 
   return (
     <Layout>
@@ -114,7 +130,16 @@ const Course = props => {
         <MuiThemeProvider>
           <div className="caddy-guide-container" >
             <h1 style={{textAlign: "center"}}>Caddy Guide</h1>
-            { Array.isArray(sortedArr) && sortedArr.length ? <App courseHoleImages={sortedArr} /> : <p style={{textAlign: "center"}}>Coming soon...</p>}
+
+            { caddyGuideDownload ? <CaddyGuideDownload downLoadLink={caddyGuideDownload} /> : '' }
+            {/* <div className="caddy-guide-download" style={{textAlign: 'center'}}>
+              <h5 style={{textAlign: "center"}}>
+                Before arriving to the event, please download the caddy guide to your mobile device with the following link. This is to ensure you have access to the guide in the event of poor network conditions.
+              </h5>
+              <a href={props.data.markdownRemark.frontmatter.guideDownload} target={"_blank"}>Caddy Guide Download</a>
+            </div> */}
+            
+            { Array.isArray(arrayWithSortedObjects) && arrayWithSortedObjects.length ? <App imagesArray={arrayWithSortedObjects} /> : <p style={{textAlign: "center"}}>Coming soon...</p>}
           </div>
         </MuiThemeProvider>
         <div className="course-address-content">
