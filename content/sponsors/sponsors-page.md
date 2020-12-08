@@ -13,10 +13,10 @@ sponsorName03: Sponsor 03
 sponsorImage03: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-01-lo_cll5mi.jpg
 sponsorUrl03: ''
-sponsorName04: ''
-sponsorImage04: ''
-sponsorUrl04: ''
-sponsorName05: ''
-sponsorImage05: ''
-sponsorUrl05: ''
+sponsorName04:
+sponsorImage04:
+sponsorUrl04:
+sponsorName05:
+sponsorImage05:
+sponsorUrl05:
 ---
