@@ -65,8 +65,12 @@ export default class App extends Component {
   }
 
   populateImageData(item, index) {
-    // url = url to image. link = link to sponsors site. //
-    image_data.push({url: item.url, name: item.name, link: item.link});
+    //** */ url = url to image. link = link to sponsors site. **//
+    
+    // only add to image_data if image exists
+    if(Object.keys(item.url).length !== 0) {
+      image_data.push({url: item.url, name: item.name, link: item.link});
+    }
     //image_data.push({description: item.description});
   }
 
