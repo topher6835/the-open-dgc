@@ -30,7 +30,8 @@ const Sponsors = props => {
   // Get and sort course holes
   const sponsorArr = [];
   sponsorArr.push({ url: props.data.markdownRemark.frontmatter.sponsorImage01, name: props.data.markdownRemark.frontmatter.sponsorName01, link: props.data.markdownRemark.frontmatter.sponsorUrl01} );
-  sponsorArr.push({ url: props.data.markdownRemark.frontmatter.sponsorImage02, name: props.data.markdownRemark.frontmatter.sponsorName01, link: props.data.markdownRemark.frontmatter.sponsorUrl02} );
+  sponsorArr.push({ url: props.data.markdownRemark.frontmatter.sponsorImage02, name: props.data.markdownRemark.frontmatter.sponsorName02, link: props.data.markdownRemark.frontmatter.sponsorUrl02} );
+  sponsorArr.push({ url: props.data.markdownRemark.frontmatter.sponsorImage03, name: props.data.markdownRemark.frontmatter.sponsorName03, link: props.data.markdownRemark.frontmatter.sponsorUrl03} );
   // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage01);
   // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage02);
   // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage03);
