@@ -36,7 +36,7 @@ const Image = () => {
         id
         childImageSharp {
           fluid(maxWidth: 2400) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
