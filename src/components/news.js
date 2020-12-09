@@ -12,7 +12,7 @@ const NewsComponent = () => {
                     node {
                         frontmatter {
                             title
-                            dateNewsFormat
+                            dateNewsFormat(formatString: "MMMM DD YYYY")
                         }
                         excerpt(format: PLAIN)
                         html
@@ -29,6 +29,7 @@ const NewsComponent = () => {
                 <ol className="news-list" >
                     {data.allMarkdownRemark.edges.map((edge, i) => {
                         const { html } = edge.node;
+                        console.log("test", edge.node.frontmatter.dateNewsFormat);
                         return (
                             <NewsItem html={html} title={edge.node.frontmatter.title} date={edge.node.frontmatter.dateNewsFormat} key={i} />
                         )

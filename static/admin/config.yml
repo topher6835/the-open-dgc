@@ -25,7 +25,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: news-post }
       - { name: title, label: Title, required: false }
-      - { name: dateNewsFormat, label: Date, format: MMMM DD YYYY, widget: datetime }
+      - { name: dateNewsFormat, label: Date, widget: datetime }
       - { name: body, label: Body, required: false, widget: markdown }
 
   - name: courses

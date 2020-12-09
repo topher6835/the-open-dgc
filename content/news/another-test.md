@@ -1,6 +1,6 @@
 ---
 templateKey: news-post
 title: Another Test
-dateNewsFormat: December 09 2020
+dateNewsFormat: 2020-12-04T19:37:03.993Z
 ---
 Cleaning up the site!

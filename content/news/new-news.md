@@ -1,7 +1,7 @@
 ---
 templateKey: news-post
 title: New News!
-dateNewsFormat: May 14 2020
+dateNewsFormat: 2020-05-14T19:37:03.993Z
 ---
 New news is new!
 
