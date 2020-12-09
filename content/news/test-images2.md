@@ -1,7 +1,7 @@
 ---
 templateKey: news-post
 title: test-images2
-dateNewsFormat: 2020-04-04T19:37:03.993Z
+dateNewsFormat: April 04 2020
 text1: Belton 2020
 ---
 ## [Body text here.](https://confident-cray-1e8ad0.netlify.app/)
