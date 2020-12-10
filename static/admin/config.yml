@@ -34,18 +34,22 @@ collections:
     create: true
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: course-page }
+      - { name: date, label: Date, required: false, widget: datetime }
       - { name: title, label: Title, hint: "URL path to course page - Must be unique!" }
+      - { name: eventCourse, label: Event Course, widget: boolean, hint: "Select to add to Courses/Caddy page", required: false, default: false }
+      - { name: courseDesign, label: Course Design, widget: boolean, hint: "Select to add to Course Design page", required: false, default: false }
       - { name: displayTitle, label: Display Title, required: true, widget: string }
-      - { name: eventCourse, label: Event Course, widget: boolean, hint: Select to add to Event Courses page, required: false, default: false }
-      - { name: courseDesign, label: Course Design, widget: boolean, hint: Select to add to Course Design page, required: false, default: false }
+      - { name: coursesImage, label: Courses/Caddy-Guide Page Image, hint: "465px x 300px", required: false, widget: image, default: "" }
+      - { name: coursesPageTitle, label: Courses/Caddy-Guide Page Display Title, required: false, widget: string, hint: "Overlay title on courses/caddy-guide page" }
+      - { name: coursesDescription, label: Courses/Caddy-Guide Page Description, hint: "Blurb on Courses/Caddy-Guide page. Max characters...", required: false, widget: string }
+      - { name: coursePageHeroImage, label: Course Page Hero, hint: "Height 360px - image will fill space.", required: false, widget: image, default: "" }
+      - { name: coursePageHeroTitle, label: Course Page Hero Title, required: false, widget: string, hint: "Overlay title on course page" }
+      - { name: coursePageDescriptionHeadline, label: Course Page Description Headline, required: false, widget: string, hint: "Headline above course page description" }
       - { name: site, label: Site/Park, hint: "Site of the course (park name)", required: false, widget: string }
       - { name: location, label: Location, hint: "Location of park - format: City, State", required: false, widget: string }
       - { name: address, label: Address, required: false, widget: string }
-      - { name: coursesDescription, label: Courses Page Description, hint: "Max Characters...", required: false, widget: string }
-      - { name: coursesImage, label: Courses Page Image, hint: "465px x 300px", required: false, widget: image, default: "" }
-      - { name: courseHeroImage, label: Course Page Hero, hint: "Height 360px - image will fill space.", required: false, widget: image, default: "" }
+      - { name: body, label: Course Description Body, required: false, widget: markdown, hint: "Course page description/body field - can contain links and images" }
       - { name: guideDownload, label: Caddy guide download link, hint: "Single file caddy guide", required: false, widget: image, default: "" }
-      - { name: date, label: Date, required: false, widget: datetime }
       - { name: hole01, label: Hole 1, required: false, widget: image, hint: "File names must be alphabetical starting with 'Tee_Signs_'. Example: Tee_Signs_belton_01.jpg"  , default: "" }
       - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
       - { name: hole03, label: Hole 3, required: false, widget: image, default: "" }
@@ -66,7 +70,6 @@ collections:
       - { name: hole18, label: Hole 18, required: false, widget: image, default: "" }
       - { name: hole19, label: Hole 19, required: false, widget: image, default: "" }
       - { name: hole20, label: Hole 20, required: false, widget: image, default: "" }
-      - { name: body, label: Body, required: false, widget: markdown }
 
   - name: sponsors
     label: Sponsors

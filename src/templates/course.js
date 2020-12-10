@@ -15,12 +15,12 @@ export const query = graphql`
         frontmatter {
             templateKey
             title
-            displayTitle
-            site
-            location
-            address
+            coursesPageTitle
             coursesDescription
-            courseHeroImage
+            coursePageHeroImage
+            coursePageHeroTitle
+            coursePageDescriptionHeadline
+            address
             guideDownload
             date(formatString: "MMMM DD YYYY")
             hole01
@@ -52,7 +52,7 @@ export const query = graphql`
 const CourseInfo = props => {
   return (
     <div className="course-info">
-      <p>{props.descrip}</p>
+      {/* <p>{props.descrip}</p> */}
       <div className="" dangerouslySetInnerHTML={{__html: props.descripBody}}></div>
     </div>
   )
@@ -109,9 +109,8 @@ const Course = props => {
   const arrayWithSortedObjects = [];
   sortedArr.forEach(i => arrayWithSortedObjects.push({url: i}) );
   
-  const displayTitle = props.data.markdownRemark.frontmatter.displayTitle;
-  const courseSite = props.data.markdownRemark.frontmatter.site;
-  const courseLocation = props.data.markdownRemark.frontmatter.location;
+  const coursePageHeroTitle = props.data.markdownRemark.frontmatter.coursePageHeroTitle;
+  const coursePageDescriptionHeadline = props.data.markdownRemark.frontmatter.coursePageDescriptionHeadline;
   const courseAddress = props.data.markdownRemark.frontmatter.address;
   const caddyGuideDownload = props.data.markdownRemark.frontmatter.guideDownload;
 
@@ -120,11 +119,14 @@ const Course = props => {
       <AlertMain />
       <TopBanner />
       <div className="course-page-content">
-        <SEO title={displayTitle} />
-        <CourseHero heroImg={props.data.markdownRemark.frontmatter.courseHeroImage} courseName={props.data.markdownRemark.frontmatter.displayTitle} />
+        <SEO title={props.data.markdownRemark.frontmatter.coursesPageTitle} />
+        <CourseHero heroImg={props.data.markdownRemark.frontmatter.coursePageHeroImage} courseName={coursePageHeroTitle} />
         <div className="course-page-text">
-          <h1>{courseSite && courseLocation ? `${courseSite} in ${courseLocation}` :  [courseLocation ? `${displayTitle} in ${courseLocation}` : `${displayTitle}`] }</h1>
-          <CourseInfo descrip={props.data.markdownRemark.frontmatter.coursesDescription} descripBody={props.data.markdownRemark.html} />
+          <h1>{coursePageDescriptionHeadline ? `${coursePageDescriptionHeadline}` : ``}</h1>
+          {/* <h1>{courseSite && courseLocation ? `${courseSite} in ${courseLocation}` :  [courseLocation ? `${coursePageHeroTitle} in ${courseLocation}` : `${coursePageHeroTitle}`] }</h1> */}
+          {/* Seperated description (courses page) from body (course page)
+          <CourseInfo descrip={props.data.markdownRemark.frontmatter.coursesDescription} descripBody={props.data.markdownRemark.html} /> */}
+          <CourseInfo descripBody={props.data.markdownRemark.html} />
         </div>
         
         <MuiThemeProvider>
@@ -132,12 +134,6 @@ const Course = props => {
             <h1 style={{textAlign: "center"}}>Caddy Guide</h1>
 
             { caddyGuideDownload ? <CaddyGuideDownload downLoadLink={caddyGuideDownload} /> : '' }
-            {/* <div className="caddy-guide-download" style={{textAlign: 'center'}}>
-              <h5 style={{textAlign: "center"}}>
-                Before arriving to the event, please download the caddy guide to your mobile device with the following link. This is to ensure you have access to the guide in the event of poor network conditions.
-              </h5>
-              <a href={props.data.markdownRemark.frontmatter.guideDownload} target={"_blank"}>Caddy Guide Download</a>
-            </div> */}
             
             { Array.isArray(arrayWithSortedObjects) && arrayWithSortedObjects.length ? <App imagesArray={arrayWithSortedObjects} /> : <p style={{textAlign: "center"}}>Coming soon...</p>}
           </div>

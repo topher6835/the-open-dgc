@@ -14,15 +14,13 @@ const CoursesGrid = props => {
           node {
             frontmatter {
               title
-              displayTitle
-              eventCourse
-              courseDesign
-              site
-              location
-              date(formatString: "MMMM DD YYYY")
-              displayTitle
+              coursesPageTitle
               coursesImage
               coursesDescription
+              location
+              eventCourse
+              courseDesign
+              date(formatString: "MMMM DD YYYY")
             }
             fields {
               slug
@@ -59,7 +57,7 @@ const CoursesGrid = props => {
             >
               <div className="course-tile-text">
                 <p className="course-tile-text-title">
-                  {edge.node.frontmatter.displayTitle}
+                  {edge.node.frontmatter.coursesPageTitle}
                 </p>
               </div>
             </div>
