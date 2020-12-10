@@ -1,8 +1,8 @@
 ---
-courseImage: ''
 templateKey: course-page
 title: test-course1
 displayTitle: Belton 2020
+coursesPageTitle: Belton 2020
 eventCourse: true
 courseDesign: true
 site: Heritage Park
@@ -15,8 +15,10 @@ coursesDescription: >-
   line. Another line. Another line another line another line.
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/golf01_k8boow.jpg
-courseHeroImage: ''
-guideDownload: ''
+coursePageHeroImage: null
+coursePageHeroTitle: null
+coursePageDescriptionHeadline: null
+guideDownload: null
 date: 2020-04-03T19:37:03.993Z
 hole01: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-01-lo_cll5mi.jpg

@@ -1,8 +1,8 @@
 ---
-courseImage: ''
 templateKey: course-page
 title: test-course3
 displayTitle: Heckscher 2020
+coursesPageTitle: Heckscher 2020
 eventCourse: true
 courseDesign: true
 site: Heckscher Park
@@ -15,7 +15,9 @@ coursesDescription: >-
   line.
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/Disc-golf-hole_pynjah.jpg
-courseHeroImage: ''
+coursePageHeroImage: null
+coursePageHeroTitle: null
+coursePageDescriptionHeadline: null
 guideDownload: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1591888329/PrasZimmermanLevitinGuastavino-AESOct2009_avpq80.pdf
 date: 2020-04-09T19:37:03.993Z
