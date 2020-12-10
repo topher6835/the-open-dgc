@@ -321,6 +321,11 @@ body {
 .nav > #nav-check {
   display: none;
 }
+.nav > .nav-links > .disabledLink {
+  pointer-events: none;
+  cursor: default;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /** MOBILE NAV **/
 @media (max-width: 652px) {  /* 600px */
@@ -405,6 +410,13 @@ body {
     margin: 0;
     background-color: rgba(51, 51, 51) !important;
   }
+
+  .nav > .nav-links > .disabledLink {
+    display: none;
+    /* pointer-events: none;
+    cursor: default; */
+  }
+
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
