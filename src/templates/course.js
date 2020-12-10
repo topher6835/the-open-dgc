@@ -88,7 +88,7 @@ const Course = props => {
   // Get and sort course holes
   const holeArr = [];
   const k = "props.data.markdownRemark.frontmatter.";
-  for(let i = 1; i < 6; i++) { 
+  for(let i = 1; i < 21; i++) {
     if(i < 10) {
       i = "0" + i;
     }
