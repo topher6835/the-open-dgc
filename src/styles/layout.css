@@ -321,7 +321,7 @@ body {
 .nav > #nav-check {
   display: none;
 }
-.nav > .nav-links > .disabledLink {
+.nav > .nav-links > .disabledNavLink {
   pointer-events: none;
   cursor: default;
   background-color: rgba(0, 0, 0, 0.5);
@@ -410,13 +410,11 @@ body {
     margin: 0;
     background-color: rgba(51, 51, 51) !important;
   }
-
-  .nav > .nav-links > .disabledLink {
+  .nav > .nav-links > .disabledNavLink {
     display: none;
     /* pointer-events: none;
     cursor: default; */
   }
-
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
