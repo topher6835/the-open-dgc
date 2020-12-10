@@ -6,21 +6,20 @@ coursesPageTitle: The Open
 eventCourse: true
 courseDesign: false
 site: Heritage Park
-location: null
-address: null
+location: ''
+address: ''
 coursesDescription: >-
   The Open Course at Heritage Park will be in its DGPT Silver Series setup which
   means marked Out of Bounds (OB) will be added to a number of holes and a few
   baskets may be elevated. We will update the caddie guide here as we develop
   the final set-up. We expect all to be finalized by March 8. If you have any
-  questions contact theopendgc@nealdambra.com. For a video course tour of the
-  2020 layout go to: 
+  questions contact theopendgc@nealdambra.com.
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
-coursePageHeroImage: null
-coursePageHeroTitle: null
-coursePageDescriptionHeadline: null
-guideDownload: null
+coursePageHeroImage: ''
+coursePageHeroTitle: ''
+coursePageDescriptionHeadline: ''
+guideDownload: ''
 date: 2020-04-09T19:37:03.993Z
 hole01: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_bjnwp2.jpg
@@ -61,4 +60,9 @@ hole18: >-
 hole19: ''
 hole20: ''
 ---
-<https://www.youtube.com/watch?v=5zhXCuieXx0>
+The Open Course at Heritage Park will be in its DGPT Silver Series setup which
+  means marked Out of Bounds (OB) will be added to a number of holes and a few
+  baskets may be elevated. We will update the caddie guide here as we develop
+  the final set-up. We expect all to be finalized by March 8. If you have any
+  questions contact <theopendgc@nealdambra.com>. For a video course tour of the
+  2020 layout go to: <https://www.youtube.com/watch?v=5zhXCuieXx0>
