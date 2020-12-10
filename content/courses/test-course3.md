@@ -15,8 +15,8 @@ coursesDescription: >-
   line.
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/Disc-golf-hole_pynjah.jpg
-coursePageHeroImage: 'Heckscher Park 2020'
-coursePageHeroTitle: ''
+coursePageHeroImage: ''
+coursePageHeroTitle: 'Heckscher Park 2020'
 coursePageDescriptionHeadline: 'The Open at Heckscher Park'
 guideDownload: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1591888329/PrasZimmermanLevitinGuastavino-AESOct2009_avpq80.pdf
