@@ -16,8 +16,8 @@ coursesDescription: >-
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/golf01_k8boow.jpg
 coursePageHeroImage: ''
-coursePageHeroTitle: ''
-coursePageDescriptionHeadline: ''
+coursePageHeroTitle: Belton 2020
+coursePageDescriptionHeadline: The Open at Heritage Park
 guideDownload: ''
 date: 2020-04-03T19:37:03.993Z
 hole01: >-
