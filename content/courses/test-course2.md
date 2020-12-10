@@ -16,7 +16,7 @@ coursesDescription: >-
   questions contact theopendgc@nealdambra.com. For a video course tour of the
   2020 layout go to: https://www.youtube.com/watch?v=5zhXCuieXx0
 coursesImage: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
+  https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
 courseHeroImage: ''
 guideDownload: ''
 date: 2020-04-09T19:37:03.993Z
