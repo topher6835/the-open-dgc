@@ -26,7 +26,7 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: news-post }
       - { name: title, label: Title, required: false }
       - { name: dateNewsFormat, label: Date, widget: datetime }
-      - { name: body, label: Body, required: false, widget: markdown }
+      - { name: body, label: Body, required: false, widget: markdown, options: { linkAttrs: { target: _blank, rel: noreferrer noopener } } }
 
   - name: courses
     label: Courses

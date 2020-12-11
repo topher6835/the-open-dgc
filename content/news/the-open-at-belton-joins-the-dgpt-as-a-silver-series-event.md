@@ -37,4 +37,4 @@ The tournament will take place March 19-21 at Heritage Park with professionals p
 
 <br/>
 
-Touring Pros with ratings above 1000 for MPO and 900 for FPO can purchase a Tour Pass for all DGPT events including The Open at Belton from now until January 1st: [https://www.dgpt.com/​news/2020-dgpt-tour-pass/](https://www.dgpt.com/news/2020-dgpt-tour-pass/)
+Touring Pros with ratings above 1000 for MPO and 900 for FPO can purchase a Tour Pass for all DGPT events including The Open at Belton from now until January 1st: [https://www.dgpt.com/schedule/register/tour-pass/](https://www.dgpt.com/schedule/register/tour-pass/)
