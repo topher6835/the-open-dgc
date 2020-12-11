@@ -5,7 +5,8 @@ title: tba-dgc-2021
 eventCourse: true
 courseDesign: false
 displayTitle: TBA DGC 2021
-coursesImage: ''
+coursesImage: >-
+  https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
 coursesPageTitle: TBA DGC 2021
 coursesDescription: Caddie guide coming soon.
 coursePageHeroImage: >-

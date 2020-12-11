@@ -45,10 +45,10 @@ collections:
       - { name: coursePageHeroImage, label: Course Page Hero, hint: "Height 360px - image will fill space.", required: false, widget: image, default: "" }
       - { name: coursePageHeroTitle, label: Course Page Hero Title, required: false, widget: string, hint: "Overlay title on course page" }
       - { name: coursePageDescriptionHeadline, label: Course Page Description Headline, required: false, widget: string, hint: "Headline above course page description" }
+      - { name: body, label: Course Description Body, required: false, widget: markdown, hint: "Course page description/body field - can contain links and images" }
       - { name: site, label: Site/Park, hint: "Site of the course (park name)", required: false, widget: string }
       - { name: location, label: Location, hint: "Location of park - format: City, State", required: false, widget: string }
       - { name: address, label: Address, required: false, widget: string }
-      - { name: body, label: Course Description Body, required: false, widget: markdown, hint: "Course page description/body field - can contain links and images" }
       - { name: guideDownload, label: Caddy guide download link, hint: "Single file caddy guide", required: false, widget: image, default: "" }
       - { name: hole01, label: Hole 1, required: false, widget: image, hint: "File names must be alphabetical starting with 'Tee_Signs_'. Example: Tee_Signs_belton_01.jpg"  , default: "" }
       - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
