@@ -16,7 +16,7 @@ coursesDescription: >-
   questions contact theopendgc@nealdambra.com.
 coursePageHeroImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1607720308/Open%20DGC/Courses/Belton/2021%20Belton/banner_1920x1000_theopencourse_etxfxl.jpg
-coursePageHeroTitle: The Open Course at Heritage Park
+coursePageHeroTitle: The Open Course
 coursePageDescriptionHeadline: ''
 site: Heritage Park
 location: 'Belton, TX'
