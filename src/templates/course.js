@@ -131,7 +131,7 @@ const Course = props => {
         
         <MuiThemeProvider>
           <div className="caddy-guide-container" >
-            <h1 style={{textAlign: "center"}}>Caddy Guide</h1>
+            <h1 style={{textAlign: "center"}}>Caddie Guide</h1>
 
             { caddyGuideDownload ? <CaddyGuideDownload downLoadLink={caddyGuideDownload} /> : '' }
             
