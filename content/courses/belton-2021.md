@@ -15,12 +15,12 @@ coursesDescription: >-
   the final set-up. We expect all to be finalized by March 8. If you have any
   questions contact theopendgc@nealdambra.com.
 coursePageHeroImage: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/c_crop,h_360,w_1242,x_700,y_1200/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
+  https://res.cloudinary.com/drgctrdk4/image/upload/v1607720308/Open%20DGC/Courses/Belton/2021%20Belton/banner_1920x1000_theopencourse_etxfxl.jpg
 coursePageHeroTitle: The Open Course at Heritage Park
 coursePageDescriptionHeadline: ''
 site: Heritage Park
-location: Belton, TX
-address: 601-799 E 24th Ave, Belton, TX 76513
+location: 'Belton, TX'
+address: '601-799 E 24th Ave, Belton, TX 76513'
 guideDownload: ''
 hole01: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_bjnwp2.jpg
