@@ -67,3 +67,5 @@ The Open Course at Heritage Park will be in its DGPT Silver Series setup which
   the final set-up. We expect all to be finalized by March 8. If you have any
   questions contact <theopendgc@nealdambra.com>. For a video course tour of the
   2020 layout go to: <https://www.youtube.com/watch?v=5zhXCuieXx0>
+  <br/>
+  Photo by Michelle Deering.

@@ -3,8 +3,8 @@ templateKey: course-page
 title: test-course1
 displayTitle: Belton 2020
 coursesPageTitle: Belton 2020
-eventCourse: true
-courseDesign: true
+eventCourse: false
+courseDesign: false
 site: Heritage Park
 location: 'Belton, TX'
 address: ''

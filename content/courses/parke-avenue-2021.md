@@ -8,7 +8,7 @@ displayTitle: Park Avenue DGC
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
 coursesPageTitle: Park Avenue DGC 2021
-coursesDescription: ''
+coursesDescription: Caddie guide coming soon.
 coursePageHeroImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1607720308/Open%20DGC/Courses/Belton/2021%20Belton/banner_1920x1000_theopencourse_etxfxl.jpg
 coursePageHeroTitle: Park Avenue DGC 2021
@@ -37,3 +37,5 @@ hole19: ''
 hole20: ''
 ---
 Caddie guide will be published soon.
+<br/>
+Photo by Michelle Deering.

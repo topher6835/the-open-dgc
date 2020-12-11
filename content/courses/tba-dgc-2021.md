@@ -36,3 +36,5 @@ hole19: ''
 hole20: ''
 ---
 Caddie guide will be published soon.
+<br/>
+Photo by Michelle Deering.
