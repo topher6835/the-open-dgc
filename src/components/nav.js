@@ -52,7 +52,7 @@ export default class Header extends Component {
                     <Link id="home-mobile-nav" style={{display: "none"}} to="/">Home</Link>
                     <Link to="#news-component">News</Link>
                     {/* <Link to="/">Register</Link> */}
-                    <Link to="/event-courses">Caddie Guides</Link>
+                    <Link to="/event-courses">Caddie Guide</Link>
                     {/* <Link to="/">History</Link> */}
                     {/* <Link to="/">Merch</Link> */}
                     <Link className="disabledNavLink" to="/sponsors">Sponsors</Link>
