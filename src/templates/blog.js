@@ -8,10 +8,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
-        text1
-        text2
         date(formatString: "MMMM DD YYYY")
-        image
       }
       html
       htmlAst
@@ -25,10 +22,10 @@ const Blog = props => {
         <Link to="/blog">BACK TO BLOG</Link>
         <h1>{props.data.markdownRemark.frontmatter.title}</h1>
         <p>{props.data.markdownRemark.frontmatter.date}</p>
-        <p>{props.data.markdownRemark.frontmatter.text1}</p>
-        <p>{props.data.markdownRemark.frontmatter.text2}</p>
+        {/* <p>{props.data.markdownRemark.frontmatter.text1}</p>
+        <p>{props.data.markdownRemark.frontmatter.text2}</p> */}
         <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.frontmatter.text2 }}></div>
-        <img src={props.data.markdownRemark.frontmatter.image} />
+        {/* <img src={props.data.markdownRemark.frontmatter.image} /> */}
         <div className="markdown-body" dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
     </Layout>
   )
