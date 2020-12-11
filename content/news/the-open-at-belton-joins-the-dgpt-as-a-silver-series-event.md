@@ -9,7 +9,7 @@ dateNewsFormat: 2020-12-10T22:49:24.071Z
 
 
 
-Peach, coincidentally, was the winning color this year at The Open at Belton. [Ezra Aderhold](https://www.pdga.com/player/121715) of Emery, South Dakota, and [Valerie Mandujano](https://www.pdga.com/player/62879) from nearby San Antonio are our Men's and Women's Open 2020 champions. The Open, presented by Discraft, pro purse surpassed $17,000 for the first time since the events' founding in 2015.
+<span style="display: inline-block; font-size: .75em; line-height: 1.25em;">Peach, coincidentally, was the winning color this year at The Open at Belton. [Ezra Aderhold](https://www.pdga.com/player/121715) of Emery, South Dakota, and [Valerie Mandujano](https://www.pdga.com/player/62879) from nearby San Antonio are our Men's and Women's Open 2020 champions. The Open, presented by Discraft, pro purse surpassed $17,000 for the first time since the events' founding in 2015.</span>
 
 <br/>
 
@@ -37,4 +37,4 @@ The tournament will take place March 19-21 at Heritage Park with professionals p
 
 <br/>
 
-Touring Pros may register immediately through January 1 with a DGPT Tour Pass [https://www.dgpt.com/​news/2020-dgpt-tour-pass/](https://www.dgpt.com/news/2020-dgpt-tour-pass/)
+Touring Pros with ratings above 1000 for MPO and 900 for FPO can purchase a Tour Pass for all DGPT events including The Open at Belton from now until January 1st: [https://www.dgpt.com/​news/2020-dgpt-tour-pass/](https://www.dgpt.com/news/2020-dgpt-tour-pass/)
