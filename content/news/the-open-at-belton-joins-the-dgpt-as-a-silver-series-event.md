@@ -1,6 +1,6 @@
 ---
 templateKey: news-post
-title: The Open at Belton Joins the DGPT as a Silver Series Event
+title: The Open at Belton Joins the Disc Golf Pro Tour as a Silver Series Event
 dateNewsFormat: 2020-12-10T22:49:24.071Z
 ---
 

@@ -7,7 +7,7 @@ courseDesign: false
 displayTitle: The Open Course
 coursesImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
-coursesPageTitle: The Open
+coursesPageTitle: The Open Course 2021
 coursesDescription: >-
   The Open Course at Heritage Park will be in its DGPT Silver Series setup which
   means marked Out of Bounds (OB) will be added to a number of holes and a few
@@ -16,11 +16,11 @@ coursesDescription: >-
   questions contact theopendgc@nealdambra.com.
 coursePageHeroImage: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/c_crop,h_360,w_1242,x_700,y_1200/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
-coursePageHeroTitle: The Open
-coursePageDescriptionHeadline: The Open Course at Heritage Park
+coursePageHeroTitle: The Open Course at Heritage Park
+coursePageDescriptionHeadline: ''
 site: Heritage Park
-location: ''
-address: ''
+location: Belton, TX
+address: 601-799 E 24th Ave, Belton, TX 76513
 guideDownload: ''
 hole01: >-
   https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_bjnwp2.jpg

@@ -39,6 +39,14 @@ const CoursesGrid = props => {
     })
   }
 
+  // const testDivH = (i) => {
+  //   let ht =  document.getElementsByClassName('course-tile-text');
+  //   if(ht[i]) {
+  //     console.log("test test ", + i + " " + ht[i].clientHeight);
+  //     ht[i].classList.add('course-tile-decrease-line-height');
+  //   } else {console.log("does not exist")}
+  // }
+
   const renderCourses = (edge, i) => {
     let courseImg
     if (edge.node.frontmatter.coursesImage) {
