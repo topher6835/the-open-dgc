@@ -34,6 +34,7 @@ body {
   /* min-width: 300px; */
   height: 100vh;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .image-main {
   min-width: 900px;
@@ -45,6 +46,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .main-alert {
@@ -294,7 +296,7 @@ body {
 .nav > .nav-links {
   display: inline;
   font-size: 18px;
-  width: 64.1rem;
+  width: 64.2rem;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
