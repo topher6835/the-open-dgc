@@ -20,14 +20,10 @@ site: Heritage Park
 location: 'Belton, TX'
 address: ''
 guideDownload: ''
-hole01: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_bjnwp2.jpg
-hole02: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_02_qokbnr.jpg
-hole03: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_03_ls2eez.jpg
-hole04: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_04_bdllxn.jpg
+hole01: ''
+hole02: ''
+hole03: ''
+hole04: ''
 hole05: ''
 hole06: ''
 hole07: ''
