@@ -20,10 +20,10 @@ site: Heritage Park
 location: 'Belton, TX'
 address: ''
 guideDownload: ''
-hole01: ''
-hole02: ''
-hole03: ''
-hole04: ''
+hole01: ../media/Tee_Signs_Caddie-TOAB21_01_bjnwp2.jpg
+hole02: ../media/Tee_Signs_Caddie-TOAB21_02_qokbnr.jpg
+hole03: ../media/Tee_Signs_Caddie-TOAB21_03_ls2eez.jpg
+hole04: ../media/Tee_Signs_Caddie-TOAB21_04_bdllxn.jpg
 hole05: ''
 hole06: ''
 hole07: ''
