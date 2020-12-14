@@ -94,6 +94,7 @@ const Course = props => {
     }
     const holeNum = "hole" + i;
     const propDataString = k + holeNum;
+    // returns file name from graphql:
     const evalPropData = eval(propDataString);
     if(evalPropData) {
       holeArr.push(evalPropData);
@@ -107,7 +108,18 @@ const Course = props => {
   );
 
   const arrayWithSortedObjects = [];
-  sortedArr.forEach(i => arrayWithSortedObjects.push({url: i}) );
+  //* Cloudinary URL format:
+  //* https://res.cloudinary.com/<cloud_name>/<resource_type>/<type>/<transformations>/{{image}}"
+  const thumbCloudinaryURL = "https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_215/";
+  const imageViewCloudinaryURL ="https://res.cloudinary.com/drgctrdk4/image/upload/";
+
+  // append cloudinary transformation URL here, populated sorted array:
+  sortedArr.forEach(
+    i => arrayWithSortedObjects.push({
+      url: imageViewCloudinaryURL + i,
+      thumbnail: thumbCloudinaryURL + i
+    })
+  );
   
   const coursePageHeroTitle = props.data.markdownRemark.frontmatter.coursePageHeroTitle;
   const coursePageDescriptionHeadline = props.data.markdownRemark.frontmatter.coursePageDescriptionHeadline;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ImageViewer from "./image-viewer";
 
-import sign1 from "../images/teeSigns/Tee Signs TOABT_20_web-01-lo.jpg";
+//import sign1 from "../images/teeSigns/Tee Signs TOABT_20_web-01-lo.jpg";
 // import sign2 from "../images/teeSigns/Tee Signs TOABT_20_web-02-lo.jpg";
 // import sign3 from "../images/teeSigns/Tee Signs TOABT_20_web-03-lo.jpg";
 // import sign4 from "../images/teeSigns/Tee Signs TOABT_20_web-04-lo.jpg";
@@ -28,6 +28,7 @@ let image_data = [
   //   //thumbnail: thmb
   // }
 ];
+
 
 function Image(props) {
   return (
@@ -69,7 +70,7 @@ export default class App extends Component {
     
     // only add to image_data if image exists
     if(Object.keys(item.url).length !== 0) {
-      image_data.push({url: item.url, thumbnail: sign1, name: item.name, link: item.link});
+      image_data.push({url: item.url, thumbnail: item.thumbnail, name: item.name, link: item.link});
     }
     //image_data.push({description: item.description});
   }
