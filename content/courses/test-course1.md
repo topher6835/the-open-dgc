@@ -1,31 +1,28 @@
 ---
 templateKey: course-page
+date: 2020-04-03T19:37:03.993Z
 title: test-course1
-displayTitle: Belton 2020
-coursesPageTitle: Belton 2020
 eventCourse: false
 courseDesign: false
-site: Heritage Park
-location: 'Belton, TX'
-address: ''
+displayTitle: Belton 2020
+coursesImage: >-
+  https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/golf01_k8boow.jpg
+coursesPageTitle: Belton 2020
 coursesDescription: >-
   This is a great course. 18 holes of exhilarating fun. The local flora and
   fauna make for a unique and challenging experience. This is a course for
   skilled players only! Another line here. Another line another line another
   line. Another line. Another line another line another line.
-coursesImage: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/golf01_k8boow.jpg
 coursePageHeroImage: ''
 coursePageHeroTitle: Belton 2020
 coursePageDescriptionHeadline: The Open at Heritage Park
+site: Heritage Park
+location: 'Belton, TX'
+address: ''
 guideDownload: ''
-date: 2020-04-03T19:37:03.993Z
-hole01: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-01-lo_cll5mi.jpg
-hole02: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1585852440/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-02-lo_o06b1r.jpg
-hole03: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1585852441/2020%20Belton%20Tee%20Signs/Tee_Signs_TOABT_20_web-03-lo_smerer.jpg
+hole01: ''
+hole02: ''
+hole03: ''
 hole04: ''
 hole05: ''
 hole06: ''
