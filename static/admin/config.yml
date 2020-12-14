@@ -51,7 +51,16 @@ collections:
       - { name: address, label: Address, required: false, widget: string }
       - { name: guideDownload, label: Caddy guide download link, hint: "Single file caddy guide", required: false, widget: image, default: "" }
       - { name: hole01, label: Hole 1, required: false, widget: image, hint: "File names must be alphabetical starting with 'Tee_Signs_'. Example: Tee_Signs_belton_01.jpg"  , default: "" }
-      - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
+      # - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
+      - label: Hole 2
+        name: hole02
+        widget: image
+        required: false
+        default: ""
+        media_library:
+          config:
+            default_transformations:
+              - quality: "50"
       - { name: hole03, label: Hole 3, required: false, widget: image, default: "" }
       - { name: hole04, label: Hole 4, required: false, widget: image, default: "" }
       - { name: hole05, label: Hole 5, required: false, widget: image, default: "" }
