@@ -29,6 +29,7 @@ let image_data = [
   // }
 ];
 
+
 function Image(props) {
   return (
     <div
@@ -37,7 +38,7 @@ function Image(props) {
     >
       <img
         id="image"
-        src={props.url}  //props.url || props.thumbnail
+        src={props.thumbnail}  //props.url || props.thumbnail
         style={{
           borderRadius: "3px",
           width: "215px",
@@ -69,7 +70,7 @@ export default class App extends Component {
     
     // only add to image_data if image exists
     if(Object.keys(item.url).length !== 0) {
-      image_data.push({url: item.url, name: item.name, link: item.link});
+      image_data.push({url: item.url, thumbnail: item.thumbnail, name: item.name, link: item.link});
     }
     //image_data.push({description: item.description});
   }
