@@ -49,6 +49,15 @@ export const query = graphql`
   }
 `
 
+//* Cloudinary URL format:
+//* https://res.cloudinary.com/<cloud_name>/<resource_type>/<type>/<transformations>/{{image}}"
+//* https://res.cloudinary.com/<cloud_name>/<asset_type>/<delivery_type>/<transformations>/<version>/<public_id>.<format>
+// https://cloudinary.com/documentation/transformation_reference
+const urlRegexMatchPost = /upload(.*)/;
+const urlRegexMatchPre = /(.*)upload/;
+const urlThumb = "upload/c_scale,w_215";
+const imgViewQuality70 = "upload/q_70";
+
 const CourseInfo = props => {
   return (
     <div className="course-info">
@@ -60,7 +69,9 @@ const CourseInfo = props => {
 const CourseHero = props => {
   let heroImg;
   if(props.heroImg) {
-    heroImg = props.heroImg;
+    let urlHeroImg = props.heroImg;
+    let coursePageHeroImageReduced = urlHeroImg.match(urlRegexMatchPre)[1] + imgViewQuality70 + urlHeroImg.match(urlRegexMatchPost)[1]
+    heroImg = coursePageHeroImageReduced;
   } else {
     heroImg = courseHeroDefaultImg;
   }
@@ -108,19 +119,16 @@ const Course = props => {
   );
 
   const arrayWithSortedObjects = [];
-  //* Cloudinary URL format:
-  //* https://res.cloudinary.com/<cloud_name>/<resource_type>/<type>/<transformations>/{{image}}"
-  const thumbCloudinaryURL = "https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_215/";
-  const imageViewCloudinaryURL ="https://res.cloudinary.com/drgctrdk4/image/upload/";
 
-  // append cloudinary transformation URL here, populated sorted array:
+  // match/append cloudinary transformation URL here, populated sorted array:
   sortedArr.forEach(
     i => arrayWithSortedObjects.push({
-      url: imageViewCloudinaryURL + i,
-      thumbnail: thumbCloudinaryURL + i
+      url: i.match(urlRegexMatchPre)[1] + imgViewQuality70 + i.match(urlRegexMatchPost)[1],
+      thumbnail: i.match(urlRegexMatchPre)[1] + urlThumb + i.match(urlRegexMatchPost)[1]
     })
   );
-  
+
+  const coursePageHeroImageURL = props.data.markdownRemark.frontmatter.coursePageHeroImage;
   const coursePageHeroTitle = props.data.markdownRemark.frontmatter.coursePageHeroTitle;
   const coursePageDescriptionHeadline = props.data.markdownRemark.frontmatter.coursePageDescriptionHeadline;
   const courseAddress = props.data.markdownRemark.frontmatter.address;
@@ -132,7 +140,7 @@ const Course = props => {
       <TopBanner />
       <div className="course-page-content">
         <SEO title={props.data.markdownRemark.frontmatter.coursesPageTitle} />
-        <CourseHero heroImg={props.data.markdownRemark.frontmatter.coursePageHeroImage} courseName={coursePageHeroTitle} />
+        <CourseHero heroImg={coursePageHeroImageURL} courseName={coursePageHeroTitle} />
         <div className="course-page-text">
           <h1>{coursePageDescriptionHeadline ? `${coursePageDescriptionHeadline}` : ``}</h1>
           {/* <h1>{courseSite && courseLocation ? `${courseSite} in ${courseLocation}` :  [courseLocation ? `${coursePageHeroTitle} in ${courseLocation}` : `${coursePageHeroTitle}`] }</h1> */}
