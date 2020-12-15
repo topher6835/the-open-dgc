@@ -1,6 +1,6 @@
 ---
 templateKey: course-page
-date: 2020-12-11T21:35:17.570Z
+date: 2020-12-10T21:35:17.570Z
 title: tba-dgc-2021
 eventCourse: true
 courseDesign: false
