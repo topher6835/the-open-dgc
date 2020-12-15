@@ -1,6 +1,6 @@
 ---
 templateKey: course-page
-date: 2020-12-11T21:13:52.839Z
+date: 2020-12-11T21:36:52.839Z
 title: parke-avenue-2021
 eventCourse: true
 courseDesign: false

@@ -55,7 +55,7 @@ export default class Header extends Component {
                     <Link to="/event-courses">Caddie Guides</Link>
                     {/* <Link to="/">History</Link> */}
                     {/* <Link to="/">Merch</Link> */}
-                    <Link className="disabledNavLink" to="/sponsors">Sponsors</Link>
+                    <Link to="/sponsors">Sponsors</Link>
                     <Link className="disabledNavLink" to="/course-design">Course Design</Link>
                     <Link to="/contact">Contact</Link>
                 </div>

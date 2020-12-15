@@ -7,7 +7,7 @@ const CoursesGrid = props => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        sort: { fields: id, order: ASC }
+        sort: { fields: frontmatter___date, order: DESC },
         filter: { frontmatter: { templateKey: { eq: "course-page" } } }
       ) {
         edges {
@@ -38,14 +38,6 @@ const CoursesGrid = props => {
       }
     })
   }
-
-  // const testDivH = (i) => {
-  //   let ht =  document.getElementsByClassName('course-tile-text');
-  //   if(ht[i]) {
-  //     console.log("test test ", + i + " " + ht[i].clientHeight);
-  //     ht[i].classList.add('course-tile-decrease-line-height');
-  //   } else {console.log("does not exist")}
-  // }
 
   const renderCourses = (edge, i) => {
     let courseImg

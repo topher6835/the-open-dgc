@@ -7,6 +7,7 @@ import AlertMain from '../components/alertMain';
 import TopBanner from "../components/topBanner";
 import App from "../components/App";
 import SEO from "../components/seo";
+import { cloudinaryHeroUrl, cloudinaryUrlTileImage, cloudinaryUrlImageView } from "../components/utils";
 import courseHeroDefaultImg from "../../content/images/grass.jpg";
 
 export const query = graphql`
@@ -53,10 +54,10 @@ export const query = graphql`
 //* https://res.cloudinary.com/<cloud_name>/<resource_type>/<type>/<transformations>/{{image}}"
 //* https://res.cloudinary.com/<cloud_name>/<asset_type>/<delivery_type>/<transformations>/<version>/<public_id>.<format>
 // https://cloudinary.com/documentation/transformation_reference
-const urlRegexMatchPost = /upload(.*)/;
-const urlRegexMatchPre = /(.*)upload/;
-const urlThumb = "upload/c_scale,w_215";
-const imgViewQuality70 = "upload/q_70";
+// const urlRegexMatchPost = /upload(.*)/;
+// const urlRegexMatchPre = /(.*)upload/;
+// const urlThumb = "upload/c_scale,w_215";
+// const imgViewQuality70 = "upload/q_70";
 
 const CourseInfo = props => {
   return (
@@ -70,8 +71,9 @@ const CourseHero = props => {
   let heroImg;
   if(props.heroImg) {
     let urlHeroImg = props.heroImg;
-    let coursePageHeroImageReduced = urlHeroImg.match(urlRegexMatchPre)[1] + imgViewQuality70 + urlHeroImg.match(urlRegexMatchPost)[1]
-    heroImg = coursePageHeroImageReduced;
+    heroImg = cloudinaryHeroUrl(urlHeroImg)
+    // let coursePageHeroImageReduced = urlHeroImg.match(urlRegexMatchPre)[1] + imgViewQuality70 + urlHeroImg.match(urlRegexMatchPost)[1]
+    // heroImg = coursePageHeroImageReduced;
   } else {
     heroImg = courseHeroDefaultImg;
   }
@@ -105,7 +107,7 @@ const Course = props => {
     }
     const holeNum = "hole" + i;
     const propDataString = k + holeNum;
-    // returns file name from graphql:
+    // returns img url from graphql:
     const evalPropData = eval(propDataString);
     if(evalPropData) {
       holeArr.push(evalPropData);
@@ -123,8 +125,10 @@ const Course = props => {
   // match/append cloudinary transformation URL here, populated sorted array:
   sortedArr.forEach(
     i => arrayWithSortedObjects.push({
-      url: i.match(urlRegexMatchPre)[1] + imgViewQuality70 + i.match(urlRegexMatchPost)[1],
-      thumbnail: i.match(urlRegexMatchPre)[1] + urlThumb + i.match(urlRegexMatchPost)[1]
+      url: cloudinaryUrlImageView(i),
+      thumbnail: cloudinaryUrlTileImage(i)
+      // url: i.match(urlRegexMatchPre)[1] + imgViewQuality70 + i.match(urlRegexMatchPost)[1],
+      // thumbnail: i.match(urlRegexMatchPre)[1] + urlThumb + i.match(urlRegexMatchPost)[1]
     })
   );
 

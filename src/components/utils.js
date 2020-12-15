@@ -21,3 +21,20 @@ export function className(name, state) {
   // prefix everything and return a string
   return arr.map(cn => `${CLASS_PREFIX}__${cn}`).join(" ");
 }
+
+const urlRegexMatchPost = /upload(.*)/;
+const urlRegexMatchPre = /(.*)upload/;
+const urlAppendToUpload = "upload/";
+const imgViewQuality70 = "q_70,";
+const thumbScale215 = "c_scale,w_215,";
+
+export function cloudinaryHeroUrl(urlHeroImg) {
+  let coursePageHeroImageReduced = urlHeroImg.match(urlRegexMatchPre)[1] + urlAppendToUpload + imgViewQuality70 + urlHeroImg.match(urlRegexMatchPost)[1]
+  return coursePageHeroImageReduced;
+}
+export function cloudinaryUrlTileImage(image) {
+  return image.match(urlRegexMatchPre)[1] + urlAppendToUpload + thumbScale215 + image.match(urlRegexMatchPost)[1];
+}
+export function cloudinaryUrlImageView(image) {
+  return image.match(urlRegexMatchPre)[1] + urlAppendToUpload + imgViewQuality70 + image.match(urlRegexMatchPost)[1];
+}
