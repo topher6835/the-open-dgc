@@ -1,6 +1,6 @@
 ---
 templateKey: course-page
-date: 2020-04-09T19:37:03.993Z
+date: 2020-12-14T19:37:03.993Z
 title: belton-2021
 eventCourse: true
 courseDesign: false

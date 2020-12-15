@@ -7,7 +7,7 @@ const CoursesGrid = props => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        sort: { fields: id, order: ASC }
+        sort: { fields: frontmatter___date, order: DESC },
         filter: { frontmatter: { templateKey: { eq: "course-page" } } }
       ) {
         edges {
