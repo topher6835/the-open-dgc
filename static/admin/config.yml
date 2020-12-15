@@ -80,6 +80,9 @@ collections:
         fields:
           - { label: Template Key, name: templateKey, widget: hidden, default: sponsors-page }
           - { label: Date, name: date, widget: datetime }
+          - { name: sponsorsPageHeroImage, label: Sponsors Page Hero, hint: "Height 360px - image will fill space.", required: false, widget: image, default: "" }
+          - { name: sponsorsPageHeroTitle, label: Sponsors Page Hero Title, required: false, widget: string, hint: "Overlay title on sponsors page" }
+          - { name: body, label: Sponsors Description Body, required: false, widget: markdown, hint: "Sponsors page description/body field - can contain links" }
           - { label: Sponsor 01 - Name, name: sponsorName01, required: false, widget: text, default: "" }
           - { label: Sponsor 01 - Image, name: sponsorImage01, required: false, widget: image, default: "" }
           - { label: Sponsor 01 - URL, name: sponsorUrl01, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
@@ -136,6 +139,38 @@ collections:
           - { label: Sponsor 14 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
           - { label: Sponsor 14 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 14 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 15 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 15 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 15 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 15 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 16 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 16 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 16 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 16 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 17 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 17 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 17 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 17 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 18 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 18 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 18 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 18 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 19 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 19 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 19 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 19 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 20 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 20 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 20 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 20 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 21 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 21 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 21 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 21 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 22 - Name, name: sponsorName14, required: false, widget: text, default: "" }
+          - { label: Sponsor 22 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
+          - { label: Sponsor 22 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 22 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
 
   - name: pages
     label: Pages
@@ -161,5 +196,5 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Date, name: date, widget: datetime }
           - { label: Enable Alert, name: enabled, widget: boolean, default: true }
-          - { label: Display on all pages, name: allPages, widget: boolean, hint: Displays only on Home Page by default, default: false }
+          - { label: Display on all pages, name: allPages, widget: boolean, hint: "Displays only on Home Page when off (default)", default: false }
           - { label: Body, name: body, required: false, widget: markdown }
