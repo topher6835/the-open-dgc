@@ -350,10 +350,10 @@ export default class ImageViewer extends PureComponent {
         return null;
       }
       return (
-        <a target={"_blank"} style={{textDecoration: "none", color: "white", textAlign: "center", letterSpacing: "2px"}} href={caption}>
+        <a target={"_blank"} style={{textDecoration: "none", textAlign: "center", letterSpacing: "2px"}} href={caption}>
         <div
           style={{
-            color: "#ffffffe6",
+            color: "rgb(35, 31, 32)",
             backgroundColor: "rgb(216, 166, 19)",
             // backgroundColor: "rgb(0, 0, 0, 0.45)",
             padding: "10px 5%"
