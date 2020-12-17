@@ -344,21 +344,24 @@ export default class ImageViewer extends PureComponent {
 
     const FooterCaption = props => {
       const { currentView, interactionIsIdle } = props;
-      const { caption } = currentView;
+      const { caption, name } = currentView;
 
       if (interactionIsIdle || !caption) {
         return null;
       }
       return (
+        <a target={"_blank"} style={{textDecoration: "none", color: "white", textAlign: "center", letterSpacing: "2px"}} href={caption}>
         <div
           style={{
             color: "#ffffffe6",
-            backgroundColor: "rgb(0, 0, 0, 0.45)",
+            backgroundColor: "rgb(216, 166, 19)",
+            // backgroundColor: "rgb(0, 0, 0, 0.45)",
             padding: "10px 5%"
           }}
         >
-          {caption}
+          <h2>{ name ? name : [ caption ? caption : <></>] }</h2>
         </div>
+        </a>
       );
     };
 

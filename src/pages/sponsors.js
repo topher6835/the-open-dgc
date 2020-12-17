@@ -119,7 +119,6 @@ const Sponsors = props => {
     const evalPropLinkData = eval(propDataLinkString);
 
     if(evalPropNameData || evalPropImgData || evalPropLinkData) {
-      console.log("* " + evalPropNameData + " || " + evalPropImgData + " || " + evalPropLinkData);
       sponsorArr.push({name: evalPropNameData, thumbnail: cloudinaryUrlTileImage(evalPropImgData), url: cloudinaryUrlImageView(evalPropImgData), link: evalPropLinkData} );
     }
   }
