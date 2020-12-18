@@ -6,7 +6,7 @@ eventCourse: true
 courseDesign: false
 displayTitle: Park Avenue DGC
 coursesImage: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608321382/Open%20DGC/Courses/Todgc-flag-w-logos_rkil5x.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1608321382/Open%20DGC/Courses/Todgc-flag-w-logos_rkil5x.jpg
 coursesPageTitle: Park Avenue DGC 2021
 coursesDescription: Caddie guide coming soon.
 coursePageHeroImage: >-

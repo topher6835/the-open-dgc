@@ -6,7 +6,7 @@ eventCourse: true
 courseDesign: false
 displayTitle: The Open Course
 coursesImage: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1607626647/Open%20DGC/Courses/Belton/2021%20Belton/Todgc-flag-w-logos_wanp5v.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1608321382/Open%20DGC/Courses/Todgc-flag-w-logos_rkil5x.jpg
 coursesPageTitle: The Open Course 2021
 coursesDescription: >-
   The Open Course at Heritage Park will be in its DGPT Silver Series setup which
