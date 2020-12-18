@@ -3,11 +3,7 @@ templateKey: news-post
 title: The Open at Belton Joins the Disc Golf Pro Tour as a Silver Series Event
 dateNewsFormat: 2020-12-10T22:49:24.071Z
 ---
-
-
-![](https://res.cloudinary.com/drgctrdk4/image/upload/v1607640618/Open%20DGC/News%20Assets/Ezra_and_Valerie20cropped_djepfm.jpg)
-
-
+![](https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,q_70,w_800/v1608309158/Open%20DGC/News%20Assests/Ezra_and_Valerie20cropped_gdlp3f.jpg)
 
 <span style="display: inline-block; font-size: .75em; line-height: 1.25em;">Peach, coincidentally, was the winning color this year at The Open at Belton. [Ezra Aderhold](https://www.pdga.com/player/121715) of Emery, South Dakota, and [Valerie Mandujano](https://www.pdga.com/player/62879) from nearby San Antonio are our Men's and Women's Open 2020 champions. The Open, presented by Discraft, pro purse surpassed $17,000 for the first time since the events' founding in 2015.</span>
 
@@ -37,4 +33,4 @@ The tournament will take place March 19-21 at Heritage Park with professionals p
 
 <br/>
 
-Touring Pros with ratings above 1000 for MPO and 900 for FPO can purchase a Tour Pass for all DGPT events including The Open at Belton from now until January 1st: [https://www.dgpt.com/schedule/register/tour-pass/](https://www.dgpt.com/schedule/register/tour-pass/)
+Touring Pros with ratings above 1000 for MPO and 900 for FPO can purchase a Tour Pass for all DGPT events including The Open at Belton from now until January 1st: <https://www.dgpt.com/schedule/register/tour-pass/>
