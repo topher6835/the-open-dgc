@@ -115,11 +115,11 @@ export default class App extends Component {
           regular: image.url,
           download: image.url,
         },
-        caption: <a href={image.link || null} target={"_blank"} style={{textDecoration: "none", color: "white"}}>{image.link || null}</a>
-        //caption: image.description || null,
+        name: image.name,
+        //caption: <a href={image.link || null} target={"_blank"} style={{textDecoration: "none", color: "white"}}>{image.link || null}</a>
+        caption: image.link || null,
       })
     })
-
     this.images = images_arr
 
     this.setHash()
