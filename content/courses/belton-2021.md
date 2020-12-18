@@ -15,7 +15,7 @@ coursesDescription: >-
   the final set-up. We expect all to be finalized by March 8. If you have any
   questions contact theopendgc@nealdambra.com.
 coursePageHeroImage: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607720308/Open%20DGC/Courses/Belton/2021%20Belton/banner_1920x1000_theopencourse_etxfxl.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309059/Open%20DGC/Courses/Belton/2021%20Belton/banner_1920x1000_theopencourse_h2ms1r.jpg
 coursePageHeroTitle: The Open Course
 coursePageDescriptionHeadline: ''
 site: Heritage Park
@@ -23,41 +23,41 @@ location: 'Belton, TX'
 address: '601-799 E 24th Ave, Belton, TX 76513'
 guideDownload: ''
 hole01: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_bjnwp2.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308834/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_hi7r0v.jpg
 hole02: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_02_qokbnr.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308834/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_02_h0g2ks.jpg
 hole03: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_03_ls2eez.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308834/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_03_x8gltw.jpg
 hole04: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_04_bdllxn.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308834/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_04_jjjxmo.jpg
 hole05: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_05_sduhhs.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308834/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_05_yvho6j.jpg
 hole06: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_06_jcvlml.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308834/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_06_zxarvw.jpg
 hole07: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628609/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_07_kqe640.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_07_itz6o9.jpg
 hole08: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628610/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_08_cjdkre.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_08_mp7tt0.jpg
 hole09: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628609/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_09_tanfmv.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_09_mlyt4h.jpg
 hole10: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627875/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_10_yv4ct9.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_10_s8104l.jpg
 hole11: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627875/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_11_xxwgqu.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_11_azurer.jpg
 hole12: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627875/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_12_owwfru.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_12_endp9b.jpg
 hole13: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627875/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_13_hu0mtw.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_13_vfcyfo.jpg
 hole14: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627875/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_14_rrncvq.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_14_fejt60.jpg
 hole15: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627876/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_15_ari3pd.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308836/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_15_eb1jwm.jpg
 hole16: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627885/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_16_kopcml.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308836/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_16_bi9wfw.jpg
 hole17: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627885/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_17_vvul7a.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308836/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_17_xbqikf.jpg
 hole18: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607627886/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_18_qmpb6d.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308836/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_18_cvz4qj.jpg
 hole19: ''
 hole20: ''
 ---
