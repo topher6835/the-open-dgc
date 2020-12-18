@@ -10,7 +10,7 @@ coursesImage: >-
 coursesPageTitle: TBA DGC 2021
 coursesDescription: Caddie guide coming soon.
 coursePageHeroImage: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607720308/Open%20DGC/Courses/Belton/2021%20Belton/banner_1920x1000_theopencourse_etxfxl.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608321323/Open%20DGC/Courses/banner_1920x1000_theopencourse_brkrc8.jpg
 coursePageHeroTitle: TBA DGC 2021
 location: 'TBA, TX'
 guideDownload: ''
