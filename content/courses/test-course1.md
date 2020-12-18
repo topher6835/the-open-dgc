@@ -6,7 +6,7 @@ eventCourse: false
 courseDesign: false
 displayTitle: Belton 2020
 coursesImage: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1585240494/golf01_k8boow.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608320470/Open%20DGC/Dev/golf01_gcvszg.jpg
 coursesPageTitle: Belton 2020
 coursesDescription: >-
   This is a great course. 18 holes of exhilarating fun. The local flora and
@@ -21,13 +21,13 @@ location: 'Belton, TX'
 address: ''
 guideDownload: ''
 hole01: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_bjnwp2.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309312/Open%20DGC/Courses/Belton/2020%20Belton/Tee_Signs_TOABT_20_web-01-lo_u3oxbf.jpg
 hole02: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_02_qokbnr.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309313/Open%20DGC/Courses/Belton/2020%20Belton/Tee_Signs_TOABT_20_web-02-lo_fb4mdb.jpg
 hole03: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_03_ls2eez.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309313/Open%20DGC/Courses/Belton/2020%20Belton/Tee_Signs_TOABT_20_web-03-lo_ay4bbj.jpg
 hole04: >-
-  https://res.cloudinary.com/drgctrdk4/image/upload/v1607628608/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_04_bdllxn.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309313/Open%20DGC/Courses/Belton/2020%20Belton/Tee_Signs_TOABT_20_web-04-lo_xemahx.jpg
 hole05: ''
 hole06: ''
 hole07: ''
