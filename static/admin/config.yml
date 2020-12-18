@@ -14,8 +14,8 @@ public_folder: ../media
 media_library:
   name: cloudinary
   config:
-    cloud_name: drgctrdk4
-    api_key: 855765796578929
+    cloud_name: dqd4mwvjb
+    api_key: 959229696766518
 
 collections:
   - name: posts
