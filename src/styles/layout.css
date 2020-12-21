@@ -188,6 +188,11 @@ body {
   transform: translate(-50%, 0);
   border-radius: 1rem;
 }
+.news-caption {
+  display: inline-block; 
+  font-size: .75em; 
+  line-height: 1.25em;
+}
 
 
 /**** Image Gallery ****/

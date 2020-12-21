@@ -59,12 +59,21 @@ export const query = graphql`
 // const urlThumb = "upload/c_scale,w_215";
 // const imgViewQuality70 = "upload/q_70";
 
+function targetBlankLinks(props) {
+  const aPattern = /<a /g;
+
+  return props.replace(aPattern, "<a target=\"_blank\" rel=\"noopener noreferrer\" ");
+}
+
 const CourseInfo = props => {
+  let modHtml = targetBlankLinks(props.descripBody);
   return (
-    <div className="course-info">
-      {/* <p>{props.descrip}</p> */}
-      <div className="" dangerouslySetInnerHTML={{__html: props.descripBody}}></div>
-    </div>
+    <>
+      <div className="course-info">
+        {/* <p>{props.descrip}</p> */}
+        <div className="" dangerouslySetInnerHTML={{__html: modHtml}}></div>
+      </div>
+    </>
   )
 }
 const CourseHero = props => {
@@ -91,7 +100,7 @@ const CaddyGuideDownload = props => {
       <h5 style={{textAlign: "center"}}>
           Before arriving to the event, please download the caddy guide to your mobile device with the following link. This is to ensure you have access to the guide in the event of poor network conditions.
       </h5>
-      <a href={props.downLoadLink} target={"_blank"}>Caddy Guide Download</a>
+      <a href={props.downLoadLink} target="_blank" rel="noopener noreferrer">Caddy Guide Download</a>
     </div>
   )
 }
