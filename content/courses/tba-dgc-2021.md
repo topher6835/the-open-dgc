@@ -13,6 +13,7 @@ coursePageHeroImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608321323/Open%20DGC/Courses/banner_1920x1000_theopencourse_brkrc8.jpg
 coursePageHeroTitle: TBA DGC 2021
 location: 'TBA, TX'
+address: ''
 guideDownload: ''
 hole01: ''
 hole02: ''

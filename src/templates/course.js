@@ -145,6 +145,7 @@ const Course = props => {
   const coursePageHeroTitle = props.data.markdownRemark.frontmatter.coursePageHeroTitle;
   const coursePageDescriptionHeadline = props.data.markdownRemark.frontmatter.coursePageDescriptionHeadline;
   const courseAddress = props.data.markdownRemark.frontmatter.address;
+  const courseAddressMapsUrl = " https://maps.google.com/?q=" + props.data.markdownRemark.frontmatter.address;
   const caddyGuideDownload = props.data.markdownRemark.frontmatter.guideDownload;
 
   return (
@@ -173,7 +174,7 @@ const Course = props => {
         </MuiThemeProvider>
         <div className="course-address-content">
           <h1>Address</h1>
-          {courseAddress ? courseAddress : "..."}
+          {courseAddress ? <a href={courseAddressMapsUrl} target="_blank" rel="noopener noreferrer">{courseAddress}</a> : ""}
         </div>
       </div>
     </Layout>
