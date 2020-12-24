@@ -4,16 +4,16 @@ sponsorImage21: ''
 templateKey: sponsors-page
 sponsorImage11: ''
 sponsorImage22: ''
-sponsorName01: Discraft
+sponsorName01: Visit Discraft
 sponsorImage01: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309133/Open%20DGC/Sponsors/sponsor_21_1000x600_01_discraft_qjurbh.jpg
-sponsorName02: DGPT
+sponsorName02: Visit DGPT
 sponsorImage02: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309133/Open%20DGC/Sponsors/sponsor_21_1000x600_02_dgpt_xufve3.jpg
-sponsorName03: Belton Family Dental
+sponsorName03: Visit Belton Family Dental
 sponsorImage03: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309133/Open%20DGC/Sponsors/sponsor_21_1000x600_03_beltondental_cdzney.jpg
-sponsorName04: 'Belton Parks & Recreation '
+sponsorName04: 'Visit Belton Parks & Recreation '
 sponsorName05: ''
 sponsorImage05: ''
 sponsorImage06: ''
