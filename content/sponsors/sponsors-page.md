@@ -13,8 +13,8 @@ sponsorImage02: >-
 sponsorName03: Visit Belton Family Dental
 sponsorImage03: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309133/Open%20DGC/Sponsors/sponsor_21_1000x600_03_beltondental_cdzney.jpg
-sponsorName04: 'Visit Belton Parks & Recreation '
-sponsorName05: 'Visit Texas Farm Bureau Insurance – Decius Tasby, Agent '
+sponsorName04: 'Visit Belton Parks & Recreation'
+sponsorName05: 'Visit Texas Farm Bureau Insurance – Decius Tasby, Agent'
 sponsorImage05: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040410/Open%20DGC/Sponsors/sponsor_21_1000x600_txfarmtasby_fakee5.jpg
 sponsorImage06: >-
@@ -45,7 +45,7 @@ sponsorName14: ''
 sponsorImage19: ''
 sponsorName15: ''
 sponsorName16: ''
-sponsorName06: 'Rick Hopper '
+sponsorName06: 'Rick Hopper'
 sponsorName17: ''
 date: 2020-05-20T19:51:03.659Z
 sponsorsPageHeroImage: >-
@@ -83,6 +83,28 @@ sponsorUrl18: ''
 sponsorUrl08: 'https://www.outlawfeed.com/'
 sponsorUrl19: ''
 sponsorImage20: ''
+sponsorOrder01: '1'
+sponsorOrder02: '2'
+sponsorOrder03: '3'
+sponsorOrder04: '4'
+sponsorOrder05: '5'
+sponsorOrder06: '6'
+sponsorOrder07: '7'
+sponsorOrder08: '8'
+sponsorOrder09: '9'
+sponsorOrder10: ''
+sponsorOrder11: ''
+sponsorOrder12: ''
+sponsorOrder13: ''
+sponsorOrder14: ''
+sponsorOrder15: ''
+sponsorOrder16: ''
+sponsorOrder17: ''
+sponsorOrder18: ''
+sponsorOrder19: ''
+sponsorOrder20: ''
+sponsorOrder21: ''
+sponsorOrder22: ''
 ---
 Discraft presents THE OPEN at BELTON a DGPT Silver Series Event extends an enormous THANK YOU to the following entities, businesses and individuals who have been so instrumental in the rapid growth of this tournament. You can visit their websites by clicking on their enlarged logo image. Additional sponsorship is always welcomed and you can email <theopendgc@nealdambra.com> for details.
 <br/>

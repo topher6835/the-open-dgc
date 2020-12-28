@@ -346,7 +346,8 @@ export default class ImageViewer extends PureComponent {
       const { currentView, interactionIsIdle } = props;
       const { caption, name } = currentView;
 
-      if (interactionIsIdle || !caption) {
+      //if (interactionIsIdle || !caption) {
+      if (interactionIsIdle) {
         return null;
       }
       return (

@@ -21,69 +21,91 @@ query {
             sponsorName01
             sponsorImage01
             sponsorUrl01
+            sponsorOrder01
             sponsorName02
             sponsorImage02
             sponsorUrl02
+            sponsorOrder02
             sponsorName03
             sponsorImage03
             sponsorUrl03
+            sponsorOrder03
             sponsorName04
             sponsorImage04
             sponsorUrl04
+            sponsorOrder04
             sponsorName05
             sponsorImage05
             sponsorUrl05
+            sponsorOrder05
             sponsorName06
             sponsorImage06
             sponsorUrl06
+            sponsorOrder06
             sponsorName07
             sponsorImage07
             sponsorUrl07
+            sponsorOrder07
             sponsorName08
             sponsorImage08
             sponsorUrl08
+            sponsorOrder08
             sponsorName09
             sponsorImage09
             sponsorUrl09
+            sponsorOrder09
             sponsorName10
             sponsorImage10
             sponsorUrl10
+            sponsorOrder10
             sponsorName11
             sponsorImage11
             sponsorUrl11
+            sponsorOrder11
             sponsorName12
             sponsorImage12
             sponsorUrl12
+            sponsorOrder12
             sponsorName13
             sponsorImage13
             sponsorUrl13
+            sponsorOrder13
             sponsorName14
             sponsorImage14
             sponsorUrl14
+            sponsorOrder14
             sponsorName15
             sponsorImage15
             sponsorUrl15
+            sponsorOrder15
             sponsorName16
             sponsorImage16
             sponsorUrl16
+            sponsorOrder16
             sponsorName17
             sponsorImage17
             sponsorUrl17
+            sponsorOrder17
             sponsorName18
             sponsorImage18
             sponsorUrl18
+            sponsorOrder18
             sponsorName19
             sponsorImage19
             sponsorUrl19
+            sponsorOrder19
             sponsorName20
             sponsorImage20
             sponsorUrl20
+            sponsorOrder20
             sponsorName21
             sponsorImage21
             sponsorUrl21
+            sponsorOrder21
             sponsorName22
             sponsorImage22
             sponsorUrl22
+            sponsorOrder22
           }
           html
     }
@@ -101,27 +123,39 @@ const Sponsors = props => {
   // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage02);
   // holeArr.push(props.data.markdownRemark.frontmatter.sponsorImage03);
 
+  // Group sponsor attributes together
   const sponsorArr = [];
   const k = "props.data.markdownRemark.frontmatter.";
-  for(let i = 1; i < 21; i++) {
+  for(let i = 1; i < 23; i++) {
     if(i < 10) {
       i = "0" + i;
     }
     const sponsorName = "sponsorName" + i;
     const sponsorImg = "sponsorImage" + i;
     const sponsorLink = "sponsorUrl" + i;
+    const sponsorOrder = "sponsorOrder" + i;
     const propDataNameString = k + sponsorName;
     const propDataImgString = k + sponsorImg;
     const propDataLinkString = k + sponsorLink;
+    const propDataOrderString = k + sponsorOrder;
     // returns img url from graphql:
     const evalPropNameData = eval(propDataNameString);
     const evalPropImgData = eval(propDataImgString);
     const evalPropLinkData = eval(propDataLinkString);
+    let evalPropOrderData = eval(propDataOrderString);
 
-    if(evalPropNameData || evalPropImgData || evalPropLinkData) {
-      sponsorArr.push({name: evalPropNameData, thumbnail: cloudinaryUrlTileImage(evalPropImgData), url: cloudinaryUrlImageView(evalPropImgData), link: evalPropLinkData} );
+    // if order field is empty set to 99
+    if(!evalPropOrderData) {
+      evalPropOrderData = 99;
+    }
+
+    //if(evalPropNameData || evalPropImgData || evalPropLinkData) {
+      if(evalPropImgData) {
+      sponsorArr.push({order: evalPropOrderData, name: evalPropNameData, thumbnail: cloudinaryUrlTileImage(evalPropImgData), url: cloudinaryUrlImageView(evalPropImgData), link: evalPropLinkData} );
     }
   }
+  // sort array by order value
+  sponsorArr.sort((a,b) => a.order - b.order);
 
   const SponsorHero = props => {
     let heroImg;

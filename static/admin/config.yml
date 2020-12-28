@@ -87,90 +87,112 @@ collections:
           - { label: Sponsor 01 - Image, name: sponsorImage01, required: false, widget: image, default: "" }
           - { label: Sponsor 01 - URL, name: sponsorUrl01, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 01 - Text, name: sponsorText01, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 01 - Order, name: sponsorOrder01, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 02 - Name, name: sponsorName02, required: false, widget: text, default: "" }
           - { label: Sponsor 02 - Image, name: sponsorImage02, required: false, widget: image, default: "" }
           - { label: Sponsor 02 - URL, name: sponsorUrl02, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 02 - Text, name: sponsorText02, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 02 - Order, name: sponsorOrder02, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 03 - Name, name: sponsorName03, required: false, widget: text, default: "" }
           - { label: Sponsor 03 - Image, name: sponsorImage03, required: false, widget: image, default: "" }
           - { label: Sponsor 03 - URL, name: sponsorUrl03, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 03 - Text, name: sponsorText03, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 03 - Order, name: sponsorOrder03, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 04 - Name, name: sponsorName04, required: false, widget: text, default: "" }
           - { label: Sponsor 04 - Image, name: sponsorImage04, required: false, widget: image, default: "" }
           - { label: Sponsor 04 - URL, name: sponsorUrl04, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 04 - Text, name: sponsorText04, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 04 - Order, name: sponsorOrder04, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 05 - Name, name: sponsorName05, required: false, widget: text, default: "" }
           - { label: Sponsor 05 - Image, name: sponsorImage05, required: false, widget: image, default: "" }
           - { label: Sponsor 05 - URL, name: sponsorUrl05, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 05 - Text, name: sponsorText05, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 05 - Order, name: sponsorOrder05, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 06 - Name, name: sponsorName06, required: false, widget: text, default: "" }
           - { label: Sponsor 06 - Image, name: sponsorImage06, required: false, widget: image, default: "" }
           - { label: Sponsor 06 - URL, name: sponsorUrl06, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 06 - Text, name: sponsorText06, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 06 - Order, name: sponsorOrder06, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 07 - Name, name: sponsorName07, required: false, widget: text, default: "" }
           - { label: Sponsor 07 - Image, name: sponsorImage07, required: false, widget: image, default: "" }
           - { label: Sponsor 07 - URL, name: sponsorUrl07, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 07 - Text, name: sponsorText07, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 07 - Order, name: sponsorOrder07, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 08 - Name, name: sponsorName08, required: false, widget: text, default: "" }
           - { label: Sponsor 08 - Image, name: sponsorImage08, required: false, widget: image, default: "" }
           - { label: Sponsor 08 - URL, name: sponsorUrl08, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 08 - Text, name: sponsorText08, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 08 - Order, name: sponsorOrder08, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 09 - Name, name: sponsorName09, required: false, widget: text, default: "" }
           - { label: Sponsor 09 - Image, name: sponsorImage09, required: false, widget: image, default: "" }
           - { label: Sponsor 09 - URL, name: sponsorUrl09, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 09 - Text, name: sponsorText09, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 09 - Order, name: sponsorOrder09, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 10 - Name, name: sponsorName10, required: false, widget: text, default: "" }
           - { label: Sponsor 10 - Image, name: sponsorImage10, required: false, widget: image, default: "" }
           - { label: Sponsor 10 - URL, name: sponsorUrl10, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 10 - Text, name: sponsorText10, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 10 - Order, name: sponsorOrder10, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 11 - Name, name: sponsorName11, required: false, widget: text, default: "" }
           - { label: Sponsor 11 - Image, name: sponsorImage11, required: false, widget: image, default: "" }
           - { label: Sponsor 11 - URL, name: sponsorUrl11, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 11 - Text, name: sponsorText11, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 11 - Order, name: sponsorOrder11, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 12 - Name, name: sponsorName12, required: false, widget: text, default: "" }
           - { label: Sponsor 12 - Image, name: sponsorImage12, required: false, widget: image, default: "" }
           - { label: Sponsor 12 - URL, name: sponsorUrl12, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 12 - Text, name: sponsorText12, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 12 - Order, name: sponsorOrder12, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 13 - Name, name: sponsorName13, required: false, widget: text, default: "" }
           - { label: Sponsor 13 - Image, name: sponsorImage13, required: false, widget: image, default: "" }
           - { label: Sponsor 13 - URL, name: sponsorUrl13, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 13 - Text, name: sponsorText13, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 13 - Order, name: sponsorOrder13, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
           - { label: Sponsor 14 - Name, name: sponsorName14, required: false, widget: text, default: "" }
           - { label: Sponsor 14 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
           - { label: Sponsor 14 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 14 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 15 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 15 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 15 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 15 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 16 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 16 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 16 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 16 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 17 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 17 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 17 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 17 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 18 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 18 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 18 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 18 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 19 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 19 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 19 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 19 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 20 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 20 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 20 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 20 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 21 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 21 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 21 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 21 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
-          - { label: Sponsor 22 - Name, name: sponsorName14, required: false, widget: text, default: "" }
-          - { label: Sponsor 22 - Image, name: sponsorImage14, required: false, widget: image, default: "" }
-          - { label: Sponsor 22 - URL, name: sponsorUrl14, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
-          - { label: Sponsor 22 - Text, name: sponsorText14, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 14 - Order, name: sponsorOrder14, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 15 - Name, name: sponsorName15, required: false, widget: text, default: "" }
+          - { label: Sponsor 15 - Image, name: sponsorImage15, required: false, widget: image, default: "" }
+          - { label: Sponsor 15 - URL, name: sponsorUrl15, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 15 - Text, name: sponsorText15, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 15 - Order, name: sponsorOrder15, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 16 - Name, name: sponsorName16, required: false, widget: text, default: "" }
+          - { label: Sponsor 16 - Image, name: sponsorImage16, required: false, widget: image, default: "" }
+          - { label: Sponsor 16 - URL, name: sponsorUrl16, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 16 - Text, name: sponsorText16, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 16 - Order, name: sponsorOrder16, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 17 - Name, name: sponsorName17, required: false, widget: text, default: "" }
+          - { label: Sponsor 17 - Image, name: sponsorImage17, required: false, widget: image, default: "" }
+          - { label: Sponsor 17 - URL, name: sponsorUrl17, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 17 - Text, name: sponsorText17, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 17 - Order, name: sponsorOrder17, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 18 - Name, name: sponsorName18, required: false, widget: text, default: "" }
+          - { label: Sponsor 18 - Image, name: sponsorImage18, required: false, widget: image, default: "" }
+          - { label: Sponsor 18 - URL, name: sponsorUrl18, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 18 - Text, name: sponsorText18, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 18 - Order, name: sponsorOrder18, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 19 - Name, name: sponsorName19, required: false, widget: text, default: "" }
+          - { label: Sponsor 19 - Image, name: sponsorImage19, required: false, widget: image, default: "" }
+          - { label: Sponsor 19 - URL, name: sponsorUrl19, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 19 - Text, name: sponsorText19, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 19 - Order, name: sponsorOrder19, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 20 - Name, name: sponsorName20, required: false, widget: text, default: "" }
+          - { label: Sponsor 20 - Image, name: sponsorImage20, required: false, widget: image, default: "" }
+          - { label: Sponsor 20 - URL, name: sponsorUrl20, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 20 - Text, name: sponsorText20, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 20 - Order, name: sponsorOrder20, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 21 - Name, name: sponsorName21, required: false, widget: text, default: "" }
+          - { label: Sponsor 21 - Image, name: sponsorImage21, required: false, widget: image, default: "" }
+          - { label: Sponsor 21 - URL, name: sponsorUrl21, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 21 - Text, name: sponsorText21, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 21 - Order, name: sponsorOrder21, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 22 - Name, name: sponsorName22, required: false, widget: text, default: "" }
+          - { label: Sponsor 22 - Image, name: sponsorImage22, required: false, widget: image, default: "" }
+          - { label: Sponsor 22 - URL, name: sponsorUrl22, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 22 - Text, name: sponsorText22, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 22 - Order, name: sponsorOrder22, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
 
   - name: pages
     label: Pages
