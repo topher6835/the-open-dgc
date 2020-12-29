@@ -19,7 +19,7 @@ sponsorName03: Visit Belton Family Dental
 sponsorImage03: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309133/Open%20DGC/Sponsors/sponsor_21_1000x600_03_beltondental_cdzney.jpg
 sponsorUrl03: 'https://www.beltonfamilydental.com/'
-sponsorOrder03: '3'
+sponsorOrder03: 4
 sponsorName04: Visit Belton Parks & Recreation
 sponsorImage04: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608742047/Open%20DGC/Sponsors/sponsor_21_1000x600_04_beltoncity_wrzp8l.jpg
