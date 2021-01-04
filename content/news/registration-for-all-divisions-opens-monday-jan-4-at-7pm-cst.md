@@ -7,6 +7,8 @@ dateNewsFormat: 2021-01-04T01:50:01.748Z
 
 <span class="news-caption">[Valerie Mandujano](https://www.pdga.com/player/62879), of San Antonio tees off on Hole 1 during the 2020 Open at Belton on her way to the champion disc golfer of the year title in the women’s professional division  Photo by Maria Williams
 
+<br/>
+
 ***by S. Teddie Hedwynne***
 
 The DGPT Tour Pass program has just completed and over the past three weeks dozens of touring players opted for the Tour Pass. The pass allows them to choose Elite and Silver Series events individually or choose from tour packages. The packages include entry to all Elite and Silver Series DGPT events.
