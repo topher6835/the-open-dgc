@@ -54,8 +54,9 @@ sponsorImage09: >-
 sponsorUrl09: ''
 sponsorOrder09: '9'
 sponsorName10: ''
-sponsorImage10: ''
-sponsorUrl10: ''
+sponsorImage10: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609814195/Open%20DGC/Sponsors/sponsor_21_1000x600_3rdangle_ugshcc.jpg
+sponsorUrl10: 'https://www.3rdanglerealty.com/'
 sponsorOrder10: ''
 sponsorName11: ''
 sponsorImage11: ''
