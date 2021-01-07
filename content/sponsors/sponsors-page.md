@@ -58,14 +58,14 @@ sponsorImage10: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609814195/Open%20DGC/Sponsors/sponsor_21_1000x600_3rdangle_ugshcc.jpg
 sponsorUrl10: 'https://www.3rdanglerealty.com/'
 sponsorOrder10: ''
-sponsorName11: Professional Disc Golf Association
+sponsorName11: Visit Professional Disc Golf Association
 sponsorImage11: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1610035904/Open%20DGC/Sponsors/sponsor_21_1000x600_pdga_szcket.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035904/Open%20DGC/Sponsors/sponsor_21_1000x600_pdga_szcket.jpg
 sponsorUrl11: 'https://www.pdga.com/tour/event/47888'
 sponsorOrder11: ''
-sponsorName12: Solar Royal
+sponsorName12: Visit Solar Royal
 sponsorImage12: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/w_200,h_200,c_limit,e_blur:400,o_90,b_black/l_text:arial_80:®,ar_1:1,c_lfill,o_60,co_rgb:ffffff,b_rgb:000000,r_max/v1610035911/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_xi9whb.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035911/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_xi9whb.jpg
 sponsorUrl12: 'https://solarroyal.com/'
 sponsorOrder12: ''
 sponsorName13: ''
