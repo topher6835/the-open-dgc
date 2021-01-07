@@ -7,13 +7,13 @@ courseDesign: false
 displayTitle: Crossroads
 coursesImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1608321382/Open%20DGC/Courses/Todgc-flag-w-logos_rkil5x.jpg
-coursesPageTitle: ''
+coursesPageTitle: Crossroads 2021
 coursesDescription: Caddie guide coming soon.
 coursePageHeroImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608321323/Open%20DGC/Courses/banner_1920x1000_theopencourse_brkrc8.jpg
 coursePageHeroTitle: Crossroads
-location: 'TBA, TX'
-address: ''
+location: 'Temple, TX'
+address: 'Prairie View Rd, Temple, TX 76502'
 guideDownload: ''
 hole01: ''
 hole02: ''
