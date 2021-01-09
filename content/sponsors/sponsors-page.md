@@ -68,10 +68,12 @@ sponsorImage12: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035911/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_xi9whb.jpg
 sponsorUrl12: 'https://solarroyal.com/'
 sponsorOrder12: ''
-sponsorName13: ''
-sponsorImage13: ''
-sponsorUrl13: ''
-sponsorOrder13: ''
+sponsorName13: Visit Jomez - Merch - Video - News
+sponsorImage13: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610157349/Open%20DGC/Sponsors/sponsor_21_1000x600_Jomez_wti8rj.jpg
+sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
+sponsorText13: ''
+sponsorOrder13: 4
 sponsorName14: ''
 sponsorImage14: ''
 sponsorUrl14: ''
