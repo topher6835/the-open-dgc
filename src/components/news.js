@@ -2,8 +2,10 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 import NewsItem from './newsItem';
+//import NewsItemCompact from './newsItemCompact';
+import NewsCard from './newsCard';
 
-const NewsComponent = () => {
+const NewsComponent = (props) => {
     //date(formatString: "MMMM DD YYYY")
     const data = useStaticQuery(graphql`
         query {
@@ -13,6 +15,9 @@ const NewsComponent = () => {
                         frontmatter {
                             title
                             dateNewsFormat(formatString: "MMMM DD YYYY")
+                        }
+                        fields {
+                            slug
                         }
                         excerpt(format: PLAIN)
                         html
@@ -25,19 +30,26 @@ const NewsComponent = () => {
     return (
         <div className="news-section" id="news-component">
             <div className="news-main" >
-                <h1 className="news-title">News</h1>
-                <ol className="news-list" >
-                    {data.allMarkdownRemark.edges.map((edge, i) => {
-                        const { html } = edge.node;
-                        return (
-                            <NewsItem html={html} title={edge.node.frontmatter.title} date={edge.node.frontmatter.dateNewsFormat} key={i} />
-                        )
-                    })}
-                </ol>
+                <h3 className="news-banner">News</h3>
+
+                <div className="post-feed-container">
+                    <section className="post-feed">
+                        <ol className="news-list" >
+                            {data.allMarkdownRemark.edges.map((edge, i) => {
+                                const { html } = edge.node;
+                                return (
+                                    <>
+                                        {props.page == "home" ? <NewsCard node={edge.node} key={i} /> : <NewsItem node={edge.node} key={i} /> }
+                                    </>
+                                )
+                            })}
+                        </ol>
+                    </section>
+                </div>
+
             </div>
         </div>
     )
-    
-    }
+}
 
 export default NewsComponent;

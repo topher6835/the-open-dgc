@@ -50,7 +50,7 @@ export default class Header extends Component {
                 </div>
                 <div className="nav-links" onClick={() => this.toggleMenuMobileMenu()}>
                     <Link id="home-mobile-nav" style={{display: "none"}} to="/">Home</Link>
-                    <Link to="#news-component">News</Link>
+                    <Link to="/news">News</Link>
                     {/* <Link to="/">Register</Link> */}
                     <Link to="/event-courses">Caddie Guides</Link>
                     {/* <Link to="/">History</Link> */}

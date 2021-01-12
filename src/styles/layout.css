@@ -110,7 +110,7 @@ body {
     width: auto;
   }
 }
-.news-title {
+.news-banner {
   text-align: center;
   font-size: 2.5em;
 }
@@ -129,6 +129,8 @@ body {
   /* border-top: 1px solid grey;
   border-bottom: 1px solid grey; */
 }
+
+/* ** */
 .news-item::after{  /* .news-item:not(:last-child)::after */
   border-top: 1px solid rgba(35, 31, 32, .3);
   content: "";
@@ -192,6 +194,51 @@ body {
   display: inline-block; 
   font-size: .75em; 
   line-height: 1.25em;
+}
+/* ** */
+.news-item-compact {
+  height: 800px;
+  overflow: hidden;
+  /*
+  margin: 8rem 1rem;
+  padding: 1rem;
+  list-style: none;
+  overflow: hidden; */
+}
+.news-item-compact:first-child::before{
+  /* border-top: 1px solid rgba(35, 31, 32, .3);
+  content: "";
+  height: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 50%;
+  margin: -4.5rem 0; */
+}
+.news-item-compact::after{  /* .news-item:not(:last-child)::after */
+  /* border-top: 1px solid rgba(35, 31, 32, .3);
+  content: "";
+  height: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 50%;
+  margin: 3.75rem 0; */
+}
+.news-item-header-compact {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 2rem; */
+}
+.news-item-html-compact {
+  height: 720px;
+  /* margin-bottom: 8rem; */
+  /* height: 700px;
+  overflow: hidden; */
 }
 
 
@@ -540,6 +587,18 @@ body {
   background: -moz-linear-gradient(rgba(255,255,255,0),  #bbdba9);
   background: linear-gradient(rgba(255,255,255,0),  #bbdba9);
 }
+.overflow-shadow2 {
+  position: absolute;
+  margin-top: 605px;
+  width: 100%;
+  height: 3em;
+  /* background: -webkit-linear-gradient(rgba(255,255,255,0), white); */
+  background: -webkit-linear-gradient(rgba(255,255,255,0), #bbdba9);
+  background: -o-linear-gradient(rgba(255,255,255,0),  #bbdba9);
+  background: -moz-linear-gradient(rgba(255,255,255,0),  #bbdba9);
+  background: linear-gradient(rgba(255,255,255,0),  #bbdba9);
+}
+
 
 /****  ****/
 
@@ -643,4 +702,126 @@ footer {
   bottom: 0;
   width: 100%;
   height: 80px;
+}
+
+/* news card dev */
+
+
+.post-feed-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2vw;
+}
+.post-feed {
+}
+/* @media (max-width: 980px) {
+  .post-feed {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 680px) {
+  .post-feed {
+      grid-template-columns: 1fr;
+  }
+} */
+.post-card {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-card-container {
+  margin: 30px 0;
+}
+.news-list > div:first-of-type {
+  margin-top: 30px;
+}
+.news-list > div:not(:last-of-type) {
+  margin-bottom: 50px;
+}
+
+.post-card:hover {
+  text-decoration: none;
+}
+.post-card-tags {
+  margin: 0 0 5px 0;
+  font-size: 1.4rem;
+  line-height: 1.15em;
+}
+.post-card-title {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 1.9em;
+  letter-spacing: -0.04em;
+  line-height: 1.25em;
+}
+.post-card-date {
+  font-size: 1em;
+  margin: 0 0 10px 0;
+  text-align: right;
+}
+.post-card-excerpt {
+  position:relative;
+  height: 600px;
+  overflow: hidden;
+  font-size: 1.6rem;
+  line-height: 1.55em;
+}
+.post-card-image {
+  margin: 0 0 10px 0;
+  width: auto;
+  height: 200px;
+  background-size: cover;
+}
+.post-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+}
+.post-card-footer-left {
+  display: flex;
+  align-items: center;
+}
+.post-card-footer-right {
+  display: flex;
+  flex-direction: column;
+}
+.post-button {
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+  left: calc(50% - 80px);
+  /* height: auto; */
+  width: 160px;
+  background-color: #fff;
+  /* border-color: #dbdbdb;
+  border-width: 1px; */
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  /* padding: calc(.5em - 1px) 1em; */
+  text-align: center;
+  white-space: nowrap;
+}
+.post-button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) calc(.75em - 1px);
+  vertical-align: top;
+}
+.post-card-fade-up {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 12em;
+  background: -webkit-linear-gradient(rgba(255,255,255,0), #bbdba9);
+  background: -o-linear-gradient(rgba(255,255,255,0),  #bbdba9);
+  background: -moz-linear-gradient(rgba(255,255,255,0),  #bbdba9);
+  background: linear-gradient(rgba(255,255,255,0),  #bbdba9);
 }

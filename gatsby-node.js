@@ -23,7 +23,7 @@ module.exports.onCreateNode = ({ node, actions }) => {
 
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions;
-    const blogTemplate = path.resolve('./src/templates/blog.js');
+    const newsTemplate = path.resolve('./src/templates/news.js');
     const courseTemplate = path.resolve('./src/templates/course.js');
     const res = await graphql(`
         query {
@@ -53,8 +53,8 @@ module.exports.createPages = async ({ graphql, actions }) => {
             })
         } else if (edge.node.frontmatter.templateKey == "news-post") {
             createPage({
-                component: blogTemplate,
-                path: `/blog/${edge.node.fields.slug}`,
+                component: newsTemplate,
+                path: `/news/${edge.node.fields.slug}`,
                 context: {
                     slug: edge.node.fields.slug
                 }
