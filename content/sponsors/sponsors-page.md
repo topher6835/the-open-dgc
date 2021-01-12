@@ -74,7 +74,7 @@ sponsorImage13: >-
 sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
 sponsorText13: ''
 sponsorOrder13: 4
-sponsorName14: Visit JDog Junk Removal and Hauling
+sponsorName14: Visit JDog Junk Removal & Hauling - Killeen
 sponsorImage14: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_JDog_qxiwtt.jpg
 sponsorUrl14: >-
