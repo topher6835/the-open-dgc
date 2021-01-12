@@ -4,7 +4,7 @@ date: 2020-12-14T19:37:03.993Z
 title: belton-2021
 eventCourse: true
 courseDesign: false
-displayTitle: The Open Course
+displayTitle: The Open Course (All PROs - Three Rounds)
 coursesImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1608321382/Open%20DGC/Courses/Todgc-flag-w-logos_rkil5x.jpg
 coursesPageTitle: The Open Course 2021
