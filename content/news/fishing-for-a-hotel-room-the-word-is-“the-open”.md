@@ -5,19 +5,19 @@ dateNewsFormat: 2021-01-12T18:38:40.906Z
 ---
 ![](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610485752/Open%20DGC/News%20Assests/Texas_amp_w_dg_course_and_toab_logo_w5hnxa.jpg)
 
-##### **While you're visiting play dozens of courses within an hour of Belton. According to the Professional Disc Golf Association, Texas is the state with the most courses, most events and the most PDGA members. And The Open Course at Heritage Park in Belton is in the middle of it all!** 
+##### **While you're visiting play dozens of courses within an hour of Belton. According to the Professional Disc Golf Association, Texas is the state with the most courses, most events and the most PDGA members. And The Open Course at Heritage Park in Belton is in the middle of it all!**
 
 ##### <br/>
 
-##### by Jim Hudson
+#### *by Jim Hudson*
 
 <br/>
 
-#### The Belton Chamber of Commerce has contacted a number of local hotels to get discount rates for our group. The list of participating hotels is below. When making your reservation let them know you're with “**The Open**” and you will receive the rates listed below.
+#### The Belton Convention & Visitors Bureau has contacted a number of local hotels to get discount rates for our group. The list of participating hotels is below. When making your reservation let them know you're with “**The Open**” and you will receive the rates listed below.
 
 <br/>
 
-We thank the Chamber for providing an array of lodging options to meet a variety of player budgets and requirements. We will not have a particular hotel designated as “Host Hotel” per se, but event staff and some players have already registered at the **[River Forest Inn](http://riverforestinn.com/)**. The hotel is very close to the course and has a restaurant on site - and access to the river for guests. Yes, you can bring your fishing pole. They only have about 40 rooms total so book early! See you in March!
+We thank the Visitors Bureau for providing an array of lodging options to meet a variety of player budgets and requirements. We will not have a particular hotel designated as “Host Hotel” per se, but event staff and some players have already registered at the **[River Forest Inn](http://riverforestinn.com/)**. The hotel is very close to the course and has a restaurant on site - and access to the river for guests. Yes, you can bring your fishing pole. They only have about 40 rooms total so book early! See you in March!
 
 <br/>
 
