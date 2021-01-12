@@ -4,16 +4,17 @@ date: 2020-12-14T19:37:03.993Z
 title: belton-2021
 eventCourse: true
 courseDesign: false
-displayTitle: The Open Course
+displayTitle: 'The Open Course '
 coursesImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1608321382/Open%20DGC/Courses/Todgc-flag-w-logos_rkil5x.jpg
 coursesPageTitle: The Open Course 2021
 coursesDescription: >-
-  The Open Course at Heritage Park will be in its DGPT Silver Series setup which
-  means marked Out of Bounds (OB) will be added to a number of holes and a few
-  baskets may be elevated. We will update the caddie guide here as we develop
-  the final set-up. We expect all to be finalized by March 8. If you have any
-  questions contact theopendgc@nealdambra.com.
+  PROs Only - 3 Rounds (Fri, Sat, Sun) on Tee Times. The Open Course at Heritage
+  Park will be in its DGPT Silver Series setup which means marked Out of Bounds
+  (OB) will be added to a number of holes and a few baskets may be elevated. We
+  will update the caddie guide here as we develop the final set-up. We expect
+  all to be finalized by March 8. If you have any questions contact
+  theopendgc@nealdambra.com.
 coursePageHeroImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309059/Open%20DGC/Courses/Belton/2021%20Belton/banner_1920x1000_theopencourse_h2ms1r.jpg
 coursePageHeroTitle: The Open Course
