@@ -65,7 +65,7 @@ sponsorUrl11: 'https://www.pdga.com/tour/event/47888'
 sponsorOrder11: ''
 sponsorName12: Visit Solar Royal
 sponsorImage12: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035911/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_xi9whb.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_pfxzea.jpg
 sponsorUrl12: 'https://solarroyal.com/'
 sponsorOrder12: ''
 sponsorName13: Visit Jomez - Merch - Video - News
@@ -74,9 +74,11 @@ sponsorImage13: >-
 sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
 sponsorText13: ''
 sponsorOrder13: 4
-sponsorName14: ''
-sponsorImage14: ''
-sponsorUrl14: ''
+sponsorName14: Visit JDog Junk Removal and Hauling
+sponsorImage14: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_JDog_qxiwtt.jpg
+sponsorUrl14: >-
+  https://www.jdogjunkremoval.com/locations/texas/killeen-junk-removal/?fbclid=IwAR2wTP0VkqS_AxWGz3vsiKjCYcg8daptfoit3JKEWn6EePIV-bh22Jqpvw4
 sponsorOrder14: ''
 sponsorName15: ''
 sponsorImage15: ''
