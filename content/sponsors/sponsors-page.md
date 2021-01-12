@@ -58,21 +58,27 @@ sponsorImage10: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609814195/Open%20DGC/Sponsors/sponsor_21_1000x600_3rdangle_ugshcc.jpg
 sponsorUrl10: 'https://www.3rdanglerealty.com/'
 sponsorOrder10: ''
-sponsorName11: ''
-sponsorImage11: ''
-sponsorUrl11: ''
+sponsorName11: Visit Professional Disc Golf Association
+sponsorImage11: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035904/Open%20DGC/Sponsors/sponsor_21_1000x600_pdga_szcket.jpg
+sponsorUrl11: 'https://www.pdga.com/tour/event/47888'
 sponsorOrder11: ''
-sponsorName12: ''
-sponsorImage12: ''
-sponsorUrl12: ''
+sponsorName12: Visit Solar Royal
+sponsorImage12: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_pfxzea.jpg
+sponsorUrl12: 'https://solarroyal.com/'
 sponsorOrder12: ''
-sponsorName13: ''
-sponsorImage13: ''
-sponsorUrl13: ''
-sponsorOrder13: ''
-sponsorName14: ''
-sponsorImage14: ''
-sponsorUrl14: ''
+sponsorName13: Visit Jomez - Merch - Video - News
+sponsorImage13: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610157349/Open%20DGC/Sponsors/sponsor_21_1000x600_Jomez_wti8rj.jpg
+sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
+sponsorText13: ''
+sponsorOrder13: 4
+sponsorName14: Visit JDog Junk Removal & Hauling - Killeen
+sponsorImage14: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_JDog_qxiwtt.jpg
+sponsorUrl14: >-
+  https://www.jdogjunkremoval.com/locations/texas/killeen-junk-removal/?fbclid=IwAR2wTP0VkqS_AxWGz3vsiKjCYcg8daptfoit3JKEWn6EePIV-bh22Jqpvw4
 sponsorOrder14: ''
 sponsorName15: ''
 sponsorImage15: ''
