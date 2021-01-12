@@ -36,7 +36,7 @@ const NewsCard = (props) => {
                     <section className="post-card-excerpt">
                         <div className="news-item-html news-item-html-compact" dangerouslySetInnerHTML={{ __html: newsHtml }} />
 
-                        <Link  to={"/"}>
+                        <Link  to={`/news/${newsSlug}`}>
                             <div className="post-button">Keep Reading →</div>
                         </Link>
                         <div className="post-card-fade-up" />
