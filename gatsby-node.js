@@ -5,7 +5,6 @@ module.exports.onCreateNode = ({ node, actions }) => {
 
     if(node.internal.type === 'MarkdownRemark') {
         //console.log(JSON.stringify(node, undefined, 4));
-
         // if(node.frontmatter.createNewPage === 'yes') {
         //     console.log(JSON.stringify(node, undefined, 4));
         // }
