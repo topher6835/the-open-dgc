@@ -11,7 +11,7 @@ const NewsCard = (props) => {
     const newsTitle = props.node.frontmatter.title;
     const newsDate = props.node.frontmatter.dateNewsFormat;
     const newsSlug = props.node.fields.slug;
-
+    
     function targetBlankLinks() {
         const aPattern = /<a\s+/g;
         newsHtml = props.node.html.replace(aPattern, "<a target=\"_blank\" rel=\"noopener noreferrer\" ");
@@ -25,32 +25,32 @@ const NewsCard = (props) => {
     }
 
     return (
-        <div className="post-card-container">
-            <Link to={`/news/${newsSlug}`} className="post-card" id={newsIdElement}>
-                <div>
-                    {targetBlankLinks(), formatId()}
-                    <header className="post-card-header">
-                        <h2 className="post-card-title">{newsTitle}</h2>
-                        <p className="post-card-date">{newsDate}</p>
-                    </header>
-                    <section className="post-card-excerpt">
-                        <div className="news-item-html news-item-html-compact" dangerouslySetInnerHTML={{ __html: newsHtml }} />
-
-                        <Link  to={`/news/${newsSlug}`}>
-                            <div className="post-button">Keep Reading →</div>
-                        </Link>
-                        <div className="post-card-fade-up" />
-                        
-                    </section>
-                    {/* <footer className="post-card-footer">
-                        <div className="post-card-footer-left">
-                        </div>
-                        <div className="post-card-footer-right">
-                        </div>
-                    </footer> */}
-                </div>
-            </Link>
-        </div>
+        <>
+            {targetBlankLinks(), formatId()}
+            <div className="post-card-container" id={newsIdElement}>
+                <Link to={`/news/${newsSlug}`} className="post-card">
+                    <div>
+                        <header className="post-card-header">
+                            <h2 className="post-card-title">{newsTitle}</h2>
+                            <p className="post-card-date">{newsDate}</p>
+                        </header>
+                        <section className="post-card-excerpt">
+                            <div className="news-item-html news-item-html-compact" dangerouslySetInnerHTML={{ __html: newsHtml }} />
+                            <Link  to={`/news/${newsSlug}`}>
+                                <div className="post-button">Keep Reading →</div>
+                            </Link>
+                            <div className="post-card-fade-up" />
+                        </section>
+                        {/* <footer className="post-card-footer">
+                            <div className="post-card-footer-left">
+                            </div>
+                            <div className="post-card-footer-right">
+                            </div>
+                        </footer> */}
+                    </div>
+                </Link>
+            </div>
+        </>
     )
 }
 

@@ -2,6 +2,9 @@
 templateKey: news-post
 title: 'Fishing for a hotel room? The word is “The Open” '
 dateNewsFormat: 2021-01-12T18:38:40.906Z
+newsPreviewImg: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610485752/Open%20DGC/News%20Assests/Texas_amp_w_dg_course_and_toab_logo_w5hnxa.jpg
+newsAuthor: 'Neal'
 ---
 ![](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610485752/Open%20DGC/News%20Assests/Texas_amp_w_dg_course_and_toab_logo_w5hnxa.jpg)
 

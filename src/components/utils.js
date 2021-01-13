@@ -27,6 +27,7 @@ const urlRegexMatchPre = /(.*)upload/;
 const urlAppendToUpload = "upload/";
 const imgViewQuality70 = "q_70,";
 const thumbScale215 = "c_scale,w_215,";
+const socialSharePreviewScale = "c_scale,h_628,";  /* w_1200,h_628, */
 
 export function cloudinaryHeroUrl(urlHeroImg) {
   let coursePageHeroImageReduced = urlHeroImg.match(urlRegexMatchPre)[1] + urlAppendToUpload + imgViewQuality70 + urlHeroImg.match(urlRegexMatchPost)[1]
@@ -37,4 +38,7 @@ export function cloudinaryUrlTileImage(image) {
 }
 export function cloudinaryUrlImageView(image) {
   return image.match(urlRegexMatchPre)[1] + urlAppendToUpload + imgViewQuality70 + image.match(urlRegexMatchPost)[1];
+}
+export function cloudinaryUrlSocialShareImagePreview(image) {
+  return image.match(urlRegexMatchPre)[1] + urlAppendToUpload + socialSharePreviewScale + image.match(urlRegexMatchPost)[1];
 }

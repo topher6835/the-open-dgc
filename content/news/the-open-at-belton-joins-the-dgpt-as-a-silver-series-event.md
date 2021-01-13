@@ -2,6 +2,9 @@
 templateKey: news-post
 title: The Open at Belton Joins the Disc Golf Pro Tour as a Silver Series Event
 dateNewsFormat: 2020-12-10T22:49:24.071Z
+newsPreviewImg: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,q_70,w_800/v1608309158/Open%20DGC/News%20Assests/Ezra_and_Valerie20cropped_gdlp3f.jpg
+newsAuthor: ''
 ---
 ![](https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,q_70,w_800/v1608309158/Open%20DGC/News%20Assests/Ezra_and_Valerie20cropped_gdlp3f.jpg)
 

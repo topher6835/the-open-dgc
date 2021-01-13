@@ -7,6 +7,8 @@ import AlertMain from "../components/alertMain";
 import NewsItem from '../components/newsItem';
 import TopBanner from "../components/topBanner";
 
+import { cloudinaryUrlSocialShareImagePreview } from "../components/utils";
+
 // export const query = graphql`
 //   query($slug: String!) {
 //     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -25,6 +27,8 @@ export const query = graphql`
       frontmatter {
         title
         dateNewsFormat(formatString: "MMMM DD YYYY")
+        newsPreviewImg
+        newsAuthor
       }
       fields {
           slug
@@ -36,11 +40,16 @@ export const query = graphql`
 `
 
 const News = props => {
+
+  const socialShareImgPreview = props.data.markdownRemark.frontmatter.newsPreviewImg;
+  const socialShareImgPreviewURL = cloudinaryUrlSocialShareImagePreview(socialShareImgPreview);
+
   return (
     <Layout>
+      {/* {console.log(props.location.pathname)} */}
       <AlertMain />
       <TopBanner />
-      <SEO title={props.data.markdownRemark.frontmatter.title} />
+      <SEO title={props.data.markdownRemark.frontmatter.title} image={socialShareImgPreviewURL} author={props.data.markdownRemark.frontmatter.newsAuthor} />
         {/* <Link to="/news">BACK TO NEWS</Link> */}
         {/* <h1>{props.data.markdownRemark.frontmatter.title}</h1>
         <p>{props.data.markdownRemark.frontmatter.dateNewsFormat}</p> */}

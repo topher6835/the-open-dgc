@@ -2,6 +2,9 @@
 templateKey: news-post
 title: 'Registration for All Divisions Opens Monday, Jan 4 at 7pm cst'
 dateNewsFormat: 2021-01-04T01:50:01.748Z
+newsPreviewImg: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609724884/Open%20DGC/News%20Assests/valerie-hole1-2020_bha7xp.jpg
+newsAuthor: 'Neal'
 ---
 ![Valerie Mandujano tees off on Hole 1 during the 2020 Open at Belton on her way to the champion disc golfer of the year title in the women’s professional division  Photo by Maria Williams](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609724884/Open%20DGC/News%20Assests/valerie-hole1-2020_bha7xp.jpg)
 

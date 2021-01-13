@@ -26,6 +26,8 @@ collections:
       - { name: templateKey, label: Template Key, widget: hidden, default: news-post }
       - { name: title, label: Title, required: false }
       - { name: dateNewsFormat, label: Date, widget: datetime }
+      - { name: newsPreviewImg, label: Social Sharing Image Preview, hint: "Image will be scaled to height 628px - cannot exceed 1200 x 628. If no image provided the site banner will be used.", required: false, widget: image, default: "" }
+      - { name: newsAuthor, label: Author, required: false, widget: string, default: "" }
       - { name: body, label: Body, required: false, widget: markdown, hint: "*Surround image caption text with: <span class=\"news-caption\">CAPTION TEXT HERE</span> *Use: <br/> between paragraphs for line breaks." }
 
   - name: courses
