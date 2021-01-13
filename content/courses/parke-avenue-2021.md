@@ -1,7 +1,7 @@
 ---
 templateKey: course-page
 date: 2020-12-11T21:36:52.839Z
-title: parke-avenue-2021 (All AMs - One Round)
+title: parke-avenue-2021
 eventCourse: true
 courseDesign: false
 displayTitle: 'Park Avenue DGC '
