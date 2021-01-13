@@ -4,7 +4,6 @@ module.exports.onCreateNode = ({ node, actions }) => {
     const { createNodeField } = actions;
 
     if(node.internal.type === 'MarkdownRemark') {
-        //console.log("$$$");
         //console.log(JSON.stringify(node, undefined, 4));
 
         // if(node.frontmatter.createNewPage === 'yes') {
@@ -12,11 +11,12 @@ module.exports.onCreateNode = ({ node, actions }) => {
         // }
 
         const slug = path.basename(node.fileAbsolutePath, '.md');
+        const modSlug = slug.replace(/[^\w\-]+/g, '').replace(/-+$/, '');
 
         createNodeField({
             node,
             name: 'slug',
-            value: slug
+            value: modSlug
         })
     }
 }
