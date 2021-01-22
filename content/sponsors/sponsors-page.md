@@ -80,9 +80,15 @@ sponsorImage14: >-
 sponsorUrl14: >-
   https://www.jdogjunkremoval.com/locations/texas/killeen-junk-removal/?fbclid=IwAR2wTP0VkqS_AxWGz3vsiKjCYcg8daptfoit3JKEWn6EePIV-bh22Jqpvw4
 sponsorOrder14: ''
-sponsorName15: ''
-sponsorImage15: ''
-sponsorUrl15: ''
+sponsorName15: Visit Waterloo Disc Golf Club Facebook Page
+sponsorImage15: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611283278/Open%20DGC/Sponsors/sponsor_21_1000x600_waterloo_c7vtvw.jpg
+sponsorUrl15: >-
+  https://www.facebook.com/pages/Waterloo-Disc-Golf-Club-Austin-Texas/169803583049807
+
+   
+
+   
 sponsorOrder15: ''
 sponsorName16: ''
 sponsorImage16: ''
