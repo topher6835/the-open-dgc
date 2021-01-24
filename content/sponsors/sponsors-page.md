@@ -90,9 +90,11 @@ sponsorUrl15: >-
 
    
 sponsorOrder15: ''
-sponsorName16: ''
-sponsorImage16: ''
-sponsorUrl16: ''
+sponsorName16: Clicl to Reserve for The Open at La Quinta in Belton
+sponsorImage16: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611447271/Open%20DGC/Sponsors/sponsor_21_1000x600_laquintq_dyzsdc.jpg
+sponsorUrl16: >-
+  https://www.wyndhamhotels.com/laquinta/belton-texas/la-quinta-belton-temple-south/overview?checkInDate=03/15/2021&checkOutDate=03/22/2021&groupCode=CGTOPE
 sponsorOrder16: ''
 sponsorName17: ''
 sponsorImage17: ''
