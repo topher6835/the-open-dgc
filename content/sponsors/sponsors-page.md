@@ -100,18 +100,24 @@ sponsorName17: Visit Solar Centex
 sponsorImage17: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611447251/Open%20DGC/Sponsors/sponsor_21_1000x600_SolarCentex_ayoffk.jpg
 sponsorUrl17: 'https://www.solarcentex.com/'
+sponsorText17: ''
 sponsorOrder17: ''
-sponsorName18: ''
-sponsorImage18: ''
-sponsorUrl18: ''
+sponsorName18: Reserve at the River Forest Inn
+sponsorImage18: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611601207/Open%20DGC/Sponsors/sponsor_21_1000x600_river_forest_inn_cpjxfq.jpg
+sponsorUrl18: 'http://riverforestinn.com/'
 sponsorOrder18: ''
-sponsorName19: ''
-sponsorImage19: ''
-sponsorUrl19: ''
+sponsorName19: |
+  Visit the NADGT
+  The Open is an Affiliate Event in 2021
+sponsorImage19: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611601322/Open%20DGC/Sponsors/sponsor_21_1000x600_nadgt_lnjsga.jpg
+sponsorUrl19: 'https://nadgt.com/'
 sponsorOrder19: ''
-sponsorName20: ''
-sponsorImage20: ''
-sponsorUrl20: ''
+sponsorName20: Visit InZone makers of the KwikStik
+sponsorImage20: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611601677/Open%20DGC/Sponsors/sponsor_21_1000x600_InZoneKwikStik_j5xqho.jpg
+sponsorUrl20: www.inzonediscgolf.com
 sponsorOrder20: ''
 sponsorName21: ''
 sponsorImage21: ''
