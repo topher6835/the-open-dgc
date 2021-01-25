@@ -108,7 +108,7 @@ sponsorImage18: >-
 sponsorUrl18: 'http://riverforestinn.com/'
 sponsorOrder18: ''
 sponsorName19: |
-  Visit the NADGT
+  Visit the NADGT --
   The Open is an Affiliate Event in 2021
 sponsorImage19: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611601322/Open%20DGC/Sponsors/sponsor_21_1000x600_nadgt_lnjsga.jpg
@@ -117,7 +117,7 @@ sponsorOrder19: ''
 sponsorName20: Visit InZone makers of the KwikStik
 sponsorImage20: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611601677/Open%20DGC/Sponsors/sponsor_21_1000x600_InZoneKwikStik_j5xqho.jpg
-sponsorUrl20: www.inzonediscgolf.com
+sponsorUrl20: 'https://inzonediscgolf.com/'
 sponsorOrder20: ''
 sponsorName21: ''
 sponsorImage21: ''
