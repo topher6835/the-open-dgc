@@ -24,6 +24,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions;
     const newsTemplate = path.resolve('./src/templates/news.js');
     const courseTemplate = path.resolve('./src/templates/course.js');
+    const videosTemplate = path.resolve('./src/templates/videos.js');
     const res = await graphql(`
         query {
             allMarkdownRemark {
@@ -54,6 +55,14 @@ module.exports.createPages = async ({ graphql, actions }) => {
             createPage({
                 component: newsTemplate,
                 path: `/news/${edge.node.fields.slug}`,
+                context: {
+                    slug: edge.node.fields.slug
+                }
+            })
+        } else if (edge.node.frontmatter.templateKey == "video-post") {
+            createPage({
+                component: videosTemplate,
+                path: `/videos/${edge.node.fields.slug}`,
                 context: {
                     slug: edge.node.fields.slug
                 }
