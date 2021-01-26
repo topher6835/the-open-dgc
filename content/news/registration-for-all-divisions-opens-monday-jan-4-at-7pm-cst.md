@@ -1,6 +1,7 @@
 ---
 templateKey: news-post
 title: 'Registration for All Divisions Opens Monday, Jan 4 at 7pm cst'
+hideNews: false
 dateNewsFormat: 2021-01-04T01:50:01.748Z
 newsPreviewImg: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609724884/Open%20DGC/News%20Assests/valerie-hole1-2020_bha7xp.jpg

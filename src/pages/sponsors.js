@@ -106,6 +106,78 @@ query {
             sponsorImage22
             sponsorUrl22
             sponsorOrder22
+            sponsorName23
+            sponsorImage23
+            sponsorUrl23
+            sponsorOrder23
+            sponsorName24
+            sponsorImage24
+            sponsorUrl24
+            sponsorOrder24
+            sponsorName25
+            sponsorImage25
+            sponsorUrl25
+            sponsorOrder25
+            sponsorName26
+            sponsorImage26
+            sponsorUrl26
+            sponsorOrder26
+            sponsorName27
+            sponsorImage27
+            sponsorUrl27
+            sponsorOrder27
+            sponsorName28
+            sponsorImage28
+            sponsorUrl28
+            sponsorOrder28
+            sponsorName29
+            sponsorImage29
+            sponsorUrl29
+            sponsorOrder29
+            sponsorName30
+            sponsorImage30
+            sponsorUrl30
+            sponsorOrder30
+            sponsorName31
+            sponsorImage31
+            sponsorUrl31
+            sponsorOrder31
+            sponsorName32
+            sponsorImage32
+            sponsorUrl32
+            sponsorOrder32
+            sponsorName33
+            sponsorImage33
+            sponsorUrl33
+            sponsorOrder33
+            sponsorName34
+            sponsorImage34
+            sponsorUrl34
+            sponsorOrder34
+            sponsorName35
+            sponsorImage35
+            sponsorUrl35
+            sponsorOrder35
+            sponsorName36
+            sponsorImage36
+            sponsorUrl36
+            sponsorOrder36
+            sponsorName37
+            sponsorImage37
+            sponsorUrl37
+            sponsorOrder37
+            sponsorName38
+            sponsorImage38
+            sponsorUrl38
+            sponsorOrder38
+            sponsorName39
+            sponsorImage39
+            sponsorUrl39
+            sponsorOrder39
+            sponsorName40
+            sponsorImage40
+            sponsorUrl40
+            sponsorOrder40
           }
           html
     }
@@ -126,7 +198,7 @@ const Sponsors = props => {
   // Group sponsor attributes together
   const sponsorArr = [];
   const k = "props.data.markdownRemark.frontmatter.";
-  for(let i = 1; i < 23; i++) {
+  for(let i = 1; i < 41; i++) {
     if(i < 10) {
       i = "0" + i;
     }
