@@ -132,14 +132,16 @@ sponsorImage20: >-
 sponsorUrl20: 'https://inzonediscgolf.com/'
 sponsorText20: ''
 sponsorOrder20: ''
-sponsorName21: ''
-sponsorImage21: ''
-sponsorUrl21: ''
+sponsorName21: Click Here for Rates & Contact Info to all Event Hotels
+sponsorImage21: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375555/Open%20DGC/Sponsors/sponsor_21_1000x600_chamber_x59mcw.jpg
+sponsorUrl21: 'https://www.theopendgc.com/news/fishing-for-a-hotel-room-the-word-is-the-open'
 sponsorText21: ''
-sponsorOrder21: ''
-sponsorName22: ''
-sponsorImage22: ''
-sponsorUrl22: ''
+sponsorOrder21: 2
+sponsorName22: Visit Vibe Disc Golf on Facebook
+sponsorImage22: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375536/Open%20DGC/Sponsors/sponsor_21_1000x600_vibe_ismdck.jpg
+sponsorUrl22: 'https://www.facebook.com/vibe.discgolf.7'
 sponsorText22: ''
 sponsorOrder22: ''
 sponsorName23: ''
