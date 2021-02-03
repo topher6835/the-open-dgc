@@ -67,7 +67,7 @@ sponsorImage10: >-
 sponsorUrl10: 'https://www.3rdanglerealty.com/'
 sponsorText10: ''
 sponsorOrder10: ''
-sponsorName11: Visit Professional Disc Golf Association
+sponsorName11: Click Here to see Who's Playing at The Open 2021
 sponsorImage11: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035904/Open%20DGC/Sponsors/sponsor_21_1000x600_pdga_szcket.jpg
 sponsorUrl11: 'https://www.pdga.com/tour/event/47888'
