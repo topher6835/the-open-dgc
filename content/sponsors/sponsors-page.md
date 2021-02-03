@@ -137,7 +137,7 @@ sponsorImage21: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375555/Open%20DGC/Sponsors/sponsor_21_1000x600_chamber_x59mcw.jpg
 sponsorUrl21: 'https://www.theopendgc.com/news/fishing-for-a-hotel-room-the-word-is-the-open'
 sponsorText21: ''
-sponsorOrder21: 2
+sponsorOrder21: 3
 sponsorName22: Visit Vibe Disc Golf on Facebook
 sponsorImage22: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375536/Open%20DGC/Sponsors/sponsor_21_1000x600_vibe_ismdck.jpg
