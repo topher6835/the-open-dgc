@@ -32,6 +32,7 @@ const socialSharePreviewScale = "c_scale,h_628,";  /* w_1200,h_628, */
 const youtubeThumbUrlPre = "https://img.youtube.com/vi/";
 const youtubeThumbMedium = "/mqdefault.jpg";
 const youtubeThumbMax = "/maxresdefault.jpg";
+const youtubeEmbed = "https://www.youtube.com/embed/";
 
 export function cloudinaryHeroUrl(urlHeroImg) {
   let coursePageHeroImageReduced = urlHeroImg.match(urlRegexMatchPre)[1] + urlAppendToUpload + imgViewQuality70 + urlHeroImg.match(urlRegexMatchPost)[1]
@@ -49,4 +50,7 @@ export function cloudinaryUrlSocialShareImagePreview(image) {
 
 export function youtubeThumb(videoId) {
   return  youtubeThumbUrlPre + videoId + youtubeThumbMedium;
+}
+export function youtubeEmbedUrl(videoId) {
+  return  youtubeEmbed + videoId;
 }

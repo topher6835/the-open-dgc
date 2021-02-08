@@ -1,9 +1,9 @@
 ---
 templateKey: video-post
-title: Check out the vid
+title: New Test Vid
 videoID: 'dQw4w9WgXcQ'
 videoURL: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
-dateVideoFormat: 2020-12-10T22:49:24.071Z
+dateVideoFormat: 2020-12-11T22:49:24.071Z
 videoThumbImg: ''
 videoAuthor: ''
 ---

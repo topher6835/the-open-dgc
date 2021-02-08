@@ -8,7 +8,7 @@ import NewsItem from '../components/newsItem';
 import TopBanner from "../components/topBanner";
 import Video from "../components/video";
 
-import { cloudinaryUrlSocialShareImagePreview, youtubeThumb} from "../components/utils";
+import { cloudinaryUrlSocialShareImagePreview, youtubeEmbedUrl } from "../components/utils";
 
 export const query = graphql`
   query($slug: String!) {
@@ -31,16 +31,23 @@ export const query = graphql`
 `
 
 const Videos = props => {
+
+  // Handle social share image.. provided img > video ID > default??
   let socialShareImgPreviewURL = '';
   let socialShareImgPreview;
+  let youtubeUrl;
+
+  if(props.data.markdownRemark.frontmatter.videoID) {
+    youtubeUrl = youtubeEmbedUrl(props.data.markdownRemark.frontmatter.videoID);
+  }
 
   if(!props.data.markdownRemark.frontmatter.videoThumbImg || typeof props.data.markdownRemark.frontmatter.videoThumbImg !== 'undefined') {
-      //want the default image - eliminate SEO image={}
+    //want the default image - eliminate SEO image={}
     console.log('do something')
-} else {
+  } else {
     socialShareImgPreview = props.data.markdownRemark.frontmatter.videoThumbImg
     socialShareImgPreviewURL = cloudinaryUrlSocialShareImagePreview(socialShareImgPreview);
-}
+  }
 
   return (
     <Layout>
@@ -56,12 +63,18 @@ const Videos = props => {
         {/* <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.frontmatter.text2 }}></div> */}
         {/* <img src={props.data.markdownRemark.frontmatter.image} /> */}
         {/* <div className="markdown-body" dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div> */}
-        <div className="news-section">
-          <div className="news-main">
-          <Video
-                videoSrcURL={props.data.markdownRemark.frontmatter.videoURL}
-                videoTitle={props.data.markdownRemark.frontmatter.title}
-            />
+        <div className="news-section">  {/* news-section */}
+          <div className="news-main">  {/* news-main */}
+            <div className="">   {/* news-item-html post-feed-container  post-feed  */}
+              <section className="">
+              <h3>{props.data.markdownRemark.frontmatter.title}</h3>
+                <Video
+                  videoSrcURL={youtubeUrl}
+                  videoTitle={props.data.markdownRemark.frontmatter.title}
+                />
+              </section>
+            </div>
+            {/* Add desciption here */}
             <NewsItem node={props.data.markdownRemark} />
           </div>
         </div>

@@ -293,7 +293,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: video-post }
       - { name: title, label: Title, widget: string, required: false }
-      - { name: videoID, label: Video ID, hint: "", widget: string, required: false }
+      - { name: videoID, label: Video ID, hint: "", widget: string, required: true }
       - { name: videoURL, label: Video URL, hint: "", widget: string, required: true }
       - { name: dateVideoFormat, label: Date, widget: datetime }
       - { name: videoThumbImg, label: Video Thumbnail, hint: "Add custom thumbnail image to override Youtube default. If empty Youtube default will be used", required: false, widget: image, default: "" }

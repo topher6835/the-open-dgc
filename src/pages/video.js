@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql, useStaticQuery } from 'gatsby';
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -11,6 +12,28 @@ const vidArr = [];
 vidArr.push({thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg', url: 'https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg'} );
 vidArr.push({thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg', url: 'https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg'} );
 
+export const data = graphql`
+  query {
+    allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "video-post" } } }
+      sort: { fields: frontmatter___dateNewsFormat, order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            dateVideoFormat(formatString: "MMMM DD YYYY")
+          }
+          fields {
+            slug
+          }
+          excerpt(format: PLAIN)
+          html
+        }
+      }
+    }
+  }
+`
 
 function Image(props) {
   return (
@@ -49,6 +72,7 @@ function renderImages() {
 
 const VideoPage = () => (
   <Layout>
+    {console.log(data)}
     <SEO title="Videos" />
     <section>
       <h1>Video Page</h1>

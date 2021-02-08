@@ -2,12 +2,12 @@ import React from "react";
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
   
-  <div className="video" style={{padding: '20px'}}>
+   <div className="video-container">
     <iframe
       src={videoSrcURL}
       title={videoTitle}
-      height="400"
-      width="600"
+      height="315"
+      width="560"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
       webkitallowfullscreen="true"
@@ -17,3 +17,6 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
   </div>
 )
 export default Video;
+
+// H 400
+// W 600
