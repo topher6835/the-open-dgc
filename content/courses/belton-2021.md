@@ -59,7 +59,8 @@ hole17: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308836/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_17_xbqikf.jpg
 hole18: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608308836/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_18_cvz4qj.jpg
-hole19: ''
+hole19: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612832547/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/mapscorerules21toch-1000x600_vzwftt.jpg
 hole20: ''
 ---
 The Open Course at Heritage Park will be in its DGPT Silver Series setup which
