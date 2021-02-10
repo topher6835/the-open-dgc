@@ -117,7 +117,7 @@ sponsorImage18: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611601207/Open%20DGC/Sponsors/sponsor_21_1000x600_river_forest_inn_cpjxfq.jpg
 sponsorUrl18: 'http://riverforestinn.com/'
 sponsorText18: ''
-sponsorOrder18: ''
+sponsorOrder18: 9
 sponsorName19: |
   Visit the NADGT --
   The Open is an Affiliate Event in 2021
