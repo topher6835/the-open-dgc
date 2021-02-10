@@ -16,7 +16,7 @@ sponsorImage02: >-
 sponsorUrl02: >-
   https://www.dgpt.com/announcements/silver-series-returns-for-the-2021-touring-season/
 sponsorText02: ''
-sponsorOrder02: '2'
+sponsorOrder02: 8
 sponsorName03: Visit Belton Family Dental
 sponsorImage03: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309133/Open%20DGC/Sponsors/sponsor_21_1000x600_03_beltondental_cdzney.jpg
@@ -30,19 +30,19 @@ sponsorUrl04: 'https://www.beltontexas.gov/departments/parks_and_recreation/inde
 sponsorText04: >-
   A special thank you to the staff of the Belton Parks Department for their
   ongoing assistance in building The Open Course at Heritage Park.
-sponsorOrder04: 3
+sponsorOrder04: 7
 sponsorName05: 'Visit Texas Farm Bureau Insurance – Decius Tasby, Agent'
 sponsorImage05: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040410/Open%20DGC/Sponsors/sponsor_21_1000x600_txfarmtasby_fakee5.jpg
 sponsorUrl05: 'https://www.txfb-ins.com/agent/details/32188'
 sponsorText05: ''
-sponsorOrder05: '5'
+sponsorOrder05: 3
 sponsorName06: Rick Hopper
 sponsorImage06: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040408/Open%20DGC/Sponsors/sponsor_21_1000x600_hopper_kiclm4.jpg
 sponsorUrl06: ''
 sponsorText06: ''
-sponsorOrder06: '6'
+sponsorOrder06: 4
 sponsorName07: Vist Belton Lions Club
 sponsorImage07: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_lions_kmfsfc.jpg
@@ -84,7 +84,7 @@ sponsorImage13: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610157349/Open%20DGC/Sponsors/sponsor_21_1000x600_Jomez_wti8rj.jpg
 sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
 sponsorText13: ''
-sponsorOrder13: 4
+sponsorOrder13: 5
 sponsorName14: Visit JDog Junk Removal & Hauling - Killeen
 sponsorImage14: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_JDog_qxiwtt.jpg
