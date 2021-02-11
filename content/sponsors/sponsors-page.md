@@ -156,12 +156,12 @@ sponsorImage24: >-
 sponsorUrl24: 'https://www.facebook.com/svcctx'
 sponsorText24: ''
 sponsorOrder24: ''
-sponsorName25: Visit the University of Mary Hardin Baylor
+sponsorName25: Visit the University of Mary Hardin-Baylor
 sponsorImage25: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000257/Open%20DGC/Sponsors/sponsor_21_1000x600_umhb_qb9oec.jpg
 sponsorUrl25: 'https://go.umhb.edu/'
 sponsorText25: ''
-sponsorOrder25: ''
+sponsorOrder25: 8
 sponsorName26: ''
 sponsorImage26: ''
 sponsorUrl26: ''
