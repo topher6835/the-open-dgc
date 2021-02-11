@@ -156,12 +156,12 @@ sponsorImage24: >-
 sponsorUrl24: 'https://www.facebook.com/svcctx'
 sponsorText24: ''
 sponsorOrder24: ''
-sponsorName25: Visit the University of Mary Hardin-Baylor
+sponsorName25: Visit the University of Mary Hardin Baylor
 sponsorImage25: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000257/Open%20DGC/Sponsors/sponsor_21_1000x600_umhb_qb9oec.jpg
 sponsorUrl25: 'https://go.umhb.edu/'
 sponsorText25: ''
-sponsorOrder25: 8
+sponsorOrder25: ''
 sponsorName26: ''
 sponsorImage26: ''
 sponsorUrl26: ''
@@ -238,6 +238,4 @@ sponsorUrl40: ''
 sponsorText40: ''
 sponsorOrder40: ''
 ---
-Discraft presents THE OPEN at BELTON a DGPT Silver Series Event extends an enormous THANK YOU to the following entities, businesses and individuals who have been so instrumental in the rapid growth of this tournament. You can visit their websites by clicking on their enlarged logo image. Additional sponsorship is always welcomed and you can email <theopendgc@nealdambra.com> for details.
-<br/>
-Photo by James Bell.
+Discraft presents THE OPEN at BELTON a DGPT Silver Series Event extends an enormous THANK YOU to the following entities, businesses and individuals who have been so instrumental in the rapid growth of this tournament. You can visit their websites by clicking on their enlarged logo image. Additional sponsorship is always welcomed and you can email [theopendgc@nealdambra.com](mailto:theopendgc@nealdambra.com) for details. <br/> *Photo by James Bell*
