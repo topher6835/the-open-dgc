@@ -145,18 +145,21 @@ sponsorUrl22: 'https://www.facebook.com/vibe.discgolf.7'
 sponsorText22: ''
 sponsorOrder22: ''
 sponsorName23: ''
-sponsorImage23: ''
-sponsorUrl23: ''
+sponsorImage23: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000714/Open%20DGC/Sponsors/sponsor_21_1000x600_cgi_fr_nyflde.jpg
+sponsorUrl23: 'https://cgifranchise.com/'
 sponsorText23: ''
-sponsorOrder23: ''
-sponsorName24: ''
-sponsorImage24: ''
-sponsorUrl24: ''
+sponsorOrder23: 6
+sponsorName24: 'Visit Southern View Disc Golf Pro Shop on Facebook '
+sponsorImage24: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000257/Open%20DGC/Sponsors/sponsor_21_1000x600_southern-view_yjfj59.jpg
+sponsorUrl24: 'https://www.facebook.com/svcctx'
 sponsorText24: ''
 sponsorOrder24: ''
-sponsorName25: ''
-sponsorImage25: ''
-sponsorUrl25: ''
+sponsorName25: Visit the University of Mary Hardin Baylor
+sponsorImage25: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000257/Open%20DGC/Sponsors/sponsor_21_1000x600_umhb_qb9oec.jpg
+sponsorUrl25: 'https://go.umhb.edu/'
 sponsorText25: ''
 sponsorOrder25: ''
 sponsorName26: ''
