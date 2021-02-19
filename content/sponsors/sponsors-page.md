@@ -36,7 +36,7 @@ sponsorImage05: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040410/Open%20DGC/Sponsors/sponsor_21_1000x600_txfarmtasby_fakee5.jpg
 sponsorUrl05: 'https://www.txfb-ins.com/agent/details/32188'
 sponsorText05: ''
-sponsorOrder05: 3
+sponsorOrder05: 4
 sponsorName06: Rick Hopper
 sponsorImage06: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040408/Open%20DGC/Sponsors/sponsor_21_1000x600_hopper_kiclm4.jpg
@@ -48,19 +48,19 @@ sponsorImage07: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_lions_kmfsfc.jpg
 sponsorUrl07: 'http://www.beltonlionsclub.com/'
 sponsorText07: ''
-sponsorOrder07: 6
+sponsorOrder07: 8
 sponsorName08: Visit Outlaw Feed For Your Dog Food Needs
 sponsorImage08: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_outlawdog_xwslg6.jpg
 sponsorUrl08: 'https://www.outlawfeed.com/'
 sponsorText08: ''
-sponsorOrder08: '8'
+sponsorOrder08: 6
 sponsorName09: Jeff Stimpy Moore
 sponsorImage09: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040410/Open%20DGC/Sponsors/sponsor_21_1000x600_stimpy_sfnzkn.jpg
 sponsorUrl09: ''
 sponsorText09: ''
-sponsorOrder09: '9'
+sponsorOrder09: 10
 sponsorName10: Visit 3RD ANGLE Realty
 sponsorImage10: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609814195/Open%20DGC/Sponsors/sponsor_21_1000x600_3rdangle_ugshcc.jpg
@@ -72,7 +72,7 @@ sponsorImage11: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035904/Open%20DGC/Sponsors/sponsor_21_1000x600_pdga_szcket.jpg
 sponsorUrl11: 'https://www.pdga.com/tour/event/47888'
 sponsorText11: ''
-sponsorOrder11: ''
+sponsorOrder11: 20
 sponsorName12: Visit Solar Royal
 sponsorImage12: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_pfxzea.jpg
@@ -84,14 +84,14 @@ sponsorImage13: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610157349/Open%20DGC/Sponsors/sponsor_21_1000x600_Jomez_wti8rj.jpg
 sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
 sponsorText13: ''
-sponsorOrder13: 8
+sponsorOrder13: 14
 sponsorName14: Visit JDog Junk Removal & Hauling - Killeen
 sponsorImage14: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_JDog_qxiwtt.jpg
 sponsorUrl14: >-
   https://www.jdogjunkremoval.com/locations/texas/killeen-junk-removal/?fbclid=IwAR2wTP0VkqS_AxWGz3vsiKjCYcg8daptfoit3JKEWn6EePIV-bh22Jqpvw4
 sponsorText14: ''
-sponsorOrder14: ''
+sponsorOrder14: 9
 sponsorName15: Visit Waterloo Disc Golf Club Facebook Page
 sponsorImage15: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611283278/Open%20DGC/Sponsors/sponsor_21_1000x600_waterloo_c7vtvw.jpg
@@ -137,7 +137,7 @@ sponsorImage21: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375555/Open%20DGC/Sponsors/sponsor_21_1000x600_chamber_x59mcw.jpg
 sponsorUrl21: 'https://www.theopendgc.com/news/fishing-for-a-hotel-room-the-word-is-the-open'
 sponsorText21: ''
-sponsorOrder21: 3
+sponsorOrder21: 2
 sponsorName22: Visit Vibe Disc Golf on Facebook
 sponsorImage22: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375536/Open%20DGC/Sponsors/sponsor_21_1000x600_vibe_ismdck.jpg
