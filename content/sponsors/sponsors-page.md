@@ -238,4 +238,4 @@ sponsorUrl40: ''
 sponsorText40: ''
 sponsorOrder40: ''
 ---
-Discraft presents THE OPEN at BELTON a DGPT Silver Series Event extends an enormous THANK YOU to the following entities, businesses and individuals who have been so instrumental in the rapid growth of this tournament. You can visit their websites by clicking on their enlarged logo image. Additional sponsorship is always welcomed and you can email [theopendgc@nealdambra.com](mailto:theopendgc@nealdambra.com) for details. <br/> *Photo by James Bell*
+Discraft presents THE OPEN at BELTON a DGPT Silver Series extends an enormous THANK YOU to the following entities, businesses, departments, clubs and individuals who have been so instrumental in the rapid growth of this tournament. You can visit them by clicking below their banner. Additional sponsorship is always welcomed and you can email [theopendgc@nealdambra.com](mailto:theopendgc@nealdambra.com) for details. <br/> *Photo by James Bell*
