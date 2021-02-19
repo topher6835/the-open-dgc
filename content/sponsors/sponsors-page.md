@@ -144,7 +144,7 @@ sponsorImage22: >-
 sponsorUrl22: 'https://www.facebook.com/vibe.discgolf.7'
 sponsorText22: ''
 sponsorOrder22: ''
-sponsorName23: Interested in becoming a business owner? Click here.
+sponsorName23: Ready to start your own business? Click here.
 sponsorImage23: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000714/Open%20DGC/Sponsors/sponsor_21_1000x600_cgi_fr_nyflde.jpg
 sponsorUrl23: 'https://cgifranchise.com/'
