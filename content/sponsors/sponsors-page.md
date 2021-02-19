@@ -42,13 +42,13 @@ sponsorImage06: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040408/Open%20DGC/Sponsors/sponsor_21_1000x600_hopper_kiclm4.jpg
 sponsorUrl06: ''
 sponsorText06: ''
-sponsorOrder06: 4
+sponsorOrder06: 7
 sponsorName07: Vist Belton Lions Club
 sponsorImage07: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_lions_kmfsfc.jpg
 sponsorUrl07: 'http://www.beltonlionsclub.com/'
 sponsorText07: ''
-sponsorOrder07: '7'
+sponsorOrder07: 6
 sponsorName08: Visit Outlaw Feed For Your Dog Food Needs
 sponsorImage08: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_outlawdog_xwslg6.jpg
@@ -84,7 +84,7 @@ sponsorImage13: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610157349/Open%20DGC/Sponsors/sponsor_21_1000x600_Jomez_wti8rj.jpg
 sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
 sponsorText13: ''
-sponsorOrder13: 5
+sponsorOrder13: 8
 sponsorName14: Visit JDog Junk Removal & Hauling - Killeen
 sponsorImage14: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_JDog_qxiwtt.jpg
@@ -149,7 +149,7 @@ sponsorImage23: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000714/Open%20DGC/Sponsors/sponsor_21_1000x600_cgi_fr_nyflde.jpg
 sponsorUrl23: 'https://cgifranchise.com/'
 sponsorText23: ''
-sponsorOrder23: 6
+sponsorOrder23: 5
 sponsorName24: 'Visit Southern View Disc Golf Pro Shop on Facebook '
 sponsorImage24: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000257/Open%20DGC/Sponsors/sponsor_21_1000x600_southern-view_yjfj59.jpg
