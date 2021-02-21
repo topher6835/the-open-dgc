@@ -38,7 +38,7 @@ hole06: >-
 hole07: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613874222/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_07_j2gptb.jpg
 hole08: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613874964/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_08_egmtcj.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613879740/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_08_hqizwi.jpg
 hole09: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613874223/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_09_yrnfvp.jpg
 hole10: >-
