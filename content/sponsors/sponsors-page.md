@@ -162,19 +162,25 @@ sponsorImage25: >-
 sponsorUrl25: 'https://go.umhb.edu/'
 sponsorText25: ''
 sponsorOrder25: ''
-sponsorName26: ''
-sponsorImage26: ''
-sponsorUrl26: ''
+sponsorName26: Visit Southern View on Facebook
+sponsorImage26: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614095649/Open%20DGC/Sponsors/sponsor_21_1000x600_svcc_md0o0b.jpg
+sponsorUrl26: 'https://www.facebook.com/groups/2182422565354199'
 sponsorText26: ''
-sponsorOrder26: ''
-sponsorName27: ''
-sponsorImage27: ''
-sponsorUrl27: ''
+sponsorOrder26: 13
+sponsorName27: Visit Blazer Technologies
+sponsorImage27: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614095291/Open%20DGC/Sponsors/sponsor_21_1000x600_blazer_cloutier_nspzm8.jpg
+sponsorUrl27: 'http://www.blazertechnologies.com/'
 sponsorText27: ''
 sponsorOrder27: ''
-sponsorName28: ''
-sponsorImage28: ''
-sponsorUrl28: ''
+sponsorName28: |-
+  Learn More About CHIPS 
+  of Belton, Texas
+sponsorImage28: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614095636/Open%20DGC/Sponsors/sponsor_21_1000x600_chips_mfitmp.jpg
+sponsorUrl28: >-
+  https://www.beltontexas.gov/departments/police_department/citizen_involvement/index.php#:~:text=The%20Belton%20Citizens%20Helping%20in,deters%20crime%20through%20visible%20presence.
 sponsorText28: ''
 sponsorOrder28: ''
 sponsorName29: ''
