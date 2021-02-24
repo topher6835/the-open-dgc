@@ -184,7 +184,7 @@ sponsorText28: ''
 sponsorOrder28: ''
 sponsorName29: Double R Disc Golf Club
 sponsorImage29: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124558/Open%20DGC/Sponsors/sponsor_21_1000x600_DoubleRR_qgwzrw.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614129145/Open%20DGC/Sponsors/sponsor_21_1000x600_DoubleRR_vuzqre.jpg
 sponsorUrl29: 'https://www.facebook.com/groups/120891717938878'
 sponsorText29: ''
 sponsorOrder29: ''
