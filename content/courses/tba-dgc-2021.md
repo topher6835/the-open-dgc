@@ -17,7 +17,8 @@ coursePageHeroTitle: 'Crossroads '
 location: 'Temple, TX'
 address: 'Prairie View Rd, Temple, TX 76502'
 guideDownload: ''
-hole01: ''
+hole01: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614182835/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/samplecxrds_hrkr0f.jpg
 hole02: ''
 hole03: ''
 hole04: ''
