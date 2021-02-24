@@ -18,7 +18,7 @@ location: 'Temple, TX'
 address: 'Prairie View Rd, Temple, TX 76502'
 guideDownload: ''
 hole01: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614183517/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee-Signs_samplecxrds_lgftg8.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614188478/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_samplecxrds_lju0of.jpg
 hole02: ''
 hole03: ''
 hole04: ''
