@@ -151,9 +151,8 @@ sponsorUrl23: 'https://cgifranchise.com/'
 sponsorText23: ''
 sponsorOrder23: 5
 sponsorName24: 'Visit Southern View Disc Golf Pro Shop on Facebook '
-sponsorImage24: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000257/Open%20DGC/Sponsors/sponsor_21_1000x600_southern-view_yjfj59.jpg
-sponsorUrl24: 'https://www.facebook.com/svcctx'
+sponsorImage24: ''
+sponsorUrl24: ''
 sponsorText24: ''
 sponsorOrder24: ''
 sponsorName25: Visit the University of Mary Hardin Baylor
