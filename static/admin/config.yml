@@ -25,6 +25,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: news-post }
       - { name: title, label: Title, required: false }
+      - { name: hideNews, label: Hide, hint: "Select to not display content. Default setting is to display.", widget: boolean, default: false, required: false }
       - { name: dateNewsFormat, label: Date, widget: datetime }
       - { name: newsPreviewImg, label: Social Sharing Image Preview, hint: "Image will be scaled to height 628px - cannot exceed 1200 x 628. If no image provided the site banner will be used.", required: false, widget: image, default: "" }
       - { name: newsAuthor, label: Author, required: false, widget: string, default: "" }
@@ -293,7 +294,7 @@ collections:
     fields:
       - { name: templateKey, label: Template Key, widget: hidden, default: video-post }
       - { name: title, label: Title, widget: string, required: false }
-      - { name: videoID, label: Video ID, hint: "", widget: string, required: true }
+      - { name: videoID, label: Video ID, hint: "", widget: string, required: false }
       - { name: videoURL, label: Video URL, hint: "", widget: string, required: true }
       - { name: dateVideoFormat, label: Date, widget: datetime }
       - { name: videoThumbImg, label: Video Thumbnail, hint: "Add custom thumbnail image to override Youtube default. If empty Youtube default will be used", required: false, widget: image, default: "" }

@@ -16,13 +16,13 @@ sponsorImage02: >-
 sponsorUrl02: >-
   https://www.dgpt.com/announcements/silver-series-returns-for-the-2021-touring-season/
 sponsorText02: ''
-sponsorOrder02: '2'
+sponsorOrder02: 8
 sponsorName03: Visit Belton Family Dental
 sponsorImage03: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309133/Open%20DGC/Sponsors/sponsor_21_1000x600_03_beltondental_cdzney.jpg
 sponsorUrl03: 'https://www.beltonfamilydental.com/'
 sponsorText03: ''
-sponsorOrder03: 4
+sponsorOrder03: 5
 sponsorName04: Visit Belton Parks & Recreation
 sponsorImage04: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608742047/Open%20DGC/Sponsors/sponsor_21_1000x600_04_beltoncity_wrzp8l.jpg
@@ -30,37 +30,37 @@ sponsorUrl04: 'https://www.beltontexas.gov/departments/parks_and_recreation/inde
 sponsorText04: >-
   A special thank you to the staff of the Belton Parks Department for their
   ongoing assistance in building The Open Course at Heritage Park.
-sponsorOrder04: 3
+sponsorOrder04: 7
 sponsorName05: 'Visit Texas Farm Bureau Insurance – Decius Tasby, Agent'
 sponsorImage05: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040410/Open%20DGC/Sponsors/sponsor_21_1000x600_txfarmtasby_fakee5.jpg
 sponsorUrl05: 'https://www.txfb-ins.com/agent/details/32188'
 sponsorText05: ''
-sponsorOrder05: '5'
+sponsorOrder05: 4
 sponsorName06: Rick Hopper
 sponsorImage06: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040408/Open%20DGC/Sponsors/sponsor_21_1000x600_hopper_kiclm4.jpg
 sponsorUrl06: ''
 sponsorText06: ''
-sponsorOrder06: '6'
+sponsorOrder06: 7
 sponsorName07: Vist Belton Lions Club
 sponsorImage07: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_lions_kmfsfc.jpg
 sponsorUrl07: 'http://www.beltonlionsclub.com/'
 sponsorText07: ''
-sponsorOrder07: '7'
+sponsorOrder07: 8
 sponsorName08: Visit Outlaw Feed For Your Dog Food Needs
 sponsorImage08: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_outlawdog_xwslg6.jpg
 sponsorUrl08: 'https://www.outlawfeed.com/'
 sponsorText08: ''
-sponsorOrder08: '8'
+sponsorOrder08: 6
 sponsorName09: Jeff Stimpy Moore
 sponsorImage09: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040410/Open%20DGC/Sponsors/sponsor_21_1000x600_stimpy_sfnzkn.jpg
 sponsorUrl09: ''
 sponsorText09: ''
-sponsorOrder09: '9'
+sponsorOrder09: 10
 sponsorName10: Visit 3RD ANGLE Realty
 sponsorImage10: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609814195/Open%20DGC/Sponsors/sponsor_21_1000x600_3rdangle_ugshcc.jpg
@@ -72,7 +72,7 @@ sponsorImage11: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610035904/Open%20DGC/Sponsors/sponsor_21_1000x600_pdga_szcket.jpg
 sponsorUrl11: 'https://www.pdga.com/tour/event/47888'
 sponsorText11: ''
-sponsorOrder11: ''
+sponsorOrder11: 20
 sponsorName12: Visit Solar Royal
 sponsorImage12: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_solarroyal_pfxzea.jpg
@@ -84,14 +84,14 @@ sponsorImage13: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610157349/Open%20DGC/Sponsors/sponsor_21_1000x600_Jomez_wti8rj.jpg
 sponsorUrl13: 'https://www.jomezpro.com/tour-news/'
 sponsorText13: ''
-sponsorOrder13: 4
+sponsorOrder13: 14
 sponsorName14: Visit JDog Junk Removal & Hauling - Killeen
 sponsorImage14: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1610475445/Open%20DGC/Sponsors/sponsor_21_1000x600_JDog_qxiwtt.jpg
 sponsorUrl14: >-
   https://www.jdogjunkremoval.com/locations/texas/killeen-junk-removal/?fbclid=IwAR2wTP0VkqS_AxWGz3vsiKjCYcg8daptfoit3JKEWn6EePIV-bh22Jqpvw4
 sponsorText14: ''
-sponsorOrder14: ''
+sponsorOrder14: 9
 sponsorName15: Visit Waterloo Disc Golf Club Facebook Page
 sponsorImage15: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611283278/Open%20DGC/Sponsors/sponsor_21_1000x600_waterloo_c7vtvw.jpg
@@ -117,7 +117,7 @@ sponsorImage18: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1611601207/Open%20DGC/Sponsors/sponsor_21_1000x600_river_forest_inn_cpjxfq.jpg
 sponsorUrl18: 'http://riverforestinn.com/'
 sponsorText18: ''
-sponsorOrder18: ''
+sponsorOrder18: 9
 sponsorName19: |
   Visit the NADGT --
   The Open is an Affiliate Event in 2021
@@ -137,78 +137,103 @@ sponsorImage21: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375555/Open%20DGC/Sponsors/sponsor_21_1000x600_chamber_x59mcw.jpg
 sponsorUrl21: 'https://www.theopendgc.com/news/fishing-for-a-hotel-room-the-word-is-the-open'
 sponsorText21: ''
-sponsorOrder21: 3
+sponsorOrder21: 6
 sponsorName22: Visit Vibe Disc Golf on Facebook
 sponsorImage22: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1612375536/Open%20DGC/Sponsors/sponsor_21_1000x600_vibe_ismdck.jpg
 sponsorUrl22: 'https://www.facebook.com/vibe.discgolf.7'
 sponsorText22: ''
 sponsorOrder22: ''
-sponsorName23: ''
-sponsorImage23: ''
-sponsorUrl23: ''
+sponsorName23: Ready to start your own business? Click here.
+sponsorImage23: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000714/Open%20DGC/Sponsors/sponsor_21_1000x600_cgi_fr_nyflde.jpg
+sponsorUrl23: 'https://cgifranchise.com/'
 sponsorText23: ''
-sponsorOrder23: ''
-sponsorName24: ''
+sponsorOrder23: 5
+sponsorName24: 'Visit Southern View Disc Golf Pro Shop on Facebook '
 sponsorImage24: ''
 sponsorUrl24: ''
 sponsorText24: ''
 sponsorOrder24: ''
-sponsorName25: ''
-sponsorImage25: ''
-sponsorUrl25: ''
+sponsorName25: Visit the University of Mary Hardin Baylor
+sponsorImage25: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613000257/Open%20DGC/Sponsors/sponsor_21_1000x600_umhb_qb9oec.jpg
+sponsorUrl25: 'https://go.umhb.edu/'
 sponsorText25: ''
 sponsorOrder25: ''
-sponsorName26: ''
-sponsorImage26: ''
-sponsorUrl26: ''
+sponsorName26: Visit Southern View on Facebook
+sponsorImage26: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614095649/Open%20DGC/Sponsors/sponsor_21_1000x600_svcc_md0o0b.jpg
+sponsorUrl26: 'https://www.facebook.com/groups/2182422565354199'
 sponsorText26: ''
-sponsorOrder26: ''
-sponsorName27: ''
-sponsorImage27: ''
-sponsorUrl27: ''
+sponsorOrder26: 13
+sponsorName27: Visit Blazer Technologies
+sponsorImage27: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614095291/Open%20DGC/Sponsors/sponsor_21_1000x600_blazer_cloutier_nspzm8.jpg
+sponsorUrl27: 'http://www.blazertechnologies.com/'
 sponsorText27: ''
 sponsorOrder27: ''
-sponsorName28: ''
-sponsorImage28: ''
-sponsorUrl28: ''
+sponsorName28: |-
+  Learn More About CHIPS 
+  of Belton, Texas
+sponsorImage28: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614095636/Open%20DGC/Sponsors/sponsor_21_1000x600_chips_mfitmp.jpg
+sponsorUrl28: >-
+  https://www.beltontexas.gov/departments/police_department/citizen_involvement/index.php#:~:text=The%20Belton%20Citizens%20Helping%20in,deters%20crime%20through%20visible%20presence.
 sponsorText28: ''
 sponsorOrder28: ''
-sponsorName29: ''
-sponsorImage29: ''
-sponsorUrl29: ''
+sponsorName29: Double R Disc Golf Club
+sponsorImage29: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614129145/Open%20DGC/Sponsors/sponsor_21_1000x600_DoubleRR_vuzqre.jpg
+sponsorUrl29: 'https://www.facebook.com/groups/120891717938878'
 sponsorText29: ''
 sponsorOrder29: ''
-sponsorName30: ''
-sponsorImage30: ''
-sponsorUrl30: ''
+sponsorName30: |-
+  Austin Area Disc Golf Club 55+
+  Facebook Page
+sponsorImage30: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614125358/Open%20DGC/Sponsors/sponsor_21_1000x600_55plusClub_louxlx.jpg
+sponsorUrl30: 'https://www.facebook.com/groups/253476572510788'
 sponsorText30: ''
 sponsorOrder30: ''
-sponsorName31: ''
-sponsorImage31: ''
-sponsorUrl31: ''
+sponsorName31: Visit Energy Efficient Solutions
+sponsorImage31: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124558/Open%20DGC/Sponsors/sponsor_21_1000x600_EES_m0ckkn.jpg
+sponsorUrl31: 'https://www.energyefficientsolutions.com/default.asp'
 sponsorText31: ''
 sponsorOrder31: ''
-sponsorName32: ''
-sponsorImage32: ''
-sponsorUrl32: ''
+sponsorName32: |-
+  Get Ready for Summer!
+  Visit Heatbusters of Austin
+sponsorImage32: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124559/Open%20DGC/Sponsors/sponsor_21_1000x600_heatbusters_cez5dd.jpg
+sponsorUrl32: 'https://www.theheatbusters.com/'
 sponsorText32: ''
 sponsorOrder32: ''
-sponsorName33: ''
-sponsorImage33: ''
-sponsorUrl33: ''
+sponsorName33: |-
+  The Open Course at Heritage Park 2021 
+  Caddie Guide
+sponsorImage33: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124571/Open%20DGC/Sponsors/sponsor_21_1000x600_bksales_cxgoi3.jpg
+sponsorUrl33: 'https://www.theopendgc.com/course/belton-2021'
 sponsorText33: ''
 sponsorOrder33: ''
-sponsorName34: ''
-sponsorImage34: ''
-sponsorUrl34: ''
+sponsorName34: |-
+  The Open Course at Heritage Park 2021 
+  Caddie Guide
+sponsorImage34: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124559/Open%20DGC/Sponsors/sponsor_21_1000x600_martin_rendon_qhcu9t.jpg
+sponsorUrl34: 'https://www.theopendgc.com/course/belton-2021'
 sponsorText34: ''
 sponsorOrder34: ''
-sponsorName35: ''
-sponsorImage35: ''
-sponsorUrl35: ''
+sponsorName35: |-
+  Reservations Recommended
+  DEAD FISH GRILL 
+sponsorImage35: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614127611/Open%20DGC/Sponsors/sponsor_21_1000x600_deadfish_a633gs.jpg
+sponsorUrl35: 'https://deadfishgrill.com/'
 sponsorText35: ''
-sponsorOrder35: ''
+sponsorOrder35: 4
 sponsorName36: ''
 sponsorImage36: ''
 sponsorUrl36: ''
@@ -235,6 +260,4 @@ sponsorUrl40: ''
 sponsorText40: ''
 sponsorOrder40: ''
 ---
-Discraft presents THE OPEN at BELTON a DGPT Silver Series Event extends an enormous THANK YOU to the following entities, businesses and individuals who have been so instrumental in the rapid growth of this tournament. You can visit their websites by clicking on their enlarged logo image. Additional sponsorship is always welcomed and you can email <theopendgc@nealdambra.com> for details.
-<br/>
-Photo by James Bell.
+Discraft presents THE OPEN at BELTON a DGPT Silver Series extends an enormous THANK YOU to the following entities, businesses, departments, clubs and individuals who have been so instrumental in the rapid growth of this tournament. You can visit them by clicking below their banner. Additional sponsorship is always welcomed and you can email [theopendgc@nealdambra.com](mailto:theopendgc@nealdambra.com) for details. <br/> *Photo by James Bell*

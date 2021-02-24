@@ -122,12 +122,15 @@ const Course = props => {
       holeArr.push(evalPropData);
     }
   }
+  
+  let regex = new RegExp(`Tee_Signs_+([^]+)`);
+  // let regex = new RegExp(`Tee_Signs_+([^]+)`, `i`);
 
-  let regex = new RegExp(`Tee_Signs_+([^]+)`, `i`);
-  //let regex = new RegExp(`Tee_Signs_TOABT+([^]+).jpg`, `i`);
-  const sortedArr = holeArr.filter(x => regex.test(x)).sort(
-    (a, b) => {regex.toString(a).localeCompare(regex.toString(b))}
-  );
+  // Remove strings that dont contatin "Tee_signs" and then sort by file name.
+  let sortedArr = holeArr.filter(x => x.match(regex)).sort(
+    (a, b) => {
+      return a.match(regex).toString().localeCompare(b.match(regex).toString())
+    });
 
   const arrayWithSortedObjects = [];
 
