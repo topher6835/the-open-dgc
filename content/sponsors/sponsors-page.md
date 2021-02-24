@@ -219,9 +219,12 @@ sponsorImage33: >-
 sponsorUrl33: 'https://www.theopendgc.com/course/belton-2021'
 sponsorText33: ''
 sponsorOrder33: ''
-sponsorName34: ''
-sponsorImage34: ''
-sponsorUrl34: ''
+sponsorName34: |-
+  The Open Course at Heritage Park 2021 
+  Caddie Guide
+sponsorImage34: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124559/Open%20DGC/Sponsors/sponsor_21_1000x600_martin_rendon_qhcu9t.jpg
+sponsorUrl34: 'https://www.theopendgc.com/course/belton-2021'
 sponsorText34: ''
 sponsorOrder34: ''
 sponsorName35: ''
