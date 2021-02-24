@@ -286,6 +286,56 @@ collections:
           - { label: Sponsor 40 - URL, name: sponsorUrl40, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
           - { label: Sponsor 40 - Text, name: sponsorText40, required: false, hint: "Brief description", widget: text, default: "" }
           - { label: Sponsor 40 - Order, name: sponsorOrder40, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 41 - Name, name: sponsorName41, required: false, widget: text, default: "" }
+          - { label: Sponsor 41 - Image, name: sponsorImage41, required: false, widget: image, default: "" }
+          - { label: Sponsor 41 - URL, name: sponsorUrl41, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 41 - Text, name: sponsorText41, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 41 - Order, name: sponsorOrder41, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 42 - Name, name: sponsorName42, required: false, widget: text, default: "" }
+          - { label: Sponsor 42 - Image, name: sponsorImage42, required: false, widget: image, default: "" }
+          - { label: Sponsor 42 - URL, name: sponsorUrl42, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 42 - Text, name: sponsorText42, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 42 - Order, name: sponsorOrder42, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 43 - Name, name: sponsorName43, required: false, widget: text, default: "" }
+          - { label: Sponsor 43 - Image, name: sponsorImage43, required: false, widget: image, default: "" }
+          - { label: Sponsor 43 - URL, name: sponsorUrl43, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 43 - Text, name: sponsorText43, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 43 - Order, name: sponsorOrder43, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 44 - Name, name: sponsorName44, required: false, widget: text, default: "" }
+          - { label: Sponsor 44 - Image, name: sponsorImage44, required: false, widget: image, default: "" }
+          - { label: Sponsor 44 - URL, name: sponsorUrl44, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 44 - Text, name: sponsorText44, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 44 - Order, name: sponsorOrder44, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 45 - Name, name: sponsorName45, required: false, widget: text, default: "" }
+          - { label: Sponsor 45 - Image, name: sponsorImage45, required: false, widget: image, default: "" }
+          - { label: Sponsor 45 - URL, name: sponsorUrl45, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 45 - Text, name: sponsorText45, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 45 - Order, name: sponsorOrder45, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 46 - Name, name: sponsorName46, required: false, widget: text, default: "" }
+          - { label: Sponsor 46 - Image, name: sponsorImage46, required: false, widget: image, default: "" }
+          - { label: Sponsor 46 - URL, name: sponsorUrl46, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 46 - Text, name: sponsorText46, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 46 - Order, name: sponsorOrder46, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 47 - Name, name: sponsorName47, required: false, widget: text, default: "" }
+          - { label: Sponsor 47 - Image, name: sponsorImage47, required: false, widget: image, default: "" }
+          - { label: Sponsor 47 - URL, name: sponsorUrl47, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 47 - Text, name: sponsorText47, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 47 - Order, name: sponsorOrder47, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 48 - Name, name: sponsorName48, required: false, widget: text, default: "" }
+          - { label: Sponsor 48 - Image, name: sponsorImage48, required: false, widget: image, default: "" }
+          - { label: Sponsor 48 - URL, name: sponsorUrl48, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 48 - Text, name: sponsorText48, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 48 - Order, name: sponsorOrder48, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 49 - Name, name: sponsorName49, required: false, widget: text, default: "" }
+          - { label: Sponsor 49 - Image, name: sponsorImage49, required: false, widget: image, default: "" }
+          - { label: Sponsor 49 - URL, name: sponsorUrl49, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 49 - Text, name: sponsorText49, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 49 - Order, name: sponsorOrder49, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
+          - { label: Sponsor 50 - Name, name: sponsorName50, required: false, widget: text, default: "" }
+          - { label: Sponsor 50 - Image, name: sponsorImage50, required: false, widget: image, default: "" }
+          - { label: Sponsor 50 - URL, name: sponsorUrl50, hint: "full URL including http:// or https://", required: false, widget: text, default: "" }
+          - { label: Sponsor 50 - Text, name: sponsorText50, required: false, hint: "Brief description", widget: text, default: "" }
+          - { label: Sponsor 50 - Order, name: sponsorOrder50, required: false, hint: "Sponsors displayed in descending order. Use 2 digit: 01-99", widget: number, value_type: "int", default: 99 }
 
   - name: videos
     label: Videos

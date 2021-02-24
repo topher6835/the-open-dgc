@@ -178,6 +178,46 @@ query {
             sponsorImage40
             sponsorUrl40
             sponsorOrder40
+            sponsorName41
+            sponsorImage41
+            sponsorUrl41
+            sponsorOrder41
+            sponsorName42
+            sponsorImage42
+            sponsorUrl42
+            sponsorOrder42
+            sponsorName43
+            sponsorImage43
+            sponsorUrl43
+            sponsorOrder43
+            sponsorName44
+            sponsorImage44
+            sponsorUrl44
+            sponsorOrder44
+            sponsorName45
+            sponsorImage45
+            sponsorUrl45
+            sponsorOrder45
+            sponsorName46
+            sponsorImage46
+            sponsorUrl46
+            sponsorOrder46
+            sponsorName47
+            sponsorImage47
+            sponsorUrl47
+            sponsorOrder47
+            sponsorName48
+            sponsorImage48
+            sponsorUrl48
+            sponsorOrder48
+            sponsorName49
+            sponsorImage49
+            sponsorUrl49
+            sponsorOrder49
+            sponsorName50
+            sponsorImage50
+            sponsorUrl50
+            sponsorOrder50
           }
           html
     }
@@ -198,7 +238,7 @@ const Sponsors = props => {
   // Group sponsor attributes together
   const sponsorArr = [];
   const k = "props.data.markdownRemark.frontmatter.";
-  for(let i = 1; i < 41; i++) {
+  for(let i = 1; i < 51; i++) {
     if(i < 10) {
       i = "0" + i;
     }
