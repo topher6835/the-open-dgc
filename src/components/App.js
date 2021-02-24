@@ -31,6 +31,14 @@ let image_data = [
 
 
 function Image(props) {
+  let imgAltName;
+  if(props.name){
+    imgAltName = props.name
+  } else if(props.index) {
+    imgAltName = "Caddie Guide " + props.index
+  } else {
+    imgAltName = "Caddie Guide Image"
+  }
   return (
     <div
       key={props.tile}
@@ -46,7 +54,7 @@ function Image(props) {
           // border: "1px solid rgb(199, 199, 199)"
         }}
         onClick={() => props.openImageViewer(props.image_data, props.index)}
-        alt="Course Hole"
+        alt={imgAltName}
       />
     </div>
   )
