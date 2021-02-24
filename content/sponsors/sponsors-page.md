@@ -234,7 +234,7 @@ sponsorImage35: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614127611/Open%20DGC/Sponsors/sponsor_21_1000x600_deadfish_a633gs.jpg
 sponsorUrl35: 'https://deadfishgrill.com/'
 sponsorText35: ''
-sponsorOrder35: ''
+sponsorOrder35: 4
 sponsorName36: ''
 sponsorImage36: ''
 sponsorUrl36: ''
