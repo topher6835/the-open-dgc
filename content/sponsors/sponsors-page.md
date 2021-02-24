@@ -183,29 +183,40 @@ sponsorUrl28: >-
   https://www.beltontexas.gov/departments/police_department/citizen_involvement/index.php#:~:text=The%20Belton%20Citizens%20Helping%20in,deters%20crime%20through%20visible%20presence.
 sponsorText28: ''
 sponsorOrder28: ''
-sponsorName29: ''
-sponsorImage29: ''
-sponsorUrl29: ''
+sponsorName29: Double R Disc Golf Club
+sponsorImage29: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124558/Open%20DGC/Sponsors/sponsor_21_1000x600_DoubleRR_qgwzrw.jpg
+sponsorUrl29: 'https://www.facebook.com/groups/120891717938878'
 sponsorText29: ''
 sponsorOrder29: ''
-sponsorName30: ''
-sponsorImage30: ''
-sponsorUrl30: ''
+sponsorName30: |-
+  Austin Area Disc Golf Club 55+
+  Facebook Page
+sponsorImage30: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614125358/Open%20DGC/Sponsors/sponsor_21_1000x600_55plusClub_louxlx.jpg
+sponsorUrl30: 'https://www.facebook.com/groups/253476572510788'
 sponsorText30: ''
 sponsorOrder30: ''
-sponsorName31: ''
-sponsorImage31: ''
-sponsorUrl31: ''
+sponsorName31: Visit Energy Efficient Solutions
+sponsorImage31: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124558/Open%20DGC/Sponsors/sponsor_21_1000x600_EES_m0ckkn.jpg
+sponsorUrl31: 'https://www.energyefficientsolutions.com/default.asp'
 sponsorText31: ''
 sponsorOrder31: ''
-sponsorName32: ''
-sponsorImage32: ''
-sponsorUrl32: ''
+sponsorName32: |-
+  Get Ready for Summer!
+  Visit Heatbusters of Austin
+sponsorImage32: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124559/Open%20DGC/Sponsors/sponsor_21_1000x600_heatbusters_cez5dd.jpg
+sponsorUrl32: 'https://www.theheatbusters.com/'
 sponsorText32: ''
 sponsorOrder32: ''
-sponsorName33: ''
-sponsorImage33: ''
-sponsorUrl33: ''
+sponsorName33: |-
+  The Open Course at Heritage Park 2021 
+  Caddie Guide
+sponsorImage33: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614124571/Open%20DGC/Sponsors/sponsor_21_1000x600_bksales_cxgoi3.jpg
+sponsorUrl33: 'https://www.theopendgc.com/course/belton-2021'
 sponsorText33: ''
 sponsorOrder33: ''
 sponsorName34: ''
