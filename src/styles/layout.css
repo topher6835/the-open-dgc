@@ -51,7 +51,9 @@ body {
 
 .main-alert {
   margin: 2rem 0;
+  font-size: 24px;
   text-align: center;
+  max-width: fit-content !important; /* over ride 550px from .markdown-body */
 }
 
 .markdown-body,
