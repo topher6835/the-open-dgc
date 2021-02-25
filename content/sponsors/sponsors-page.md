@@ -234,9 +234,10 @@ sponsorImage35: >-
 sponsorUrl35: 'https://deadfishgrill.com/'
 sponsorText35: ''
 sponsorOrder35: 4
-sponsorName36: ''
-sponsorImage36: ''
-sponsorUrl36: ''
+sponsorName36: Visit Austin Jones Company
+sponsorImage36: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614228054/Open%20DGC/Sponsors/sponsor_21_1000x600_AustinJones_jtugnm.jpg
+sponsorUrl36: 'https://austinjonescompany.com/'
 sponsorText36: ''
 sponsorOrder36: ''
 sponsorName37: ''
