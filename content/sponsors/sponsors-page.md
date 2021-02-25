@@ -239,7 +239,7 @@ sponsorImage36: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614228054/Open%20DGC/Sponsors/sponsor_21_1000x600_AustinJones_jtugnm.jpg
 sponsorUrl36: 'https://austinjonescompany.com/'
 sponsorText36: ''
-sponsorOrder36: ''
+sponsorOrder36: 8
 sponsorName37: ''
 sponsorImage37: ''
 sponsorUrl37: ''
