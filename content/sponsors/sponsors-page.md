@@ -48,7 +48,7 @@ sponsorImage07: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_lions_kmfsfc.jpg
 sponsorUrl07: 'http://www.beltonlionsclub.com/'
 sponsorText07: ''
-sponsorOrder07: 8
+sponsorOrder07: 9
 sponsorName08: Visit Outlaw Feed For Your Dog Food Needs
 sponsorImage08: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_outlawdog_xwslg6.jpg
