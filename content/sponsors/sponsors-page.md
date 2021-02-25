@@ -48,7 +48,7 @@ sponsorImage07: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_lions_kmfsfc.jpg
 sponsorUrl07: 'http://www.beltonlionsclub.com/'
 sponsorText07: ''
-sponsorOrder07: 8
+sponsorOrder07: 9
 sponsorName08: Visit Outlaw Feed For Your Dog Food Needs
 sponsorImage08: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1609040409/Open%20DGC/Sponsors/sponsor_21_1000x600_outlawdog_xwslg6.jpg
@@ -234,16 +234,18 @@ sponsorImage35: >-
 sponsorUrl35: 'https://deadfishgrill.com/'
 sponsorText35: ''
 sponsorOrder35: 4
-sponsorName36: ''
-sponsorImage36: ''
-sponsorUrl36: ''
+sponsorName36: Visit Austin Jones Company
+sponsorImage36: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614228054/Open%20DGC/Sponsors/sponsor_21_1000x600_AustinJones_jtugnm.jpg
+sponsorUrl36: 'https://austinjonescompany.com/'
 sponsorText36: ''
-sponsorOrder36: ''
-sponsorName37: ''
-sponsorImage37: ''
-sponsorUrl37: ''
+sponsorOrder36: 8
+sponsorName37: Visit Mint Discs
+sponsorImage37: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614229635/Open%20DGC/Sponsors/sponsor_21_1000x600_MINT_yuwgn2.jpg
+sponsorUrl37: 'https://mintdiscs.com/'
 sponsorText37: ''
-sponsorOrder37: ''
+sponsorOrder37: 9
 sponsorName38: ''
 sponsorImage38: ''
 sponsorUrl38: ''
