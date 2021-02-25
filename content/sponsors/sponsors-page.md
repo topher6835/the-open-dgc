@@ -240,11 +240,12 @@ sponsorImage36: >-
 sponsorUrl36: 'https://austinjonescompany.com/'
 sponsorText36: ''
 sponsorOrder36: 8
-sponsorName37: ''
-sponsorImage37: ''
-sponsorUrl37: ''
+sponsorName37: Visit Mint Discs
+sponsorImage37: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614229635/Open%20DGC/Sponsors/sponsor_21_1000x600_MINT_yuwgn2.jpg
+sponsorUrl37: 'https://mintdiscs.com/'
 sponsorText37: ''
-sponsorOrder37: ''
+sponsorOrder37: 9
 sponsorName38: ''
 sponsorImage38: ''
 sponsorUrl38: ''
