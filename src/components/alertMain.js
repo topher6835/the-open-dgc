@@ -20,10 +20,13 @@ const AlertMain = (props) => {
   function targetBlankLinks() {
     // External links in markdown should open in a new tab NOT internal links
     // regex - anchor tag not containg a relative path... !(href="/path")
-    const nonRelativePathTargetPattern = /<a\s+(?!.*href="\/)/g;
+    //const nonRelativePathTargetPattern = /<a\s+(?!.*href="\/)/g;
+    const nonRelativePathTargetPattern = /<a\s+(?!.?href="\/)/g;
     //const aPattern = /<a\s+/g;
 
+    console.log(data.markdownRemark.html)
     alertHtml = data.markdownRemark.html.replace(nonRelativePathTargetPattern, "<a target=\"_blank\" rel=\"noopener noreferrer\" ");
+    console.log(alertHtml)
   }
 
   return (

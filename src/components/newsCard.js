@@ -19,7 +19,7 @@ const NewsCard = (props) => {
     function targetBlankLinks() {
         // External links in markdown should open in a new tab NOT internal links
         // regex - anchor tag not containg a relative path... !(href="/path")
-        const nonRelativePathTargetPattern = /<a\s+(?!.*href="\/)/g;
+        const nonRelativePathTargetPattern = /<a\s+(?!.?href="\/)/g;
         //const aPattern = /<a\s+/g;
         newsHtml = props.node.html.replace(nonRelativePathTargetPattern, "<a target=\"_blank\" rel=\"noopener noreferrer\" ");
     }
