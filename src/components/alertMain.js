@@ -15,12 +15,24 @@ const AlertMain = (props) => {
     }
   `)
 
+  let alertHtml;
+
+  function targetBlankLinks() {
+    // External links in markdown should open in a new tab NOT internal links
+    // regex - anchor tag not containg a relative path... !(href="/path")
+    const nonRelativePathTargetPattern = /<a\s+(?!.*href="\/)/g;
+    //const aPattern = /<a\s+/g;
+
+    alertHtml = data.markdownRemark.html.replace(nonRelativePathTargetPattern, "<a target=\"_blank\" rel=\"noopener noreferrer\" ");
+  }
+
   return (
     <div key={"alert"}>
+      {targetBlankLinks()}
       {data.markdownRemark.frontmatter.allPages && data.markdownRemark.frontmatter.enabled
-        ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} key={"alert"}></div> 
+      ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: alertHtml }} key={"alert"}></div>
           : [data.markdownRemark.frontmatter.enabled && props.page == "home" 
-            ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} key={"alert"}></div> : <div key={"alert"}></div>] }
+          ? <div className="main-alert markdown-body" dangerouslySetInnerHTML={{ __html: alertHtml }} key={"alert"}></div> : <div key={"alert"}></div>] }
     </div>
   )
 }

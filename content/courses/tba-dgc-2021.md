@@ -9,26 +9,38 @@ coursesImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/c_scale,w_465/c_crop,h_300,w_465/v1608321382/Open%20DGC/Courses/Todgc-flag-w-logos_rkil5x.jpg
 coursesPageTitle: Crossroads 2021
 coursesDescription: >-
-  AMs Only - 1 Round on Sat OR Sun depending on which pool. All 27 holes on tee
-  times. Caddie guide coming soon.
+  A big neighborly thank you to the Temple Disc Golf Association for hosting
+  part of the event at Crossroads DGC. Crossroads is a well appointed course
+  that will constantly test your technical throwing skills and is a great
+  addition to the local disc golfing community. Crossroads course designer and
+  TDGA president, Brian Riddle, will be your TD for the weekend of The Open. 
 coursePageHeroImage: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608321323/Open%20DGC/Courses/banner_1920x1000_theopencourse_brkrc8.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366794/Open%20DGC/Courses/Belton/2021%20Belton/hdr-toning_-crossroads-hero_v0deyb.jpg
 coursePageHeroTitle: 'Crossroads '
 location: 'Temple, TX'
 address: 'Prairie View Rd, Temple, TX 76502'
 guideDownload: ''
 hole01: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614188478/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_samplecxrds_lju0of.jpg
-hole02: ''
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_01-jr_hevaqa.jpg
+hole02: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_02-jr_lgrn1i.jpg
 hole03: ''
-hole04: ''
-hole05: ''
-hole06: ''
-hole07: ''
-hole08: ''
-hole09: ''
-hole10: ''
-hole11: ''
+hole04: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_00-jr_gcamke.jpg
+hole05: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366268/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_03-jr_sambld.jpg
+hole06: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_04-jr_wpgeee.jpg
+hole07: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_05-jr_libsaf.jpg
+hole08: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366268/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_06-jr_oeuiew.jpg
+hole09: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366269/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_07-jr_boozmc.jpg
+hole10: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366269/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_08-jr_haijo1.jpg
+hole11: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366268/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_09-jr_rzztqr.jpg
 hole12: ''
 hole13: ''
 hole14: ''
@@ -39,6 +51,12 @@ hole18: ''
 hole19: ''
 hole20: ''
 ---
-Caddie guide will be published soon.
-<br/>
-Photo by Michelle Deering.
+**All AMs will play Crossroads DGC (all 27 Holes) one time.** **Saturday: AM Pool A / Sunday: AM Pool B**
+
+All Juniors will play from shorter tees on **some of the holes** as marked by flags on the course. The junior distances on this caddie guide are subject to change until 3/8/21. 
+
+**General & Hole Specific Course Rules** will be published here by 3/14/21.
+
+
+
+*Photo by Brian Riddle*
