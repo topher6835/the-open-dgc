@@ -51,7 +51,9 @@ body {
 
 .main-alert {
   margin: 2rem 0;
+  font-size: 16px;
   text-align: center;
+  max-width: fit-content !important; /* over ride 550px from .markdown-body */
 }
 
 .markdown-body,
@@ -823,4 +825,19 @@ footer {
   background: -o-linear-gradient(rgba(255,255,255,0),  #bbdba9);
   background: -moz-linear-gradient(rgba(255,255,255,0),  #bbdba9);
   background: linear-gradient(rgba(255,255,255,0),  #bbdba9);
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;  /* 56.25% for 16:9 ratio, 75% for 4:3 ratio */
+  /* padding-top: 35px; */
+  height: 0;    /* height provided by padding-bottom */
+  overflow: hidden;
+}
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

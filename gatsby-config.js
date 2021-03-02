@@ -49,6 +49,7 @@ module.exports = {
         icon: `src/images/icon-todgc.png`, // This path is relative to the root of the site.
       },
     },
+      `gatsby-plugin-catch-links`,
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
