@@ -24,9 +24,7 @@ const AlertMain = (props) => {
     const nonRelativePathTargetPattern = /<a\s+(?!.?href="\/)/g;
     //const aPattern = /<a\s+/g;
 
-    console.log(data.markdownRemark.html)
     alertHtml = data.markdownRemark.html.replace(nonRelativePathTargetPattern, "<a target=\"_blank\" rel=\"noopener noreferrer\" ");
-    console.log(alertHtml)
   }
 
   return (
