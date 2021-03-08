@@ -7,16 +7,16 @@ newsPreviewImg: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615167654/Open%20DGC/News%20Assests/spcators-map_f2g8zj.jpg
 newsAuthor: by Neal Dambra
 ---
-As of this writing (and we don’t expect this to change) the event is in DGA/DGPT Phase 1 covid precautions. Given the nature of The Open Course and its wide open viewing areas we are able to grant access badges to a limited number of spectators. Once on the course the badge holders will be restricted to designated viewing areas and expected to social distance and be masked up.
+As of this writing (and we don’t expect this to change) the event is in PDGA/DGPT Phase 1 covid precautions. Given the nature of The Open Course and its wide open viewing areas we are able to grant access badges to a limited number of spectators. Once on the course the badge holders will be restricted to designated viewing areas and expected to social distance and be masked up.
 
 <br/>
 
-The limited badge holders are players from the amateur side of the event, sponsors, vendors and staff.
+**The limited badge holders are players from the amateur side of the event, pro players & a support person, city officials, sponsors, vendors and staff.**
 
 <br/>\
 If you are not a player, staff, vendor or sponsor and would like to see some of the action at the park there will be a viewing area outside the restricted course. From the viewing area, running completely along hole 10, five holes are clearly visible.<br/>
 
-![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615167654/Open%20DGC/News%20Assests/spcators-map_f2g8zj.jpg)
+![Spectator area](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615167654/Open%20DGC/News%20Assests/spcators-map_f2g8zj.jpg)
 
 <br/>
 
@@ -27,7 +27,7 @@ Another way to watch the finals live is on Disc Golf Network at [www.discgolfnet
 
 <br/>
 
-![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615169183/Open%20DGC/News%20Assests/secrr-site-back_t8fofv.jpg "<span class=\\"news-caption\\">If you need help on the course look for this shirt.</span>")
+![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615169183/Open%20DGC/News%20Assests/secrr-site-back_t8fofv.jpg "<span class=\\\"news-caption\\\">If you need help on the course look for this shirt.</span>")
 
 We’d like to take this opportunity to thank Chris Ware and the Double R Disc Golf Club who will be our security crew. They will be making sure everyone on The Open Course has fun, stays safe and are where they are supposed to be. Most importantly they will assure the players feel comfortable so they can put on great show for all the disc golf fans around the world who will be watching.
 
