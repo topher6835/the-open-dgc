@@ -14,11 +14,11 @@ As of this writing (and we don’t expect this to change) the event is in DGA/DG
 The limited badge holders are players from the amateur side of the event, sponsors, vendors and staff.
 
 <br/>\
-If you are not a player, staff, vendor or sponsor and would like to see some of the action at the park there will be a viewing area outside the restricted course. From the viewing area, running completely along hole 10, five holes are clearly visible.
+If you are not a player, staff, vendor or sponsor and would like to see some of the action at the park there will be a viewing area outside the restricted course. From the viewing area, running completely along hole 10, five holes are clearly visible.<br/>
 
+![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615167654/Open%20DGC/News%20Assests/spcators-map_f2g8zj.jpg)
 
-
-![](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615167654/Open%20DGC/News%20Assests/spcators-map_f2g8zj.jpg)
+<br/>
 
 If you would like to staff we are still looking for a few more folks, especially if we know you can be on site in position for an entire day(s). If you are available please email theopendgc@nealdambra.com
 
