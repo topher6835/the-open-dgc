@@ -16,7 +16,9 @@ The limited badge holders are players from the amateur side of the event, sponso
 <br/>\
 If you are not a player, staff, vendor or sponsor and would like to see some of the action at the park there will be a viewing area outside the restricted course. From the viewing area, running completely along hole 10, five holes are clearly visible.
 
-<br/>
+
+
+![](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615167654/Open%20DGC/News%20Assests/spcators-map_f2g8zj.jpg)
 
 If you would like to staff we are still looking for a few more folks, especially if we know you can be on site in position for an entire day(s). If you are available please email theopendgc@nealdambra.com
 
@@ -25,6 +27,6 @@ Another way to watch the finals live is on Disc Golf Network at [www.discgolfnet
 
 <br/>
 
-![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615169183/Open%20DGC/News%20Assests/secrr-site-back_t8fofv.jpg "<span class=\"news-caption\">If you need help on the course look for this shirt.</span>")
+![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615169183/Open%20DGC/News%20Assests/secrr-site-back_t8fofv.jpg "<span class=\\"news-caption\\">If you need help on the course look for this shirt.</span>")
 
 We’d like to take this opportunity to thank Chris Ware and the Double R Disc Golf Club who will be our security crew. They will be making sure everyone on The Open Course has fun, stays safe and are where they are supposed to be. Most importantly they will assure the players feel comfortable so they can put on great show for all the disc golf fans around the world who will be watching.
