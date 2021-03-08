@@ -27,7 +27,7 @@ Another way to watch the finals live is on Disc Golf Network at [www.discgolfnet
 
 <br/>
 
-![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615169183/Open%20DGC/News%20Assests/secrr-site-back_t8fofv.jpg "<span class=\\\"news-caption\\\">If you need help on the course look for this shirt.</span>")
+![Securrity](https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615169183/Open%20DGC/News%20Assests/secrr-site-back_t8fofv.jpg)
 
 We’d like to take this opportunity to thank Chris Ware and the Double R Disc Golf Club who will be our security crew. They will be making sure everyone on The Open Course has fun, stays safe and are where they are supposed to be. Most importantly they will assure the players feel comfortable so they can put on great show for all the disc golf fans around the world who will be watching.
 
