@@ -16,6 +16,7 @@ coursePageHeroImage: >-
 coursePageHeroTitle: Park Avenue DGC 2021
 location: 'Belton, TX'
 address: '601-799 E 24th Ave, Belton, TX 76513'
+locationLink: ''
 guideDownload: ''
 hole01: ''
 hole02: ''

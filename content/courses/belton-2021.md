@@ -22,6 +22,7 @@ coursePageDescriptionHeadline: ''
 site: Heritage Park
 location: 'Belton, TX'
 address: '601-799 E 24th Ave, Belton, TX 76513'
+locationLink: ''
 guideDownload: ''
 hole01: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1613855723/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Caddie-TOAB21_01_w4yg2d.jpg

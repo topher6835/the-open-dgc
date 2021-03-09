@@ -22,6 +22,7 @@ export const query = graphql`
             coursePageHeroTitle
             coursePageDescriptionHeadline
             address
+            locationLink
             guideDownload
             date(formatString: "MMMM DD YYYY")
             hole01
@@ -149,6 +150,7 @@ const Course = props => {
   const coursePageDescriptionHeadline = props.data.markdownRemark.frontmatter.coursePageDescriptionHeadline;
   const courseAddress = props.data.markdownRemark.frontmatter.address;
   const courseAddressMapsUrl = " https://maps.google.com/?q=" + props.data.markdownRemark.frontmatter.address;
+  const courseLocationLink = props.data.markdownRemark.frontmatter.locationLink;
   const caddyGuideDownload = props.data.markdownRemark.frontmatter.guideDownload;
 
   return (
@@ -176,8 +178,11 @@ const Course = props => {
           </div>
         </MuiThemeProvider>
         <div className="course-address-content">
-          <h1>Address</h1>
-          {courseAddress ? <a href={courseAddressMapsUrl} target="_blank" rel="noopener noreferrer">{courseAddress}</a> : ""}
+          {courseAddress ? <><h1>Address</h1><a href={courseAddressMapsUrl} target="_blank" rel="noopener noreferrer">{courseAddress}</a><br/><br/></> : ""}
+          {courseLocationLink ? <><br/><h1>Link to Location</h1><a href={courseLocationLink} target="_blank" rel="noopener noreferrer"> {coursePageHeroTitle ? coursePageHeroTitle : "Link to map" } </a><br/><br/></> : ""}
+
+          {/* {courseAddress ? <><h1>Address</h1><a href={courseAddressMapsUrl} target="_blank" rel="noopener noreferrer">{courseAddress}</a></> : 
+          courseLocationLink ? <><h1>Location</h1><a href={courseLocationLink} target="_blank" rel="noopener noreferrer"> Link </a></> : ""} */}
         </div>
       </div>
     </Layout>

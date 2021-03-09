@@ -18,7 +18,8 @@ coursePageHeroImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366794/Open%20DGC/Courses/Belton/2021%20Belton/hdr-toning_-crossroads-hero_v0deyb.jpg
 coursePageHeroTitle: 'Crossroads '
 location: 'Temple, TX'
-address: 'Prairie View Rd, Temple, TX 76502'
+address: ''
+locationLink: 'https://goo.gl/maps/bfwqCmYDcpnsKHXX8'
 guideDownload: ''
 hole01: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_01-jr_hevaqa.jpg
