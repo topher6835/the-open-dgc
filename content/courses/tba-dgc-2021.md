@@ -52,12 +52,12 @@ hole18: ''
 hole19: ''
 hole20: ''
 ---
-**All AMs will play Crossroads DGC (all 27 Holes) one time.** **Saturday: AM Pool A / Sunday: AM Pool B**
+**All AMs will play Crossroads DGC one time.** **Saturday: AM Pool A / Sunday: AM Pool B**
 
-All Juniors will play from shorter tees on **some of the holes** as marked by flags on the course. The junior distances on this caddie guide are subject to change until 3/8/21. 
+**21 Holes: Juniors, All FA, MA60**
 
-**General & Hole Specific Course Rules** will be published here by 3/14/21.
+**25 Holes: MA1, MA40, MA50, MA2**
 
-
+THE CROSSROADS SIGNS AND MAP POSTED HERE **ARE NOT** THE FINAL EVENT CONFIGURATION. They are here just for general information. **Final course rules and layouts will be published here by 3/14/21.**
 
 *Photo by Brian Riddle*
