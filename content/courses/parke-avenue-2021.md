@@ -15,10 +15,11 @@ coursePageHeroImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608321323/Open%20DGC/Courses/banner_1920x1000_theopencourse_brkrc8.jpg
 coursePageHeroTitle: Park Avenue DGC 2021
 location: 'Belton, TX'
-address: '601-799 E 24th Ave, Belton, TX 76513'
+address: '1502 Park Ave, Belton, TX 76513'
 locationLink: ''
 guideDownload: ''
-hole01: ''
+hole01: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615781729/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_Park_Ave_dgc-18-hi_u9iwph.jpg
 hole02: ''
 hole03: ''
 hole04: ''
