@@ -54,10 +54,8 @@ hole20: ''
 ---
 **All AMs will play Crossroads DGC one time.** **Saturday: AM Pool A / Sunday: AM Pool B**
 
-**21 Holes: Juniors, All FA, MA60 - DO NOT PLAY 17 thru 21**
+**20 Hole Layout: Juniors, All FA, MA60 - DO NOT PLAY 17 thru 21**
 
-**25 Holes: MA1, MA40, MA50, MA2**
-
-
+**25 Hole Layout: MA1, MA40, MA50, MA2**
 
 *Photo by Brian Riddle*
