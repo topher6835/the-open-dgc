@@ -251,7 +251,7 @@ sponsorImage38: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1617652540/Open%20DGC/Sponsors/sponsor_21_1000x600_double-g_ita6vv.jpg
 sponsorUrl38: 'https://doublegjerky.com/shop-now/'
 sponsorText38: ''
-sponsorOrder38: ''
+sponsorOrder38: 5
 sponsorName39: ''
 sponsorImage39: ''
 sponsorUrl39: ''
