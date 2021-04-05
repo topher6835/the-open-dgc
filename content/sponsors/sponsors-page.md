@@ -246,9 +246,10 @@ sponsorImage37: >-
 sponsorUrl37: 'https://mintdiscs.com/'
 sponsorText37: ''
 sponsorOrder37: 9
-sponsorName38: ''
-sponsorImage38: ''
-sponsorUrl38: ''
+sponsorName38: Order Your DoubleG Original Beef Jerky Here
+sponsorImage38: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1617652540/Open%20DGC/Sponsors/sponsor_21_1000x600_double-g_ita6vv.jpg
+sponsorUrl38: 'https://doublegjerky.com/shop-now/'
 sponsorText38: ''
 sponsorOrder38: ''
 sponsorName39: ''
