@@ -542,9 +542,14 @@ body {
   border-radius: 0 0 1rem 1rem;
 }
 .course-tile-text-title {
-  line-height: 9rem;
-  max-height: 300px;
+  line-height: 5rem;  /* 5rem */
+  max-height: 250px;  /* 250px  ~5lines - top border (0 radius) shouldnt reach the top bc it doesnt match background image border radius */
   overflow: hidden;
+  /* padding-top: 15px;
+  padding-bottom: 15px; 
+  */
+  padding: 15px 10px;
+  
 }
 .course-tile-description {
   position: absolute;
