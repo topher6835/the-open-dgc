@@ -19,6 +19,7 @@ coursePageDescriptionHeadline: The Open at Heckscher Park
 site: Heckscher Park
 location: 'East Islip, NY'
 address: null
+locationLink: ''
 guideDownload: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1608309312/Open%20DGC/Courses/Belton/2020%20Belton/Tee_Signs_TOABT_20_web-01-lo_u3oxbf.jpg
 hole01: >-

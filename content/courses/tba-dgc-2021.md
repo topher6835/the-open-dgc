@@ -18,30 +18,31 @@ coursePageHeroImage: >-
   https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366794/Open%20DGC/Courses/Belton/2021%20Belton/hdr-toning_-crossroads-hero_v0deyb.jpg
 coursePageHeroTitle: 'Crossroads '
 location: 'Temple, TX'
-address: 'Prairie View Rd, Temple, TX 76502'
+address: ''
+locationLink: 'https://goo.gl/maps/bfwqCmYDcpnsKHXX8'
 guideDownload: ''
 hole01: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_01-jr_hevaqa.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958110/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_01r_wmyowt.jpg
 hole02: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_02-jr_lgrn1i.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958110/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_02r_n1xidl.jpg
 hole03: ''
 hole04: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_00-jr_gcamke.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958110/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_03r_jerr1k.jpg
 hole05: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366268/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_03-jr_sambld.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958110/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_04r_kao013.jpg
 hole06: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_04-jr_wpgeee.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958110/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_05r_sw9z4v.jpg
 hole07: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366267/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_05-jr_libsaf.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958112/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_06r_uzrco6.jpg
 hole08: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366268/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_06-jr_oeuiew.jpg
-hole09: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366269/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_07-jr_boozmc.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958111/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_07r_ia7mfm.jpg
+hole09: ''
 hole10: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366269/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_08-jr_haijo1.jpg
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958112/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_08r_t64hiu.jpg
 hole11: >-
-  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1614366268/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_09-jr_rzztqr.jpg
-hole12: ''
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958111/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_09r_zzil43.jpg
+hole12: >-
+  https://res.cloudinary.com/dqd4mwvjb/image/upload/v1615958110/Open%20DGC/Courses/Belton/2021%20Belton/Caddie%20Guide/Tee_Signs_crxrds_caddy_00r_mq0pzq.jpg
 hole13: ''
 hole14: ''
 hole15: ''
@@ -51,12 +52,10 @@ hole18: ''
 hole19: ''
 hole20: ''
 ---
-**All AMs will play Crossroads DGC (all 27 Holes) one time.** **Saturday: AM Pool A / Sunday: AM Pool B**
+**All AMs will play Crossroads DGC one time.** **Saturday: AM Pool A / Sunday: AM Pool B**
 
-All Juniors will play from shorter tees on **some of the holes** as marked by flags on the course. The junior distances on this caddie guide are subject to change until 3/8/21. 
+**20 Hole Layout: Juniors, All FA, MA60 - DO NOT PLAY 17 thru 21**
 
-**General & Hole Specific Course Rules** will be published here by 3/14/21.
-
-
+**25 Hole Layout: MA1, MA40, MA50, MA2**
 
 *Photo by Brian Riddle*

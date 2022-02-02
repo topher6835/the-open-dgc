@@ -52,6 +52,7 @@ collections:
       - { name: site, label: Site/Park, hint: "Site of the course (park name)", required: false, widget: string }
       - { name: location, label: Location, hint: "Location of park - format: City, State", required: false, widget: string }
       - { name: address, label: Address, required: false, widget: string }
+      - { name: locationLink, label: Location Link, hint: "Use a 'share location' link when an address is not available", required: false, widget: string }
       - { name: guideDownload, label: Caddy guide download link, hint: "Single file caddy guide", required: false, widget: image, default: "" }
       - { name: hole01, label: Hole 1, required: false, widget: image, hint: "File names must be alphabetical starting with 'Tee_Signs_'. Example: Tee_Signs_belton_01.jpg", default: "" }
       - { name: hole02, label: Hole 2, required: false, widget: image, default: "" }
